@@ -1259,7 +1259,7 @@
         "LOCAL": "B3- ÁREA TÉCNICA TI",
         "PERIMETRO": 20.24,
         "ALTURA": 2.8,
-        "ACABAMENTO": "!!!!",
+        "ACABAMENTO": "NÃO ESPECIFICADA EM PROJETO",
         "AREA_CALCULADA": 56.67199999999999
     },
     {
@@ -1267,7 +1267,7 @@
         "LOCAL": "B3- ESTAR/ESPERA",
         "PERIMETRO": 22.76,
         "ALTURA": 2.8,
-        "ACABAMENTO": "!!!!",
+        "ACABAMENTO": "NÃO ESPECIFICADA EM PROJETO",
         "AREA_CALCULADA": 63.728
     },
     {
@@ -2120,10 +2120,10 @@
     },
     {
         "ITEM": 266,
-        "LOCAL": "B5- ABRIGO AMBULÂNCIAS",
+        "LOCAL": "B5-ABRIGO AMBULÂNCIAS",
         "PERIMETRO": 61.98,
         "ALTURA": 2.8,
-        "ACABAMENTO": "6- PINTURA TEXTURA ACRILICA ",
+        "ACABAMENTO": "6-PINTURA TEXTURA ACRILICA ",
         "AREA_CALCULADA": 173.54399999999998
     },
     {
@@ -4987,7 +4987,7 @@
         "LOCAL": "B12- LIMPEZA DESINFECÇÃO ",
         "PERIMETRO": 8.88,
         "ALTURA": 2.8,
-        "ACABAMENTO": "???",
+        "ACABAMENTO": "NÃO ESPECIFICADA EM PROJETO",
         "AREA_CALCULADA": 24.864
     },
     {
@@ -4995,7 +4995,7 @@
         "LOCAL": "B12-LIMPEZA DESINFECÇÃO ",
         "PERIMETRO": 8.88,
         "ALTURA": 2.8,
-        "ACABAMENTO": "???",
+        "ACABAMENTO": "NÃO ESPECIFICADA EM PROJETO",
         "AREA_CALCULADA": 24.864
     },
     {

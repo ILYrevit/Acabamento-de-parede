@@ -75,7 +75,7 @@ const Index = () => {
       <footer className="border-t border-border bg-card mt-16">
         <div className="container mx-auto px-4 py-6">
           <p className="text-center text-sm text-muted-foreground">
-            Dashboard de Análise de Acabamentos © 2025
+            Criado por Higor Ramos 
           </p>
         </div>
       </footer>
