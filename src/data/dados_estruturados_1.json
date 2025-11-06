@@ -1,0 +1,5689 @@
+[
+    {
+        "ITEM": 1,
+        "LOCAL": "B1-GUARDA TEMP. DE CADÁVERES ",
+        "PERIMETRO": 24.46,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 68.48
+    },{
+        "ITEM": 2,
+        "LOCAL": "B1-BANHO ",
+        "PERIMETRO": 8.69,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.331999999999997
+    },
+    {
+        "ITEM": 3,
+        "LOCAL": "B1- DOCA DECARGA/DESCARGA",
+        "PERIMETRO": 33.4,
+        "ALTURA": 3.7,
+        "ACABAMENTO": "6-PINTURA TEXTURA ACRILICA ",
+        "AREA_CALCULADA": 123.58
+    },
+    {
+        "ITEM": 4,
+        "LOCAL": "B1- ROUPORIA E DISTRIBUIÇÃO ",
+        "PERIMETRO": 29.85,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 83.58
+    },
+    {
+        "ITEM": 5,
+        "LOCAL": "B1- LAVANDERIA \"ÁREA LIMPA\"",
+        "PERIMETRO": 48.0,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 134.39999999999998
+    },
+    {
+        "ITEM": 6,
+        "LOCAL": "B1- VESTIÁRIO ",
+        "PERIMETRO": 14.07,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 36.582
+    },
+    {
+        "ITEM": 7,
+        "LOCAL": "B1- A.C",
+        "PERIMETRO": 12.57,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 35.196
+    },
+    {
+        "ITEM": 8,
+        "LOCAL": "B1- D.M.L",
+        "PERIMETRO": 7.42,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 19.292
+    },
+    {
+        "ITEM": 9,
+        "LOCAL": "B1- LAVANDERIA \"ÁREA SUJA\"",
+        "PERIMETRO": 41.18,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 107.068
+    },
+    {
+        "ITEM": 10,
+        "LOCAL": "B1- A.C",
+        "PERIMETRO": 12.57,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 35.196
+    },
+    {
+        "ITEM": 11,
+        "LOCAL": "B1- VESTIÁRIO ",
+        "PERIMETRO": 14.07,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 36.582
+    },
+    {
+        "ITEM": 12,
+        "LOCAL": "B1- D.M.L",
+        "PERIMETRO": 7.19,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 18.694000000000003
+    },
+    {
+        "ITEM": 13,
+        "LOCAL": "B1- D.M.L",
+        "PERIMETRO": 6.67,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 17.342
+    },
+    {
+        "ITEM": 14,
+        "LOCAL": "B1- CONTROLE / RECEBIMENTO ",
+        "PERIMETRO": 16.49,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 46.17199999999999
+    },
+    {
+        "ITEM": 15,
+        "LOCAL": "B1- LAVABO",
+        "PERIMETRO": 6.63,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 17.238
+    },
+    {
+        "ITEM": 16,
+        "LOCAL": "B1- CIRCULAÇÃO ",
+        "PERIMETRO": 82.77,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 231.75599999999997
+    },
+    {
+        "ITEM": 17,
+        "LOCAL": "B1- ALMOXARIFADO CENTRAL ",
+        "PERIMETRO": 49.94,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 139.832
+    },
+    {
+        "ITEM": 18,
+        "LOCAL": "B1- DEPÓSITO INSUMOS ",
+        "PERIMETRO": 16.01,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 44.828
+    },
+    {
+        "ITEM": 19,
+        "LOCAL": "B1- DEPÓSITO ",
+        "PERIMETRO": 45.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 127.73599999999999
+    },
+    {
+        "ITEM": 20,
+        "LOCAL": "B1- CIRCULAÇÃO ",
+        "PERIMETRO": 77.39,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 216.69199999999998
+    },
+    {
+        "ITEM": 21,
+        "LOCAL": "B1- ALMOXARIFADO COZINHA ",
+        "PERIMETRO": 29.32,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 82.09599999999999
+    },
+    {
+        "ITEM": 22,
+        "LOCAL": "B1- LIMPEZA E SANITIZAÇÃO DE INSUMOS ",
+        "PERIMETRO": 14.82,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 38.532000000000004
+    },
+    {
+        "ITEM": 23,
+        "LOCAL": "B1- VESTIÁRIO ",
+        "PERIMETRO": 11.0,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 28.6
+    },
+    {
+        "ITEM": 24,
+        "LOCAL": "B1- RECEBIMENTO DE PRESCRIÇÃO E DISPENSAÇÃO NE",
+        "PERIMETRO": 21.72,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 60.815999999999995
+    },
+    {
+        "ITEM": 25,
+        "LOCAL": "B1- CIRCULAÇÃO ",
+        "PERIMETRO": 67.14,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 187.992
+    },
+    {
+        "ITEM": 26,
+        "LOCAL": "B1- LACTÁRIO ÁREA LIMPA ",
+        "PERIMETRO": 19.12,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 53.536
+    },
+    {
+        "ITEM": 27,
+        "LOCAL": "B1- D.M.L LACTÁRIO ",
+        "PERIMETRO": 5.66,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 14.716000000000001
+    },
+    {
+        "ITEM": 28,
+        "LOCAL": "B1- D.M.L NUT.ENTERAL ",
+        "PERIMETRO": 5.66,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 14.716000000000001
+    },
+    {
+        "ITEM": 29,
+        "LOCAL": "B1- VESTIÁRIO ",
+        "PERIMETRO": 10.5,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 27.3
+    },
+    {
+        "ITEM": 30,
+        "LOCAL": "B1- LACTÁRIO ÁREA SUJA ",
+        "PERIMETRO": 19.23,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 53.844
+    },
+    {
+        "ITEM": 31,
+        "LOCAL": " B1- VESTIÁRIO MASCULINO ",
+        "PERIMETRO": 8.9,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.14
+    },
+    {
+        "ITEM": 32,
+        "LOCAL": "B1- A.C",
+        "PERIMETRO": 5.9,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 16.52
+    },
+    {
+        "ITEM": 33,
+        "LOCAL": "B1- DML",
+        "PERIMETRO": 5.9,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 15.340000000000002
+    },
+    {
+        "ITEM": 34,
+        "LOCAL": "B1- VESTIÁRIO FEMININO ",
+        "PERIMETRO": 15.95,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 41.47
+    },
+    {
+        "ITEM": 35,
+        "LOCAL": "B1- DEPÓSITO UTENSÍLIOS",
+        "PERIMETRO": 13.75,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 35.75
+    },
+    {
+        "ITEM": 36,
+        "LOCAL": " B1- NUTRICIONISTA ",
+        "PERIMETRO": 20.1,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 56.28
+    },
+    {
+        "ITEM": 37,
+        "LOCAL": "B1- RECEBIMENTO E ARMAZENAMENTO ",
+        "PERIMETRO": 47.13,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 131.964
+    },
+    {
+        "ITEM": 38,
+        "LOCAL": " B1- PREPARO DE ALIMENTOS \"IN NATURA \" (NUTRIÇÃO ENTERAL)",
+        "PERIMETRO": 19.24,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 53.87199999999999
+    },
+    {
+        "ITEM": 39,
+        "LOCAL": "B1- CIRCULAÇÃO ",
+        "PERIMETRO": 11.96,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 33.488
+    },
+    {
+        "ITEM": 40,
+        "LOCAL": " B1- MANIPULAÇÃO E ENVASE DE NE",
+        "PERIMETRO": 19.33,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 54.123999999999995
+    },
+    {
+        "ITEM": 41,
+        "LOCAL": "B1- COZINHA",
+        "PERIMETRO": 84.32,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 236.09599999999998
+    },
+    {
+        "ITEM": 42,
+        "LOCAL": "B1- LAVAGEM DE UTENSÍLIOS/PANELAS",
+        "PERIMETRO": 18.69,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 52.332
+    },
+    {
+        "ITEM": 43,
+        "LOCAL": "B1- MONTAGEM DE CARRINHOS ",
+        "PERIMETRO": 19.48,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 54.544
+    },
+    {
+        "ITEM": 44,
+        "LOCAL": "LAVAGEM UTENSÍLIOS PACIENTES ",
+        "PERIMETRO": 21.65,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 60.61999999999999
+    },
+    {
+        "ITEM": 45,
+        "LOCAL": "B1- CIRCULAÇÃO ",
+        "PERIMETRO": 191.82,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 537.096
+    },
+    {
+        "ITEM": 46,
+        "LOCAL": "B1-REFEITÓRIO ",
+        "PERIMETRO": 47.98,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 134.344
+    },
+    {
+        "ITEM": 47,
+        "LOCAL": "B1- CIRCULAÇÃO ",
+        "PERIMETRO": 73.38,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 205.46399999999997
+    },
+    {
+        "ITEM": 48,
+        "LOCAL": "B1- SAN./P.N.E. MASCULINO",
+        "PERIMETRO": 8.74,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.724
+    },
+    {
+        "ITEM": 49,
+        "LOCAL": "B1- SAN./P.N.E. FEMININO",
+        "PERIMETRO": 8.68,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.568
+    },
+    {
+        "ITEM": 50,
+        "LOCAL": "B1- LANCHONETE ",
+        "PERIMETRO": 18.36,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 51.407999999999994
+    },
+    {
+        "ITEM": 51,
+        "LOCAL": "B1- ÁREA DE VIVÊNCIA ",
+        "PERIMETRO": 34.39,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 96.292
+    },
+    {
+        "ITEM": 52,
+        "LOCAL": "B1- VESTIÁRIO ",
+        "PERIMETRO": 14.53,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 37.778
+    },
+    {
+        "ITEM": 53,
+        "LOCAL": "B1- DISTRIBUIÇÃO CARROS EXT.",
+        "PERIMETRO": 9.6,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 26.88
+    },
+    {
+        "ITEM": 54,
+        "LOCAL": "C.M.E.\"ÁREA LIMPA\"",
+        "PERIMETRO": 25.3,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 70.84
+    },
+    {
+        "ITEM": 55,
+        "LOCAL": "B1- DML",
+        "PERIMETRO": 7.48,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 19.448
+    },
+    {
+        "ITEM": 56,
+        "LOCAL": "B1- ÁREA DE PREPARO",
+        "PERIMETRO": 40.55,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 113.53999999999998
+    },
+    {
+        "ITEM": 57,
+        "LOCAL": "B1- GUARDA TEMP. RESÍDUOS ",
+        "PERIMETRO": 11.85,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 33.18
+    },
+    {
+        "ITEM": 58,
+        "LOCAL": "B1- QUÍMICA (SETOR LIMPO) DESINFECÇÃO",
+        "PERIMETRO": 14.55,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 40.74
+    },
+    {
+        "ITEM": 59,
+        "LOCAL": "B1- VESTIÁRIO ",
+        "PERIMETRO": 12.42,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 32.292
+    },
+    {
+        "ITEM": 60,
+        "LOCAL": "B1- C.M.E.-RECEBIMENTO \"ÁREA SUJA\"",
+        "PERIMETRO": 38.79,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 108.612
+    },
+    {
+        "ITEM": 61,
+        "LOCAL": "B1- EXTERNO RECEBIMENTO ",
+        "PERIMETRO": 22.01,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 61.628
+    },
+    {
+        "ITEM": 62,
+        "LOCAL": "B1- RECEBIMENTO CARROS EXT.",
+        "PERIMETRO": 8.94,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 25.031999999999996
+    },
+    {
+        "ITEM": 63,
+        "LOCAL": "B1- ADMINISTRAÇAO",
+        "PERIMETRO": 11.33,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 31.723999999999997
+    },
+    {
+        "ITEM": 64,
+        "LOCAL": "B1- DEP. DE MATERIAIS E PRODUTOS ",
+        "PERIMETRO": 9.03,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 25.283999999999995
+    },
+    {
+        "ITEM": 65,
+        "LOCAL": "B2- OFICINA ELÉTRICA ",
+        "PERIMETRO": 27.01,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 75.628
+    },
+    {
+        "ITEM": 66,
+        "LOCAL": "B2- OFICINA HIDRÁULICA ",
+        "PERIMETRO": 26.88,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 75.264
+    },
+    {
+        "ITEM": 67,
+        "LOCAL": "B2- OFICINA MOBILIÁRIA ",
+        "PERIMETRO": 26.86,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 75.208
+    },
+    {
+        "ITEM": 68,
+        "LOCAL": "B2- CASA DE MÁQUINAS",
+        "PERIMETRO": 33.24,
+        "ALTURA": 4.35,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 144.594
+    },
+    {
+        "ITEM": 69,
+        "LOCAL": "B2- ARQUIVO",
+        "PERIMETRO": 19.35,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 54.18
+    },
+    {
+        "ITEM": 70,
+        "LOCAL": "B2- SERVIÇOS GERAIS VESTIÁRIO MASCULINO",
+        "PERIMETRO": 20.19,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 52.49400000000001
+    },
+    {
+        "ITEM": 71,
+        "LOCAL": "B2- SERVIÇOS GERAIS VESTIÁRIO FEMININO",
+        "PERIMETRO": 20.19,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 52.49400000000001
+    },
+    {
+        "ITEM": 72,
+        "LOCAL": "B2- ADMINISTRAÇÃO SERVIÇOS GERAIS ",
+        "PERIMETRO": 14.47,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 40.516
+    },
+    {
+        "ITEM": 73,
+        "LOCAL": "B2- COPA",
+        "PERIMETRO": 14.23,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 39.844
+    },
+    {
+        "ITEM": 74,
+        "LOCAL": "B2- ÁREA DE DESCANSO ",
+        "PERIMETRO": 37.49,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 104.972
+    },
+    {
+        "ITEM": 75,
+        "LOCAL": "B2- CIRCULAÇÃO ",
+        "PERIMETRO": 29.28,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 81.984
+    },
+    {
+        "ITEM": 76,
+        "LOCAL": "B2- CIRCULAÇÃO ",
+        "PERIMETRO": 45.58,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 127.62399999999998
+    },
+    {
+        "ITEM": 77,
+        "LOCAL": "B2- CIRCULAÇÃO ",
+        "PERIMETRO": 42.05,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 117.73999999999998
+    },
+    {
+        "ITEM": 78,
+        "LOCAL": "B2- CIRCULAÇÃO ",
+        "PERIMETRO": 38.33,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 107.32399999999998
+    },
+    {
+        "ITEM": 79,
+        "LOCAL": "B2- IDENTIFICAÇÃO",
+        "PERIMETRO": 23.95,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 67.05999999999999
+    },
+    {
+        "ITEM": 80,
+        "LOCAL": "B2-VESTIÁRIO FUNCIONÁRIOS FEMININO ",
+        "PERIMETRO": 56.49,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 146.87400000000002
+    },
+    {
+        "ITEM": 81,
+        "LOCAL": "B2-VESTIÁRIO FUNCIONÁRIOS MASCULINO",
+        "PERIMETRO": 47.5,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 123.5
+    },
+    {
+        "ITEM": 82,
+        "LOCAL": "B2- SANITÁRIO ",
+        "PERIMETRO": 7.1,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.46
+    },
+    {
+        "ITEM": 83,
+        "LOCAL": "B2- RECEOÇÃO SERVIÇOS/ PONTO FUNCIONÁRIOS ",
+        "PERIMETRO": 23.97,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 67.116
+    },
+    {
+        "ITEM": 84,
+        "LOCAL": "B3- ENGENHARIA CLINICA ",
+        "PERIMETRO": 22.41,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 62.748
+    },
+    {
+        "ITEM": 85,
+        "LOCAL": "B3- NÚCLEO INTERNO DE REGULAÇÃO ",
+        "PERIMETRO": 16.47,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 46.11599999999999
+    },
+    {
+        "ITEM": 86,
+        "LOCAL": "B3- ARQUIVO ",
+        "PERIMETRO": 11.41,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.947999999999997
+    },
+    {
+        "ITEM": 87,
+        "LOCAL": "B3- SALA DOS TÉCNICOS ",
+        "PERIMETRO": 18.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 52.136
+    },
+    {
+        "ITEM": 88,
+        "LOCAL": "B3- QUARTO PP",
+        "PERIMETRO": 21.8,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 61.04
+    },
+    {
+        "ITEM": 89,
+        "LOCAL": "B3- SANITÁRIO ",
+        "PERIMETRO": 9.74,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 25.324
+    },
+    {
+        "ITEM": 90,
+        "LOCAL": "B3- QUARTO PP",
+        "PERIMETRO": 21.7,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 60.75999999999999
+    },
+    {
+        "ITEM": 91,
+        "LOCAL": "B3- SANITÁRIO ",
+        "PERIMETRO": 9.86,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 25.636
+    },
+    {
+        "ITEM": 92,
+        "LOCAL": "B3- ROUPARIA LIMPA ",
+        "PERIMETRO": 10.55,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 29.54
+    },
+    {
+        "ITEM": 93,
+        "LOCAL": "B3- ROUPARIA SUJA ",
+        "PERIMETRO": 9.68,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 27.104
+    },
+    {
+        "ITEM": 94,
+        "LOCAL": "B3- CONTROLE EQUIP.",
+        "PERIMETRO": 10.45,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 29.259999999999994
+    },
+    {
+        "ITEM": 95,
+        "LOCAL": "B3- SERVIÇOS",
+        "PERIMETRO": 10.09,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 28.252
+    },
+    {
+        "ITEM": 96,
+        "LOCAL": "B3- SALAS DE UTILIDADES ",
+        "PERIMETRO": 9.58,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 26.823999999999998
+    },
+    {
+        "ITEM": 97,
+        "LOCAL": "B3- POSTO DE ENFERMAGEM 05",
+        "PERIMETRO": 30.25,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 84.69999999999999
+    },
+    {
+        "ITEM": 98,
+        "LOCAL": "B3- SATÉLITE FARMÁCIA ",
+        "PERIMETRO": 19.29,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 54.01199999999999
+    },
+    {
+        "ITEM": 99,
+        "LOCAL": "B3- GUARDA DE EQUIPAMENTO ",
+        "PERIMETRO": 17.4,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 48.71999999999999
+    },
+    {
+        "ITEM": 100,
+        "LOCAL": "B3- DML",
+        "PERIMETRO": 8.18,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 21.268
+    },
+    {
+        "ITEM": 101,
+        "LOCAL": "B3- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 20.12,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 52.312000000000005
+    },
+    {
+        "ITEM": 102,
+        "LOCAL": "B3- SANITÁRIO FEMININO ",
+        "PERIMETRO": 20.12,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 52.312000000000005
+    },
+    {
+        "ITEM": 103,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 8.83,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.958000000000002
+    },
+    {
+        "ITEM": 104,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 9.2,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.919999999999998
+    },
+    {
+        "ITEM": 105,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 8.78,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.828
+    },
+    {
+        "ITEM": 106,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 8.78,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.828
+    },
+    {
+        "ITEM": 107,
+        "LOCAL": "B3-  REPOUSO FEM. MÉDICO ",
+        "PERIMETRO": 12.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.336
+    },
+    {
+        "ITEM": 108,
+        "LOCAL": "B3- REPOUSO MASC. MÉDICO ",
+        "PERIMETRO": 12.57,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.196
+    },
+    {
+        "ITEM": 109,
+        "LOCAL": "B3- REPOUSO FEM. ENFERMAGEM ",
+        "PERIMETRO": 12.57,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.196
+    },
+    {
+        "ITEM": 110,
+        "LOCAL": "B3- REPOUSO MASC. ENFERMAGEM ",
+        "PERIMETRO": 12.57,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.196
+    },
+    {
+        "ITEM": 111,
+        "LOCAL": "B3- COPA ",
+        "PERIMETRO": 11.78,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 32.983999999999995
+    },
+    {
+        "ITEM": 112,
+        "LOCAL": "B3- CONFORTO EQUIPE ",
+        "PERIMETRO": 8.73,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 24.444
+    },
+    {
+        "ITEM": 113,
+        "LOCAL": "B3- DML",
+        "PERIMETRO": 7.84,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 20.384
+    },
+    {
+        "ITEM": 114,
+        "LOCAL": "B3- CIRCULAÇÃO ",
+        "PERIMETRO": 46.26,
+        "ALTURA": 3.0,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 138.78
+    },
+    {
+        "ITEM": 115,
+        "LOCAL": "B3- SANITÁRIO FAMILIAR ",
+        "PERIMETRO": 11.82,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 30.732000000000003
+    },
+    {
+        "ITEM": 116,
+        "LOCAL": "B3- DML",
+        "PERIMETRO": 6.49,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 16.874000000000002
+    },
+    {
+        "ITEM": 117,
+        "LOCAL": "B3- SAN./P.N.E. MASCULINO ",
+        "PERIMETRO": 9.24,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.024
+    },
+    {
+        "ITEM": 118,
+        "LOCAL": "B3- SAN./P.N.E. FEMININO",
+        "PERIMETRO": 8.43,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.918
+    },
+    {
+        "ITEM": 119,
+        "LOCAL": "B3- SAN./P.N.E. ",
+        "PERIMETRO": 8.88,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.088000000000005
+    },
+    {
+        "ITEM": 120,
+        "LOCAL": "B3- SALA DE APLICAÇAO DE MEDICAMENTOS",
+        "PERIMETRO": 14.08,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 39.424
+    },
+    {
+        "ITEM": 121,
+        "LOCAL": "B3- SALA DE EXAMES E ADMISSÃO DE PARTURIENTES ",
+        "PERIMETRO": 22.2,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 62.16
+    },
+    {
+        "ITEM": 122,
+        "LOCAL": "B3- SALA DE ACOLHIMENTO E REGISTRO ",
+        "PERIMETRO": 16.25,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 45.5
+    },
+    {
+        "ITEM": 123,
+        "LOCAL": "B3- SANITÁRIO FEMININO ",
+        "PERIMETRO": 15.97,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 41.522000000000006
+    },
+    {
+        "ITEM": 124,
+        "LOCAL": "B3- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 15.97,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 41.522000000000006
+    },
+    {
+        "ITEM": 125,
+        "LOCAL": "B3- ARQUIVO ",
+        "PERIMETRO": 14.2,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 39.76
+    },
+    {
+        "ITEM": 126,
+        "LOCAL": "B3- RECEPÇÃO ",
+        "PERIMETRO": 98.29,
+        "ALTURA": 4.75,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 466.87750000000005
+    },
+    {
+        "ITEM": 127,
+        "LOCAL": "B3- SALA DE TRIAGEM ",
+        "PERIMETRO": 14.0,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 39.199999999999996
+    },
+    {
+        "ITEM": 128,
+        "LOCAL": "B3- ASSISTENTE SOCIAL",
+        "PERIMETRO": 14.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 40.93599999999999
+    },
+    {
+        "ITEM": 129,
+        "LOCAL": "B3- CONSULTÓRIO PBSETRÍCIA",
+        "PERIMETRO": 16.28,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 45.584
+    },
+    {
+        "ITEM": 130,
+        "LOCAL": "B3- CIRCULAÇÃO ",
+        "PERIMETRO": 133.06,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 372.568
+    },
+    {
+        "ITEM": 131,
+        "LOCAL": "B3- SANITÁRIO ",
+        "PERIMETRO": 7.02,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.252
+    },
+    {
+        "ITEM": 132,
+        "LOCAL": "B3- SANITÁRIO ",
+        "PERIMETRO": 7.02,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.252
+    },
+    {
+        "ITEM": 133,
+        "LOCAL": "B3- DML",
+        "PERIMETRO": 7.26,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 18.876
+    },
+    {
+        "ITEM": 134,
+        "LOCAL": "B3- CONSULTÓRIO PBSETRÍCIA",
+        "PERIMETRO": 16.25,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 45.5
+    },
+    {
+        "ITEM": 135,
+        "LOCAL": "B3- RECEPÇÃO / ESPERA 21 PESSOAS",
+        "PERIMETRO": 21.43,
+        "ALTURA": 4.75,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 101.7925
+    },
+    {
+        "ITEM": 136,
+        "LOCAL": "B3- SALA DE APOIO ",
+        "PERIMETRO": 15.22,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 42.616
+    },
+    {
+        "ITEM": 137,
+        "LOCAL": "B3- BRINQUEDOTECA ",
+        "PERIMETRO": 15.22,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 42.616
+    },
+    {
+        "ITEM": 138,
+        "LOCAL": "B3- ENFERMARIAOBSTETRÍCIA ",
+        "PERIMETRO": 50.67,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 141.876
+    },
+    {
+        "ITEM": 139,
+        "LOCAL": "B3- ENFERMARIAOBSTETRÍCIA ",
+        "PERIMETRO": 50.96,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 142.688
+    },
+    {
+        "ITEM": 140,
+        "LOCAL": "B3- SANITÁRIO FEMININO ",
+        "PERIMETRO": 4.86,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 12.636000000000001
+    },
+    {
+        "ITEM": 141,
+        "LOCAL": "B3- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 4.86,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 12.636000000000001
+    },
+    {
+        "ITEM": 142,
+        "LOCAL": "B3- SANITÁRIO FEMININO ",
+        "PERIMETRO": 4.86,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 12.636000000000001
+    },
+    {
+        "ITEM": 143,
+        "LOCAL": "B3- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 4.86,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 12.636000000000001
+    },
+    {
+        "ITEM": 144,
+        "LOCAL": "B3- CIRCULAÇÃO ",
+        "PERIMETRO": 56.07,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 156.99599999999998
+    },
+    {
+        "ITEM": 145,
+        "LOCAL": "B3- QUATO PP",
+        "PERIMETRO": 22.97,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 64.31599999999999
+    },
+    {
+        "ITEM": 146,
+        "LOCAL": "B3- SANITÁRIO ",
+        "PERIMETRO": 10.0,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 26.0
+    },
+    {
+        "ITEM": 147,
+        "LOCAL": "B3- QUARTO PP",
+        "PERIMETRO": 23.67,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 66.276
+    },
+    {
+        "ITEM": 148,
+        "LOCAL": "B3- SANITÁRIO ",
+        "PERIMETRO": 10.0,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 26.0
+    },
+    {
+        "ITEM": 149,
+        "LOCAL": "B3- CIRCULAÇÃO ",
+        "PERIMETRO": 16.65,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 46.61999999999999
+    },
+    {
+        "ITEM": 150,
+        "LOCAL": "B3- FARMÁCIA CENTRAL ",
+        "PERIMETRO": 45.87,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 128.43599999999998
+    },
+    {
+        "ITEM": 151,
+        "LOCAL": "B3- ADM FARMÁCIA ",
+        "PERIMETRO": 17.61,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 49.30799999999999
+    },
+    {
+        "ITEM": 152,
+        "LOCAL": "B3- SALA DE UNITARIZAÇÃO ",
+        "PERIMETRO": 17.59,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 49.251999999999995
+    },
+    {
+        "ITEM": 153,
+        "LOCAL": "B3-  CIRCULAÇÃO ",
+        "PERIMETRO": 46.73,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 130.844
+    },
+    {
+        "ITEM": 154,
+        "LOCAL": "B3- LACTÁRIO ",
+        "PERIMETRO": 16.97,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 47.51599999999999
+    },
+    {
+        "ITEM": 155,
+        "LOCAL": "B3- REINIÃO SALA DE ESTAR ",
+        "PERIMETRO": 19.13,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 53.56399999999999
+    },
+    {
+        "ITEM": 156,
+        "LOCAL": "B3- CIRCULAÇÃO ",
+        "PERIMETRO": 47.01,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 131.628
+    },
+    {
+        "ITEM": 157,
+        "LOCAL": "B3- CIRCULAÇÃO ",
+        "PERIMETRO": 191.82,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 537.096
+    },
+    {
+        "ITEM": 158,
+        "LOCAL": "B3- ÁREA TÉCNICA TI",
+        "PERIMETRO": 20.24,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "!!!!",
+        "AREA_CALCULADA": 56.67199999999999
+    },
+    {
+        "ITEM": 159,
+        "LOCAL": "B3- ESTAR/ESPERA",
+        "PERIMETRO": 22.76,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "!!!!",
+        "AREA_CALCULADA": 63.728
+    },
+    {
+        "ITEM": 160,
+        "LOCAL": "B3- SANITÁRIO FEMININO ",
+        "PERIMETRO": 21.06,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 54.756
+    },
+    {
+        "ITEM": 161,
+        "LOCAL": "B3- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 21.06,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 54.756
+    },
+    {
+        "ITEM": 162,
+        "LOCAL": "B3- SANITÁRIO",
+        "PERIMETRO": 8.59,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.334
+    },
+    {
+        "ITEM": 163,
+        "LOCAL": "B3- SANITÁRIO",
+        "PERIMETRO": 8.59,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.334
+    },
+    {
+        "ITEM": 164,
+        "LOCAL": "B3- ENFERMARIA 18",
+        "PERIMETRO": 34.99,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 97.972
+    },
+    {
+        "ITEM": 165,
+        "LOCAL": "B3- ENFERMARIA 17",
+        "PERIMETRO": 34.88,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 97.664
+    },
+    {
+        "ITEM": 166,
+        "LOCAL": "B3- ENFERMARIA OBSTETRÍCIA 16",
+        "PERIMETRO": 34.6,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 96.88
+    },
+    {
+        "ITEM": 167,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 8.21,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.346000000000004
+    },
+    {
+        "ITEM": 168,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 8.21,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.346000000000004
+    },
+    {
+        "ITEM": 169,
+        "LOCAL": "B3- ENFERMAGEM REPOUSO FEM.",
+        "PERIMETRO": 11.9,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 33.32
+    },
+    {
+        "ITEM": 170,
+        "LOCAL": "B3- MÉDICO REPOUSO FEM.",
+        "PERIMETRO": 11.38,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.864
+    },
+    {
+        "ITEM": 171,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 8.32,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.632
+    },
+    {
+        "ITEM": 172,
+        "LOCAL": "B3- SANITÁRIO",
+        "PERIMETRO": 8.5,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.1
+    },
+    {
+        "ITEM": 173,
+        "LOCAL": "B3- ENFERMAGEM REPOUSO MASC.",
+        "PERIMETRO": 14.24,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 39.872
+    },
+    {
+        "ITEM": 174,
+        "LOCAL": "B3- MÉDICO REPOUSO MASC.",
+        "PERIMETRO": 11.47,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 32.116
+    },
+    {
+        "ITEM": 175,
+        "LOCAL": "B3- GUARDA DE EQUIPAMENTOS ",
+        "PERIMETRO": 12.21,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.188
+    },
+    {
+        "ITEM": 176,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 8.07,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 20.982000000000003
+    },
+    {
+        "ITEM": 177,
+        "LOCAL": "B3-  CIRCULAÇÃO ",
+        "PERIMETRO": 17.644,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 49.40319999999999
+    },
+    {
+        "ITEM": 178,
+        "LOCAL": "B3- CONFORTO EQUIPE COPA/",
+        "PERIMETRO": 15.38,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.064
+    },
+    {
+        "ITEM": 179,
+        "LOCAL": "B3- DESP.",
+        "PERIMETRO": 8.31,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 23.268
+    },
+    {
+        "ITEM": 180,
+        "LOCAL": "B3- SERVIÇOS ",
+        "PERIMETRO": 9.52,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 26.656
+    },
+    {
+        "ITEM": 181,
+        "LOCAL": "B3- UTILIDADES",
+        "PERIMETRO": 10.05,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 28.14
+    },
+    {
+        "ITEM": 182,
+        "LOCAL": "B3- POSTO DE ENFERMAGEM 04",
+        "PERIMETRO": 16.37,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 45.836
+    },
+    {
+        "ITEM": 183,
+        "LOCAL": "B3-  CIRCULAÇÃO ",
+        "PERIMETRO": 20.05,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 56.14
+    },
+    {
+        "ITEM": 184,
+        "LOCAL": "B3- CONFORTO EQUIPE ",
+        "PERIMETRO": 12.41,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.748
+    },
+    {
+        "ITEM": 185,
+        "LOCAL": "B3- ADMINISTRATIVO",
+        "PERIMETRO": 24.44,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 68.432
+    },
+    {
+        "ITEM": 186,
+        "LOCAL": "B3-  SAN.",
+        "PERIMETRO": 6.23,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 16.198
+    },
+    {
+        "ITEM": 187,
+        "LOCAL": "B3-  CIRCULAÇÃO ",
+        "PERIMETRO": 16.76,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 46.928000000000004
+    },
+    {
+        "ITEM": 188,
+        "LOCAL": "B3- SATÉLITE FARMÁCIA ",
+        "PERIMETRO": 15.16,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 42.448
+    },
+    {
+        "ITEM": 189,
+        "LOCAL": "B3- DML",
+        "PERIMETRO": 7.56,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 19.656
+    },
+    {
+        "ITEM": 190,
+        "LOCAL": "B3- ENFERMARIA PEDIATRA 15",
+        "PERIMETRO": 29.48,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 82.544
+    },
+    {
+        "ITEM": 191,
+        "LOCAL": "B3- SANITÁRIO ",
+        "PERIMETRO": 8.95,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.27
+    },
+    {
+        "ITEM": 192,
+        "LOCAL": "B3- SANITÁRIO ",
+        "PERIMETRO": 8.9,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.14
+    },
+    {
+        "ITEM": 193,
+        "LOCAL": "B3- ENFERMARIA PEDIATRA 14",
+        "PERIMETRO": 29.53,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 82.684
+    },
+    {
+        "ITEM": 194,
+        "LOCAL": "B3- ISOLAMENTO 05",
+        "PERIMETRO": 16.99,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 47.571999999999996
+    },
+    {
+        "ITEM": 195,
+        "LOCAL": "B3- ISOLAMENTO 04",
+        "PERIMETRO": 17.36,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 48.608
+    },
+    {
+        "ITEM": 196,
+        "LOCAL": "B3- ISOLAMENTO 03",
+        "PERIMETRO": 17.41,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 48.748
+    },
+    {
+        "ITEM": 197,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 10.34,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 26.884
+    },
+    {
+        "ITEM": 198,
+        "LOCAL": "B3- AC",
+        "PERIMETRO": 10.82,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 30.296
+    },
+    {
+        "ITEM": 199,
+        "LOCAL": "B3- AC",
+        "PERIMETRO": 10.81,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 30.268
+    },
+    {
+        "ITEM": 200,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 9.92,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 25.792
+    },
+    {
+        "ITEM": 201,
+        "LOCAL": "B3- BANHEIRO ",
+        "PERIMETRO": 9.92,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 25.792
+    },
+    {
+        "ITEM": 202,
+        "LOCAL": "B3- AC",
+        "PERIMETRO": 10.87,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 30.435999999999996
+    },
+    {
+        "ITEM": 203,
+        "LOCAL": "B3- SANITÁRIO ",
+        "PERIMETRO": 8.7,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.619999999999997
+    },
+    {
+        "ITEM": 204,
+        "LOCAL": "B3- ENFERMARIA 13",
+        "PERIMETRO": 29.89,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 83.692
+    },
+    {
+        "ITEM": 205,
+        "LOCAL": "B4- ARMAZENAMENTO E DISTRIBUIÇÃO INTERNA ",
+        "PERIMETRO": 30.24,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 84.672
+    },
+    {
+        "ITEM": 206,
+        "LOCAL": "B4- SALA CIRÚRGICA GERAL ",
+        "PERIMETRO": 29.17,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 81.676
+    },
+    {
+        "ITEM": 207,
+        "LOCAL": "B4- SALA CIRÚRGICA GERAL ",
+        "PERIMETRO": 28.89,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 80.892
+    },
+    {
+        "ITEM": 208,
+        "LOCAL": "B4- SALA CIRÚRGICA GERAL ",
+        "PERIMETRO": 28.59,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 80.05199999999999
+    },
+    {
+        "ITEM": 209,
+        "LOCAL": "B4- SALA CIRÚRGICA OBSTETRICA",
+        "PERIMETRO": 22.59,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 63.251999999999995
+    },
+    {
+        "ITEM": 210,
+        "LOCAL": "B4- ARSENAL ",
+        "PERIMETRO": 13.09,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 36.651999999999994
+    },
+    {
+        "ITEM": 211,
+        "LOCAL": "B4- DEPÓSITO DE EQUIPAMENTOS ",
+        "PERIMETRO": 12.71,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 35.588
+    },
+    {
+        "ITEM": 212,
+        "LOCAL": "B4- ROUPARIA LIMPA ",
+        "PERIMETRO": 11.44,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 32.032
+    },
+    {
+        "ITEM": 213,
+        "LOCAL": "B4- ROUPARIA SUJA ",
+        "PERIMETRO": 11.42,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 31.976
+    },
+    {
+        "ITEM": 214,
+        "LOCAL": "B4- CIRCULAÇÃO ",
+        "PERIMETRO": 17.46,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 48.888
+    },
+    {
+        "ITEM": 215,
+        "LOCAL": "B4- D.M.L",
+        "PERIMETRO": 6.49,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 18.172
+    },
+    {
+        "ITEM": 216,
+        "LOCAL": "B4- SALA CIRÚRGICA GERAL ",
+        "PERIMETRO": 25.08,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 70.22399999999999
+    },
+    {
+        "ITEM": 217,
+        "LOCAL": "B4- SALA CIRÚRGICA GERAL ",
+        "PERIMETRO": 24.85,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 69.58
+    },
+    {
+        "ITEM": 218,
+        "LOCAL": "B4- CIRCULAÇÃO ",
+        "PERIMETRO": 14.45,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 40.459999999999994
+    },
+    {
+        "ITEM": 219,
+        "LOCAL": "B4- REPOUSO FEM. MÉDICO ",
+        "PERIMETRO": 15.4,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.12
+    },
+    {
+        "ITEM": 220,
+        "LOCAL": "B4- A.C",
+        "PERIMETRO": 17.7,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 49.559999999999995
+    },
+    {
+        "ITEM": 221,
+        "LOCAL": "B4- GUARDA TEMP. RESÍDUOS",
+        "PERIMETRO": 14.2,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 39.76
+    },
+    {
+        "ITEM": 222,
+        "LOCAL": "B4- UTILIDADES ",
+        "PERIMETRO": 20.96,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 58.687999999999995
+    },
+    {
+        "ITEM": 223,
+        "LOCAL": "B4- CIRCULAÇÃO ",
+        "PERIMETRO": 14.91,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 41.748
+    },
+    {
+        "ITEM": 224,
+        "LOCAL": "B4- FARMÁCIA SATÉLITE",
+        "PERIMETRO": 11.17,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 31.275999999999996
+    },
+    {
+        "ITEM": 225,
+        "LOCAL": "B4- ANESTÉSICOS PREPARO DE ",
+        "PERIMETRO": 13.93,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 39.004
+    },
+    {
+        "ITEM": 226,
+        "LOCAL": "B4- CIRCULAÇÃO ",
+        "PERIMETRO": 34.96,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 97.88799999999999
+    },
+    {
+        "ITEM": 227,
+        "LOCAL": "B4- R.P.A",
+        "PERIMETRO": 30.51,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 85.428
+    },
+    {
+        "ITEM": 228,
+        "LOCAL": "B4- CIRCULAÇÃO ",
+        "PERIMETRO": 71.2,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 199.35999999999999
+    },
+    {
+        "ITEM": 229,
+        "LOCAL": "B4- BANHEIRO ",
+        "PERIMETRO": 8.38,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.788000000000004
+    },
+    {
+        "ITEM": 230,
+        "LOCAL": "B4- BANHEIRO ",
+        "PERIMETRO": 8.38,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.788000000000004
+    },
+    {
+        "ITEM": 231,
+        "LOCAL": "B4- REPOUSO MÉDICO ",
+        "PERIMETRO": 11.67,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 32.675999999999995
+    },
+    {
+        "ITEM": 232,
+        "LOCAL": "B4- BANHEIRO ",
+        "PERIMETRO": 8.38,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.788000000000004
+    },
+    {
+        "ITEM": 233,
+        "LOCAL": "B4- REPOUSO MASC. ENFERMAGEM ",
+        "PERIMETRO": 10.88,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 30.464
+    },
+    {
+        "ITEM": 234,
+        "LOCAL": "B4- BANHEIRO ",
+        "PERIMETRO": 8.38,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.788000000000004
+    },
+    {
+        "ITEM": 235,
+        "LOCAL": "B4- REPOUSO FEM. ENFERMAGEM ",
+        "PERIMETRO": 10.88,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 30.464
+    },
+    {
+        "ITEM": 236,
+        "LOCAL": "B4- COPA CONFORTO ",
+        "PERIMETRO": 13.81,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 38.668
+    },
+    {
+        "ITEM": 237,
+        "LOCAL": "B4- CIRCULAÇÃO ",
+        "PERIMETRO": 38.02,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 106.456
+    },
+    {
+        "ITEM": 238,
+        "LOCAL": "B4- CIRCULAÇÃO ",
+        "PERIMETRO": 8.2,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 22.959999999999997
+    },
+    {
+        "ITEM": 239,
+        "LOCAL": "B4- VESTIÁRIO PACIETE FEMININO ",
+        "PERIMETRO": 20.08,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 52.208
+    },
+    {
+        "ITEM": 240,
+        "LOCAL": "B4- VESTIÁRIO PACIETE MASCULINO ",
+        "PERIMETRO": 20.09,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 52.234
+    },
+    {
+        "ITEM": 241,
+        "LOCAL": "B4- D.M.L",
+        "PERIMETRO": 7.34,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 19.084
+    },
+    {
+        "ITEM": 242,
+        "LOCAL": "B4-CIRCULAÇÃO",
+        "PERIMETRO": 26.66,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 74.648
+    },
+    {
+        "ITEM": 243,
+        "LOCAL": "B4- MASCULINO VESTIÁRIO ",
+        "PERIMETRO": 17.04,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 44.304
+    },
+    {
+        "ITEM": 244,
+        "LOCAL": "B4- VESTIÁRIO FEMININO ",
+        "PERIMETRO": 17.7,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 46.02
+    },
+    {
+        "ITEM": 245,
+        "LOCAL": "B4- VESTIÁRIO ",
+        "PERIMETRO": 6.77,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 17.602
+    },
+    {
+        "ITEM": 246,
+        "LOCAL": "B4- ENTREVISTA UTI ADULTO E PED.",
+        "PERIMETRO": 19.3,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 54.04
+    },
+    {
+        "ITEM": 247,
+        "LOCAL": "B4- CIRCULAÇÃO ",
+        "PERIMETRO": 17.88,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 50.06399999999999
+    },
+    {
+        "ITEM": 248,
+        "LOCAL": "B4- ADMINISTRATIVA SALA ",
+        "PERIMETRO": 16.94,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 47.432
+    },
+    {
+        "ITEM": 249,
+        "LOCAL": "B4- C.C ESPERA ",
+        "PERIMETRO": 20.53,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 57.484
+    },
+    {
+        "ITEM": 250,
+        "LOCAL": "B4- SAN./P.N.E. MASCULINO ",
+        "PERIMETRO": 9.33,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.258000000000003
+    },
+    {
+        "ITEM": 251,
+        "LOCAL": "B4- SAN./P.N.E. FEMININO",
+        "PERIMETRO": 9.16,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.816000000000003
+    },
+    {
+        "ITEM": 252,
+        "LOCAL": "B5- ENTRADA AMBULÂNCIA MOTORIDTS/SOCORRISTA ",
+        "PERIMETRO": 37.47,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 104.916
+    },
+    {
+        "ITEM": 253,
+        "LOCAL": "B5- SALA DOS SOCORRISTAS",
+        "PERIMETRO": 14.15,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 39.62
+    },
+    {
+        "ITEM": 254,
+        "LOCAL": "B5- HIGIENIZAÇÃO ",
+        "PERIMETRO": 12.49,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 32.474000000000004
+    },
+    {
+        "ITEM": 255,
+        "LOCAL": "B5- CIRCULAÇÃO ",
+        "PERIMETRO": 12.44,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.831999999999994
+    },
+    {
+        "ITEM": 256,
+        "LOCAL": "B5- SANITÁRIO ",
+        "PERIMETRO": 6.29,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 16.354
+    },
+    {
+        "ITEM": 257,
+        "LOCAL": "B5- RECEPÇÃO ",
+        "PERIMETRO": 20.52,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 57.455999999999996
+    },
+    {
+        "ITEM": 258,
+        "LOCAL": "B5- SANITÁRIO ",
+        "PERIMETRO": 7.33,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.058
+    },
+    {
+        "ITEM": 259,
+        "LOCAL": "B5- SALA DE EMERGÊNCIAS",
+        "PERIMETRO": 29.38,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 82.264
+    },
+    {
+        "ITEM": 260,
+        "LOCAL": "B5- CIRCULAÇÃO ",
+        "PERIMETRO": 30.55,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 85.53999999999999
+    },
+    {
+        "ITEM": 261,
+        "LOCAL": "B5- SALA DE PROCEDIMENTOS ESPECIAIS (INVASIVOS )",
+        "PERIMETRO": 17.2,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 48.16
+    },
+    {
+        "ITEM": 262,
+        "LOCAL": "B5- UTILIDADES",
+        "PERIMETRO": 11.42,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 31.976
+    },
+    {
+        "ITEM": 263,
+        "LOCAL": "B5- POSTO POLICIAL ",
+        "PERIMETRO": 13.72,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.672000000000004
+    },
+    {
+        "ITEM": 264,
+        "LOCAL": "B5- CIRCULAÇÃO ",
+        "PERIMETRO": 6.29,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 17.612
+    },
+    {
+        "ITEM": 265,
+        "LOCAL": "B5- SANITÁRIO ",
+        "PERIMETRO": 6.64,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 17.264
+    },
+    {
+        "ITEM": 266,
+        "LOCAL": "B5- ABRIGO AMBULÂNCIAS",
+        "PERIMETRO": 61.98,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "6- PINTURA TEXTURA ACRILICA ",
+        "AREA_CALCULADA": 173.54399999999998
+    },
+    {
+        "ITEM": 267,
+        "LOCAL": "B6- ESPERA EMERGÊNCIA ",
+        "PERIMETRO": 34.78,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 97.384
+    },
+    {
+        "ITEM": 268,
+        "LOCAL": "B6- BOX 01",
+        "PERIMETRO": 16.09,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 45.052
+    },
+    {
+        "ITEM": 269,
+        "LOCAL": "B6- BOX 02",
+        "PERIMETRO": 16.14,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 45.192
+    },
+    {
+        "ITEM": 270,
+        "LOCAL": "B6- BOX 03",
+        "PERIMETRO": 16.14,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 45.192
+    },
+    {
+        "ITEM": 271,
+        "LOCAL": "B6- BOX 04  ",
+        "PERIMETRO": 16.34,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 45.751999999999995
+    },
+    {
+        "ITEM": 272,
+        "LOCAL": "B6- BOX 05 ",
+        "PERIMETRO": 15.99,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 44.772
+    },
+    {
+        "ITEM": 273,
+        "LOCAL": "B6- A.C",
+        "PERIMETRO": 11.97,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 33.516
+    },
+    {
+        "ITEM": 274,
+        "LOCAL": "B6- ADMINISTRAÇÃO U.T.I.- ADULTA ",
+        "PERIMETRO": 13.44,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 37.632
+    },
+    {
+        "ITEM": 275,
+        "LOCAL": "B6- FARMÁCIA SATÉLITE ",
+        "PERIMETRO": 12.92,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 36.175999999999995
+    },
+    {
+        "ITEM": 276,
+        "LOCAL": "B6- ADMINISTRATIVO ENFERMARIAS ",
+        "PERIMETRO": 17.85,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 49.980000000000004
+    },
+    {
+        "ITEM": 277,
+        "LOCAL": "B6- CIRC.",
+        "PERIMETRO": 14.82,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 41.495999999999995
+    },
+    {
+        "ITEM": 278,
+        "LOCAL": "B6- SALA DE ADM. EMERGÊNCIA ",
+        "PERIMETRO": 14.95,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 41.85999999999999
+    },
+    {
+        "ITEM": 279,
+        "LOCAL": "B6- COPA ",
+        "PERIMETRO": 12.86,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 36.007999999999996
+    },
+    {
+        "ITEM": 280,
+        "LOCAL": "B6- HEMOGASÔMETRO ",
+        "PERIMETRO": 9.22,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 25.816
+    },
+    {
+        "ITEM": 281,
+        "LOCAL": "B6- DML",
+        "PERIMETRO": 7.82,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 21.896
+    },
+    {
+        "ITEM": 282,
+        "LOCAL": "B6- SALA DE UTILIDADES ",
+        "PERIMETRO": 9.04,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 25.311999999999998
+    },
+    {
+        "ITEM": 283,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.14,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.764000000000003
+    },
+    {
+        "ITEM": 284,
+        "LOCAL": "B6- SERVIÇOS ",
+        "PERIMETRO": 10.35,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 28.979999999999997
+    },
+    {
+        "ITEM": 285,
+        "LOCAL": "B6- CONTROLE DE EQUIPAMENTOS ",
+        "PERIMETRO": 13.3,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 37.24
+    },
+    {
+        "ITEM": 286,
+        "LOCAL": "B6- CIRC.",
+        "PERIMETRO": 110.51,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 309.428
+    },
+    {
+        "ITEM": 287,
+        "LOCAL": "B6- POSTO DE ENFERMAGEM",
+        "PERIMETRO": 16.04,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 44.91199999999999
+    },
+    {
+        "ITEM": 288,
+        "LOCAL": "B6- ROUPARIA LIMPA ",
+        "PERIMETRO": 11.91,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 33.348
+    },
+    {
+        "ITEM": 289,
+        "LOCAL": "B6- ROUPARIA SUJA ",
+        "PERIMETRO": 11.86,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 33.208
+    },
+    {
+        "ITEM": 290,
+        "LOCAL": "B6- GUARDA DE EQUIPAMENTOS ",
+        "PERIMETRO": 13.56,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 37.967999999999996
+    },
+    {
+        "ITEM": 291,
+        "LOCAL": "B6- DESP.",
+        "PERIMETRO": 9.96,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 27.888
+    },
+    {
+        "ITEM": 292,
+        "LOCAL": "B6- COPA CONFORTO ",
+        "PERIMETRO": 10.5,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 29.4
+    },
+    {
+        "ITEM": 293,
+        "LOCAL": "B6- PARAM.",
+        "PERIMETRO": 11.08,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.023999999999997
+    },
+    {
+        "ITEM": 294,
+        "LOCAL": "B6- VESTIÁRIO FEMININO ",
+        "PERIMETRO": 14.89,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 38.714000000000006
+    },
+    {
+        "ITEM": 295,
+        "LOCAL": "B6- CIRC.",
+        "PERIMETRO": 41.59,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 116.452
+    },
+    {
+        "ITEM": 296,
+        "LOCAL": "B6- MÉDICO REPOUSO FEM.",
+        "PERIMETRO": 12.82,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.896
+    },
+    {
+        "ITEM": 297,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.33,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.258000000000003
+    },
+    {
+        "ITEM": 298,
+        "LOCAL": "B6- VESTIÁRIO MASCULINO ",
+        "PERIMETRO": 14.87,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 38.662
+    },
+    {
+        "ITEM": 299,
+        "LOCAL": "B6- MÉDICO REPOUSO MASC.",
+        "PERIMETRO": 13.08,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 36.623999999999995
+    },
+    {
+        "ITEM": 300,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.33,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.258000000000003
+    },
+    {
+        "ITEM": 301,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 8.6,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.36
+    },
+    {
+        "ITEM": 302,
+        "LOCAL": "B6- ENFEMAGEM REPOUS MASC.",
+        "PERIMETRO": 12.29,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.41199999999999
+    },
+    {
+        "ITEM": 303,
+        "LOCAL": "B6- DML",
+        "PERIMETRO": 6.73,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 18.844
+    },
+    {
+        "ITEM": 304,
+        "LOCAL": "B6- ENFERMAGEM REPOUSO FEM.",
+        "PERIMETRO": 12.77,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.75599999999999
+    },
+    {
+        "ITEM": 305,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.33,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.258000000000003
+    },
+    {
+        "ITEM": 306,
+        "LOCAL": "B6- BOX 06",
+        "PERIMETRO": 16.19,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 45.332
+    },
+    {
+        "ITEM": 307,
+        "LOCAL": "B6- BOX 07 ",
+        "PERIMETRO": 16.23,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 45.443999999999996
+    },
+    {
+        "ITEM": 308,
+        "LOCAL": "B6- BOX 08",
+        "PERIMETRO": 16.28,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 45.584
+    },
+    {
+        "ITEM": 309,
+        "LOCAL": "B6- BOX 09",
+        "PERIMETRO": 16.38,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 45.864
+    },
+    {
+        "ITEM": 310,
+        "LOCAL": "B6- A.C.",
+        "PERIMETRO": 7.48,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 20.944
+    },
+    {
+        "ITEM": 311,
+        "LOCAL": "B6- SANITÁRIO ",
+        "PERIMETRO": 10.32,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 26.832
+    },
+    {
+        "ITEM": 312,
+        "LOCAL": "B6- ISOLAMENTO BOX 10",
+        "PERIMETRO": 16.33,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 45.72399999999999
+    },
+    {
+        "ITEM": 313,
+        "LOCAL": "B6- CIRCULAÇÃO ",
+        "PERIMETRO": 319.2,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 893.7599999999999
+    },
+    {
+        "ITEM": 314,
+        "LOCAL": "B6- DML",
+        "PERIMETRO": 8.7,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 24.359999999999996
+    },
+    {
+        "ITEM": 315,
+        "LOCAL": "B6- GUARDA PERTENCES PACIENTES ",
+        "PERIMETRO": 9.24,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 25.872
+    },
+    {
+        "ITEM": 316,
+        "LOCAL": "B6- ÁREA TÉCNICA TI",
+        "PERIMETRO": 10.76,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 30.127999999999997
+    },
+    {
+        "ITEM": 317,
+        "LOCAL": "B6- ROUPARIA LIMPA ",
+        "PERIMETRO": 11.05,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 30.94
+    },
+    {
+        "ITEM": 318,
+        "LOCAL": "B6- ROUPARIA SUJA ",
+        "PERIMETRO": 10.45,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 29.259999999999994
+    },
+    {
+        "ITEM": 319,
+        "LOCAL": "B6- DEPÓSITO ",
+        "PERIMETRO": 11.01,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 30.827999999999996
+    },
+    {
+        "ITEM": 320,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 8.88,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.088000000000005
+    },
+    {
+        "ITEM": 321,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.36,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.336
+    },
+    {
+        "ITEM": 322,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.18,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.868
+    },
+    {
+        "ITEM": 323,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 8.96,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.296000000000003
+    },
+    {
+        "ITEM": 324,
+        "LOCAL": "B6- REPOUSO FEM. ENFERMAGEM",
+        "PERIMETRO": 12.55,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.14
+    },
+    {
+        "ITEM": 325,
+        "LOCAL": "B6- REPOUSO MASC. ENFERMAGEM ",
+        "PERIMETRO": 12.78,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.784
+    },
+    {
+        "ITEM": 326,
+        "LOCAL": "B6- MÉDICO REPOUSO FEM.",
+        "PERIMETRO": 12.95,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 36.26
+    },
+    {
+        "ITEM": 327,
+        "LOCAL": "B6- REPOUSO MASC.MÉDICO ",
+        "PERIMETRO": 12.47,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.916
+    },
+    {
+        "ITEM": 328,
+        "LOCAL": "B6- DML",
+        "PERIMETRO": 6.73,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 18.844
+    },
+    {
+        "ITEM": 329,
+        "LOCAL": "B6- CIRC.",
+        "PERIMETRO": 24.47,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 68.51599999999999
+    },
+    {
+        "ITEM": 330,
+        "LOCAL": "B6- COPA",
+        "PERIMETRO": 11.69,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 32.732
+    },
+    {
+        "ITEM": 331,
+        "LOCAL": "B6- EQUIPE CONFORTO ",
+        "PERIMETRO": 14.0,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 39.199999999999996
+    },
+    {
+        "ITEM": 332,
+        "LOCAL": "B6- VESTIÁRIO FEMININO ",
+        "PERIMETRO": 14.99,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 38.974000000000004
+    },
+    {
+        "ITEM": 333,
+        "LOCAL": "B6- VESTIÁRIO MASCULINO ",
+        "PERIMETRO": 14.99,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 38.974000000000004
+    },
+    {
+        "ITEM": 334,
+        "LOCAL": "B6- PROCESSAMENTO / ESTOCAGEM E DIST.",
+        "PERIMETRO": 21.39,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 59.891999999999996
+    },
+    {
+        "ITEM": 335,
+        "LOCAL": "B6- ADM DOAÇAÕ DE LEITE ",
+        "PERIMETRO": 15.43,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.20399999999999
+    },
+    {
+        "ITEM": 336,
+        "LOCAL": "B6- SANITÁRIO FEMININO ",
+        "PERIMETRO": 14.85,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 38.61
+    },
+    {
+        "ITEM": 337,
+        "LOCAL": "B6- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 14.85,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 38.61
+    },
+    {
+        "ITEM": 338,
+        "LOCAL": "B6- PORCIONAMENTO ",
+        "PERIMETRO": 11.09,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.051999999999996
+    },
+    {
+        "ITEM": 339,
+        "LOCAL": "B6- CIRCULAÇÃO ",
+        "PERIMETRO": 13.76,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.528
+    },
+    {
+        "ITEM": 340,
+        "LOCAL": "B6- CIRCULAÇÃO ",
+        "PERIMETRO": 15.99,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.772
+    },
+    {
+        "ITEM": 341,
+        "LOCAL": "B6- SALA DE ORDENHA ",
+        "PERIMETRO": 23.39,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 65.492
+    },
+    {
+        "ITEM": 342,
+        "LOCAL": "B6- VEST.",
+        "PERIMETRO": 8.72,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 22.672000000000004
+    },
+    {
+        "ITEM": 343,
+        "LOCAL": "B6- CONSULTÓRIO ",
+        "PERIMETRO": 13.85,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.779999999999994
+    },
+    {
+        "ITEM": 344,
+        "LOCAL": "B6- DOADORES LEITE RECEPÇÃO / REGISTRO",
+        "PERIMETRO": 28.55,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 79.94
+    },
+    {
+        "ITEM": 345,
+        "LOCAL": "B6- DML DEPÓSITO",
+        "PERIMETRO": 10.33,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 26.858
+    },
+    {
+        "ITEM": 346,
+        "LOCAL": "B6- SANITÁRIO FAMILIAR ",
+        "PERIMETRO": 12.3,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 31.980000000000004
+    },
+    {
+        "ITEM": 347,
+        "LOCAL": "B6- COPA ",
+        "PERIMETRO": 12.12,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 33.93599999999999
+    },
+    {
+        "ITEM": 348,
+        "LOCAL": "B6- REPOUSO FEM. ENFERMAGM ",
+        "PERIMETRO": 12.6,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.279999999999994
+    },
+    {
+        "ITEM": 349,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.15,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.790000000000003
+    },
+    {
+        "ITEM": 350,
+        "LOCAL": "B6- DML",
+        "PERIMETRO": 6.73,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 18.844
+    },
+    {
+        "ITEM": 351,
+        "LOCAL": "B6- EQUIPE CONFORTO ",
+        "PERIMETRO": 14.63,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 40.964
+    },
+    {
+        "ITEM": 352,
+        "LOCAL": "B6- REPOUSO MASC. ENFERMAGEM ",
+        "PERIMETRO": 12.77,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.75599999999999
+    },
+    {
+        "ITEM": 353,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.33,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.258000000000003
+    },
+    {
+        "ITEM": 354,
+        "LOCAL": "B6- VESTIÁRIO FEMININO ",
+        "PERIMETRO": 15.04,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 39.104
+    },
+    {
+        "ITEM": 355,
+        "LOCAL": "B6- VESTIÁRIO MASCULINO ",
+        "PERIMETRO": 15.4,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 40.04
+    },
+    {
+        "ITEM": 356,
+        "LOCAL": "B6- CIRC.",
+        "PERIMETRO": 24.44,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 63.544000000000004
+    },
+    {
+        "ITEM": 357,
+        "LOCAL": "B6- MÉDICO REPOUSO FEM.",
+        "PERIMETRO": 12.95,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 36.26
+    },
+    {
+        "ITEM": 358,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.5,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.7
+    },
+    {
+        "ITEM": 359,
+        "LOCAL": "B6- REPOUSO MASC. MÉDICO ",
+        "PERIMETRO": 12.47,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.916
+    },
+    {
+        "ITEM": 360,
+        "LOCAL": "B6- BANHERIO ",
+        "PERIMETRO": 9.07,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.582
+    },
+    {
+        "ITEM": 361,
+        "LOCAL": "B6- CIRCULAÇÃO ",
+        "PERIMETRO": 70.53,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 183.37800000000001
+    },
+    {
+        "ITEM": 362,
+        "LOCAL": "B7- CIRC.",
+        "PERIMETRO": 14.31,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 40.068
+    },
+    {
+        "ITEM": 363,
+        "LOCAL": "B7- ADMINISTRAÇÃO U.T.I-ADULTA ",
+        "PERIMETRO": 12.29,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 34.41199999999999
+    },
+    {
+        "ITEM": 364,
+        "LOCAL": "B7- FARMÁCIA SATÉLITE ",
+        "PERIMETRO": 12.77,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 35.75599999999999
+    },
+    {
+        "ITEM": 365,
+        "LOCAL": "B7- GUARDA DE EQUIPAMENTOS ",
+        "PERIMETRO": 12.9,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 36.12
+    },
+    {
+        "ITEM": 366,
+        "LOCAL": "B7- A/C",
+        "PERIMETRO": 11.79,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 33.01199999999999
+    },
+    {
+        "ITEM": 367,
+        "LOCAL": "B7- A.C.",
+        "PERIMETRO": 10.1,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 28.279999999999998
+    },
+    {
+        "ITEM": 368,
+        "LOCAL": "B7- SANITÁRIO ",
+        "PERIMETRO": 8.58,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.308
+    },
+    {
+        "ITEM": 369,
+        "LOCAL": "B7- ISOLAMENTO ",
+        "PERIMETRO": 12.59,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 35.251999999999995
+    },
+    {
+        "ITEM": 370,
+        "LOCAL": "B7- D.M.L.",
+        "PERIMETRO": 6.86,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 19.208
+    },
+    {
+        "ITEM": 371,
+        "LOCAL": "B7- VESTIÁRIO FEMININO",
+        "PERIMETRO": 14.64,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 38.064
+    },
+    {
+        "ITEM": 372,
+        "LOCAL": "B7- CONFORTO ",
+        "PERIMETRO": 13.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.135999999999996
+    },
+    {
+        "ITEM": 373,
+        "LOCAL": "B7- COPA ",
+        "PERIMETRO": 10.5,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 29.4
+    },
+    {
+        "ITEM": 374,
+        "LOCAL": "B7- PARAM.",
+        "PERIMETRO": 8.42,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 23.575999999999997
+    },
+    {
+        "ITEM": 375,
+        "LOCAL": "B7- DES.",
+        "PERIMETRO": 9.69,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 27.131999999999998
+    },
+    {
+        "ITEM": 376,
+        "LOCAL": "B7- HEMOGASÔMETRO ",
+        "PERIMETRO": 10.26,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 28.727999999999998
+    },
+    {
+        "ITEM": 377,
+        "LOCAL": "B7- SALA DE UTILIDADES ",
+        "PERIMETRO": 11.44,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 32.032
+    },
+    {
+        "ITEM": 378,
+        "LOCAL": "B7- POSTO DE ENFERMAGEM ",
+        "PERIMETRO": 15.06,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 42.168
+    },
+    {
+        "ITEM": 379,
+        "LOCAL": "B7- CIRC.",
+        "PERIMETRO": 28.26,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 79.128
+    },
+    {
+        "ITEM": 380,
+        "LOCAL": "B7- BANHEIRO FEM.",
+        "PERIMETRO": 9.3,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.180000000000003
+    },
+    {
+        "ITEM": 381,
+        "LOCAL": "B7- SERVIÇOS ",
+        "PERIMETRO": 10.35,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 28.979999999999997
+    },
+    {
+        "ITEM": 382,
+        "LOCAL": "B7- UTI PEDIATRA CIRCULAÇÃO ",
+        "PERIMETRO": 138.52,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 387.856
+    },
+    {
+        "ITEM": 383,
+        "LOCAL": "B7- VESTÁRIO MASCULINO ",
+        "PERIMETRO": 14.64,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 38.064
+    },
+    {
+        "ITEM": 384,
+        "LOCAL": "B7- MÉDICO REPOUSO FEM.",
+        "PERIMETRO": 11.58,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 32.424
+    },
+    {
+        "ITEM": 385,
+        "LOCAL": "B7- MÉDICO REPOUSO MASC.",
+        "PERIMETRO": 11.36,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.807999999999996
+    },
+    {
+        "ITEM": 386,
+        "LOCAL": "B7- BANEHIRO ",
+        "PERIMETRO": 9.04,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.503999999999998
+    },
+    {
+        "ITEM": 387,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 8.89,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.114
+    },
+    {
+        "ITEM": 388,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 9.27,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.102
+    },
+    {
+        "ITEM": 389,
+        "LOCAL": "B7- ROUPARIA LIMPA ",
+        "PERIMETRO": 8.63,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 24.164
+    },
+    {
+        "ITEM": 390,
+        "LOCAL": "B7- ROUPARIA SUJA ",
+        "PERIMETRO": 8.76,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 24.528
+    },
+    {
+        "ITEM": 391,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 8.8,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.880000000000003
+    },
+    {
+        "ITEM": 392,
+        "LOCAL": "B7- ISOLAMENTO LEITO 01",
+        "PERIMETRO": 15.6,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 43.68
+    },
+    {
+        "ITEM": 393,
+        "LOCAL": "B7- ENFERMAGEM REPOUSO FEM.",
+        "PERIMETRO": 11.81,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 33.068
+    },
+    {
+        "ITEM": 394,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 9.04,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.503999999999998
+    },
+    {
+        "ITEM": 395,
+        "LOCAL": "B7- ENFERMAGEM REPOUSO MASC.",
+        "PERIMETRO": 11.73,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 32.844
+    },
+    {
+        "ITEM": 396,
+        "LOCAL": "B7- DML",
+        "PERIMETRO": 6.79,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 19.012
+    },
+    {
+        "ITEM": 397,
+        "LOCAL": "B7- UTI NEO 10 LEITOS ",
+        "PERIMETRO": 80.59,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 225.652
+    },
+    {
+        "ITEM": 398,
+        "LOCAL": "B7- UCI NEO - CANGURU 10 LEITOS ",
+        "PERIMETRO": 42.24,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 118.27199999999999
+    },
+    {
+        "ITEM": 399,
+        "LOCAL": "B7- POSTO DE ENFERMAGEM ",
+        "PERIMETRO": 10.67,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 29.875999999999998
+    },
+    {
+        "ITEM": 400,
+        "LOCAL": "B7- SANTÉLITE UCI FARMÁCIA ",
+        "PERIMETRO": 14.13,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 39.564
+    },
+    {
+        "ITEM": 401,
+        "LOCAL": "B7- ADM UTI ",
+        "PERIMETRO": 12.28,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 34.38399999999999
+    },
+    {
+        "ITEM": 402,
+        "LOCAL": "B7- ROUPARIA LIMPA ",
+        "PERIMETRO": 8.14,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 22.792
+    },
+    {
+        "ITEM": 403,
+        "LOCAL": "B7- SALA DE UTILIDADES ",
+        "PERIMETRO": 8.46,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 23.688000000000002
+    },
+    {
+        "ITEM": 404,
+        "LOCAL": "B7- ENFERMAGEM POSTO DE ",
+        "PERIMETRO": 14.43,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 40.403999999999996
+    },
+    {
+        "ITEM": 405,
+        "LOCAL": "B7- ROUPARIA SUJA ",
+        "PERIMETRO": 8.14,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 22.792
+    },
+    {
+        "ITEM": 406,
+        "LOCAL": "B7- SERVIÇOS ",
+        "PERIMETRO": 8.46,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 23.688000000000002
+    },
+    {
+        "ITEM": 407,
+        "LOCAL": "B7- HEMOGASÔMETRO ",
+        "PERIMETRO": 8.61,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 24.107999999999997
+    },
+    {
+        "ITEM": 408,
+        "LOCAL": "B7- DML",
+        "PERIMETRO": 8.4,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 23.52
+    },
+    {
+        "ITEM": 409,
+        "LOCAL": "B7- CONTROLE DE EQUIPAMENTO ",
+        "PERIMETRO": 9.59,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 26.851999999999997
+    },
+    {
+        "ITEM": 410,
+        "LOCAL": "B7- SERVIÇOS ",
+        "PERIMETRO": 10.61,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 29.707999999999995
+    },
+    {
+        "ITEM": 411,
+        "LOCAL": "B7- UTILIDADES ",
+        "PERIMETRO": 9.33,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 26.124
+    },
+    {
+        "ITEM": 412,
+        "LOCAL": "B7- SATÉLITE UTI FARMÁCIA ",
+        "PERIMETRO": 14.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 40.93599999999999
+    },
+    {
+        "ITEM": 413,
+        "LOCAL": "B7- CIRCULAÇÃO UCI E UTI ",
+        "PERIMETRO": 319.2,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 893.7599999999999
+    },
+    {
+        "ITEM": 414,
+        "LOCAL": "B7- GUARDA DE EQUIPAMENTOS ",
+        "PERIMETRO": 15.81,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.268
+    },
+    {
+        "ITEM": 415,
+        "LOCAL": "B7- SERVIÇOS ",
+        "PERIMETRO": 10.16,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 28.447999999999997
+    },
+    {
+        "ITEM": 416,
+        "LOCAL": "B7- UTILIDADES ",
+        "PERIMETRO": 10.05,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 28.14
+    },
+    {
+        "ITEM": 417,
+        "LOCAL": "B7- CONTROLE DE EQUIPAMENTO ",
+        "PERIMETRO": 9.9,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 27.72
+    },
+    {
+        "ITEM": 418,
+        "LOCAL": "B7- DML",
+        "PERIMETRO": 7.83,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 20.358
+    },
+    {
+        "ITEM": 419,
+        "LOCAL": "B7- ENTREVISTA MÉDICA UTI E UCI ",
+        "PERIMETRO": 15.94,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.632
+    },
+    {
+        "ITEM": 420,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 7.43,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.318
+    },
+    {
+        "ITEM": 421,
+        "LOCAL": "B7- REUNIÃO MÉDICA UTI E UCI ",
+        "PERIMETRO": 15.05,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 42.14
+    },
+    {
+        "ITEM": 422,
+        "LOCAL": "B7- GUARDA DE EQUIPAMENTOS NEO ",
+        "PERIMETRO": 12.73,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.644
+    },
+    {
+        "ITEM": 423,
+        "LOCAL": "B7- ADMINISTRATIVO ENFERMARIAS ",
+        "PERIMETRO": 13.0,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 36.4
+    },
+    {
+        "ITEM": 424,
+        "LOCAL": "B7- SATÉLITE FARMÁCIA ",
+        "PERIMETRO": 13.59,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.052
+    },
+    {
+        "ITEM": 425,
+        "LOCAL": "B7- POSTO DE ENFERMAGEM  01",
+        "PERIMETRO": 35.09,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 98.25200000000001
+    },
+    {
+        "ITEM": 426,
+        "LOCAL": "B7- CIRCULAÇÃO ",
+        "PERIMETRO": 120.27,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 336.756
+    },
+    {
+        "ITEM": 427,
+        "LOCAL": "B7- UTI e UCI ENTREVISTA PEDIATRA ",
+        "PERIMETRO": 21.48,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 60.144
+    },
+    {
+        "ITEM": 428,
+        "LOCAL": "B7- COPA SATÉLITE ",
+        "PERIMETRO": 13.55,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 37.94
+    },
+    {
+        "ITEM": 429,
+        "LOCAL": "B7- COPA UCI VISITANTES ",
+        "PERIMETRO": 11.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 32.535999999999994
+    },
+    {
+        "ITEM": 430,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 7.2,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.720000000000002
+    },
+    {
+        "ITEM": 431,
+        "LOCAL": "B7- REPOUSO VISITANTE ",
+        "PERIMETRO": 15.64,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.792
+    },
+    {
+        "ITEM": 432,
+        "LOCAL": "B7- LAVABO ",
+        "PERIMETRO": 8.79,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.854
+    },
+    {
+        "ITEM": 433,
+        "LOCAL": "B7- ENFERMARIA 01",
+        "PERIMETRO": 34.7,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 97.16
+    },
+    {
+        "ITEM": 434,
+        "LOCAL": "B7- ENFERMARIA 02",
+        "PERIMETRO": 34.11,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 95.508
+    },
+    {
+        "ITEM": 435,
+        "LOCAL": "B7- ENFERMARIA 03",
+        "PERIMETRO": 34.11,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 95.508
+    },
+    {
+        "ITEM": 436,
+        "LOCAL": "B7- ENFERMARIA 04",
+        "PERIMETRO": 34.99,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 97.972
+    },
+    {
+        "ITEM": 437,
+        "LOCAL": "B7-ENFERMARIA 05",
+        "PERIMETRO": 35.76,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 100.12799999999999
+    },
+    {
+        "ITEM": 438,
+        "LOCAL": "B7- SANITÁRIO ",
+        "PERIMETRO": 9.1,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.66
+    },
+    {
+        "ITEM": 439,
+        "LOCAL": "B7- SANITÁRIO ",
+        "PERIMETRO": 8.87,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.061999999999998
+    },
+    {
+        "ITEM": 440,
+        "LOCAL": "B7- SANITÁRIO ",
+        "PERIMETRO": 8.75,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.75
+    },
+    {
+        "ITEM": 441,
+        "LOCAL": "B7- SANITÁRIO ",
+        "PERIMETRO": 9.0,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.400000000000002
+    },
+    {
+        "ITEM": 442,
+        "LOCAL": "B7- SANITÁRIO ",
+        "PERIMETRO": 8.9,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.14
+    },
+    {
+        "ITEM": 443,
+        "LOCAL": "B7- COPA/CONFORTO EQUIPE ",
+        "PERIMETRO": 15.84,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.352
+    },
+    {
+        "ITEM": 444,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 8.38,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.788000000000004
+    },
+    {
+        "ITEM": 445,
+        "LOCAL": "B7- REPOUSO FEM. MÉDICO ",
+        "PERIMETRO": 11.38,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.864
+    },
+    {
+        "ITEM": 446,
+        "LOCAL": "B7- DESP.",
+        "PERIMETRO": 7.0,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 18.2
+    },
+    {
+        "ITEM": 447,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 7.94,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 20.644000000000002
+    },
+    {
+        "ITEM": 448,
+        "LOCAL": "B7- REPOUSO MASC. MÉDICO ",
+        "PERIMETRO": 10.98,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 30.744
+    },
+    {
+        "ITEM": 449,
+        "LOCAL": "B7- CIRC.",
+        "PERIMETRO": 17.31,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 48.467999999999996
+    },
+    {
+        "ITEM": 450,
+        "LOCAL": "B7- REPOUSO FEM .ENFERMAGEM ",
+        "PERIMETRO": 11.75,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 32.9
+    },
+    {
+        "ITEM": 451,
+        "LOCAL": "B7- ENFERMARIA 06",
+        "PERIMETRO": 35.58,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 99.624
+    },
+    {
+        "ITEM": 452,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 8.17,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.242
+    },
+    {
+        "ITEM": 453,
+        "LOCAL": "B7- SANITÁRIO ",
+        "PERIMETRO": 9.3,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.180000000000003
+    },
+    {
+        "ITEM": 454,
+        "LOCAL": "B7- REPOUSO MASC. ENFERMAGEM ",
+        "PERIMETRO": 13.92,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.976
+    },
+    {
+        "ITEM": 455,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 8.17,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.242
+    },
+    {
+        "ITEM": 456,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 8.17,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.242
+    },
+    {
+        "ITEM": 457,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 8.17,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.242
+    },
+    {
+        "ITEM": 458,
+        "LOCAL": "B7- ENFERMAGEM REPOUSO MASC.",
+        "PERIMETRO": 13.93,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 39.004
+    },
+    {
+        "ITEM": 459,
+        "LOCAL": "B7- MÉDICO REPOUSO MASC.",
+        "PERIMETRO": 11.42,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.976
+    },
+    {
+        "ITEM": 460,
+        "LOCAL": "B7- ENFERMAGEM REPOUSO FEM.",
+        "PERIMETRO": 11.47,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 32.116
+    },
+    {
+        "ITEM": 461,
+        "LOCAL": "B7- CONTROLE DE EQUIPAMENTO ",
+        "PERIMETRO": 11.17,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.275999999999996
+    },
+    {
+        "ITEM": 462,
+        "LOCAL": "B7- POSTO DE ENFERMAGEM 03",
+        "PERIMETRO": 27.71,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 77.588
+    },
+    {
+        "ITEM": 463,
+        "LOCAL": "B7- SERVIÇOS ",
+        "PERIMETRO": 11.11,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 31.107999999999997
+    },
+    {
+        "ITEM": 464,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 8.28,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.528
+    },
+    {
+        "ITEM": 465,
+        "LOCAL": "B7- CIRC.",
+        "PERIMETRO": 22.64,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 63.391999999999996
+    },
+    {
+        "ITEM": 466,
+        "LOCAL": "B7- COPA",
+        "PERIMETRO": 10.55,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 29.54
+    },
+    {
+        "ITEM": 467,
+        "LOCAL": "B7- SALA DE UTILIDADES ",
+        "PERIMETRO": 11.43,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 32.004
+    },
+    {
+        "ITEM": 468,
+        "LOCAL": "B7- CIRCULAÇÃO ",
+        "PERIMETRO": 27.87,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 78.036
+    },
+    {
+        "ITEM": 469,
+        "LOCAL": "B7- BANHEIRO ",
+        "PERIMETRO": 8.28,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.528
+    },
+    {
+        "ITEM": 470,
+        "LOCAL": "B7- CONFORTO EQUIPE ",
+        "PERIMETRO": 11.48,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 32.144
+    },
+    {
+        "ITEM": 471,
+        "LOCAL": "B7- COPA SATÉLITE ",
+        "PERIMETRO": 14.25,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 39.9
+    },
+    {
+        "ITEM": 472,
+        "LOCAL": "B7- REPOUSO MASC. MÉDICO ",
+        "PERIMETRO": 11.8,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 33.04
+    },
+    {
+        "ITEM": 473,
+        "LOCAL": "B7- SATÉLITE FARMÁCIA ",
+        "PERIMETRO": 13.53,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 37.88399999999999
+    },
+    {
+        "ITEM": 474,
+        "LOCAL": "B7- DESP.",
+        "PERIMETRO": 8.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 24.135999999999996
+    },
+    {
+        "ITEM": 475,
+        "LOCAL": "B7- DEPÓSITO ",
+        "PERIMETRO": 11.29,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.611999999999995
+    },
+    {
+        "ITEM": 476,
+        "LOCAL": "B7- SAN.",
+        "PERIMETRO": 7.4,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.240000000000002
+    },
+    {
+        "ITEM": 477,
+        "LOCAL": "B7- SANITÁRIO FEM.",
+        "PERIMETRO": 8.4,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.840000000000003
+    },
+    {
+        "ITEM": 478,
+        "LOCAL": "B7- SANITÁRIO MASC.",
+        "PERIMETRO": 8.4,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.840000000000003
+    },
+    {
+        "ITEM": 479,
+        "LOCAL": "B7- ESTAR/ESPERA",
+        "PERIMETRO": 12.92,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 36.175999999999995
+    },
+    {
+        "ITEM": 480,
+        "LOCAL": "B7- BRIMQUEDOTECA ",
+        "PERIMETRO": 21.63,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 60.56399999999999
+    },
+    {
+        "ITEM": 481,
+        "LOCAL": "B7- CIRCULAÇÃO ",
+        "PERIMETRO": 15.83,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.324
+    },
+    {
+        "ITEM": 482,
+        "LOCAL": "B7- SANITÁRIO FEMININO ",
+        "PERIMETRO": 15.92,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 41.392
+    },
+    {
+        "ITEM": 483,
+        "LOCAL": "B7- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 15.92,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 41.392
+    },
+    {
+        "ITEM": 484,
+        "LOCAL": "B7- VISITANTES E ACOMPANHANTES ESTAR/ESPERA",
+        "PERIMETRO": 22.63,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 63.36399999999999
+    },
+    {
+        "ITEM": 485,
+        "LOCAL": "B8- ENFERMARIA 11",
+        "PERIMETRO": 35.34,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 98.952
+    },
+    {
+        "ITEM": 486,
+        "LOCAL": "B8- ENFERMARIA 12",
+        "PERIMETRO": 35.48,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 99.34399999999998
+    },
+    {
+        "ITEM": 487,
+        "LOCAL": "B8- SANITÁRIO ",
+        "PERIMETRO": 8.9,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.14
+    },
+    {
+        "ITEM": 488,
+        "LOCAL": "B8- SANITÁRIO",
+        "PERIMETRO": 9.03,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.477999999999998
+    },
+    {
+        "ITEM": 489,
+        "LOCAL": "B8- SANITÁRIO",
+        "PERIMETRO": 9.03,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.477999999999998
+    },
+    {
+        "ITEM": 490,
+        "LOCAL": "B8- ENFERMARIA 09",
+        "PERIMETRO": 35.34,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 98.952
+    },
+    {
+        "ITEM": 491,
+        "LOCAL": "B8- ENFERMARIA 10",
+        "PERIMETRO": 35.58,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 99.624
+    },
+    {
+        "ITEM": 492,
+        "LOCAL": "B8- CIRCULAÇÃO ",
+        "PERIMETRO": 34.5,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 96.6
+    },
+    {
+        "ITEM": 493,
+        "LOCAL": "B8- SANITÁRIO ",
+        "PERIMETRO": 9.34,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.284
+    },
+    {
+        "ITEM": 494,
+        "LOCAL": "B8- BANHEIRO ",
+        "PERIMETRO": 10.18,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 26.468
+    },
+    {
+        "ITEM": 495,
+        "LOCAL": "B8- AC",
+        "PERIMETRO": 10.66,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 29.848
+    },
+    {
+        "ITEM": 496,
+        "LOCAL": "B8- ENFERMARIA 08",
+        "PERIMETRO": 36.31,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 101.668
+    },
+    {
+        "ITEM": 497,
+        "LOCAL": "B8- CIRCULAÇÃO ",
+        "PERIMETRO": 84.86,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 237.60799999999998
+    },
+    {
+        "ITEM": 498,
+        "LOCAL": "B8- ISOLAMENTO 02",
+        "PERIMETRO": 17.79,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 49.812
+    },
+    {
+        "ITEM": 499,
+        "LOCAL": "B8- ISOLAMENTO 01",
+        "PERIMETRO": 17.79,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 49.812
+    },
+    {
+        "ITEM": 500,
+        "LOCAL": "B8- ENFERMARIA 07",
+        "PERIMETRO": 36.09,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 101.052
+    },
+    {
+        "ITEM": 501,
+        "LOCAL": "B8- SANITÁRIO ",
+        "PERIMETRO": 9.51,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.726
+    },
+    {
+        "ITEM": 502,
+        "LOCAL": "B8- BANHEIRO ",
+        "PERIMETRO": 10.15,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 26.39
+    },
+    {
+        "ITEM": 503,
+        "LOCAL": "B8- AC",
+        "PERIMETRO": 10.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 29.735999999999997
+    },
+    {
+        "ITEM": 504,
+        "LOCAL": "B8- POSTO DE ENFERMAGEM 02",
+        "PERIMETRO": 18.02,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 50.455999999999996
+    },
+    {
+        "ITEM": 505,
+        "LOCAL": "B8- COPA / CONFORTO EQUIPE ",
+        "PERIMETRO": 14.6,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 40.879999999999995
+    },
+    {
+        "ITEM": 506,
+        "LOCAL": "B8- BANHEIRO ",
+        "PERIMETRO": 8.36,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.736
+    },
+    {
+        "ITEM": 507,
+        "LOCAL": "B8- REPOUSO FEM. MÉDICO ",
+        "PERIMETRO": 11.43,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 32.004
+    },
+    {
+        "ITEM": 508,
+        "LOCAL": "B8- CIRCULAÇÃO ",
+        "PERIMETRO": 16.66,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 46.647999999999996
+    },
+    {
+        "ITEM": 509,
+        "LOCAL": "B8- BANHEIRO ",
+        "PERIMETRO": 8.07,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 20.982000000000003
+    },
+    {
+        "ITEM": 510,
+        "LOCAL": "B8- DESP.",
+        "PERIMETRO": 9.09,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 25.451999999999998
+    },
+    {
+        "ITEM": 511,
+        "LOCAL": "B8- SERVIÇOS ",
+        "PERIMETRO": 8.92,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 24.976
+    },
+    {
+        "ITEM": 512,
+        "LOCAL": "B8- UTILIDADES ",
+        "PERIMETRO": 8.85,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 24.779999999999998
+    },
+    {
+        "ITEM": 513,
+        "LOCAL": "B8- D.M.L.",
+        "PERIMETRO": 8.64,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 24.192
+    },
+    {
+        "ITEM": 514,
+        "LOCAL": "B8- CIRCULAÇÃO ",
+        "PERIMETRO": 27.22,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 76.216
+    },
+    {
+        "ITEM": 515,
+        "LOCAL": "B8- CIRCULAÇÃO ",
+        "PERIMETRO": 17.07,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 47.796
+    },
+    {
+        "ITEM": 516,
+        "LOCAL": "B8- REPOUSO MASC. MÉDICO ",
+        "PERIMETRO": 10.98,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 30.744
+    },
+    {
+        "ITEM": 517,
+        "LOCAL": "B8- REPOUSO FEM. ENFERMAGEM ",
+        "PERIMETRO": 11.41,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.947999999999997
+    },
+    {
+        "ITEM": 518,
+        "LOCAL": "B8- GUARDA DE EQUIPAMENTOS ",
+        "PERIMETRO": 13.16,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 36.848
+    },
+    {
+        "ITEM": 519,
+        "LOCAL": "B8- CONTROLE DE ESQUIPAMENTOS ",
+        "PERIMETRO": 11.16,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.247999999999998
+    },
+    {
+        "ITEM": 520,
+        "LOCAL": "B8- REPOUSO MASC. ENFERMAGEM ",
+        "PERIMETRO": 13.88,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.864
+    },
+    {
+        "ITEM": 521,
+        "LOCAL": "B8- BANHEIRO ",
+        "PERIMETRO": 8.3,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.580000000000002
+    },
+    {
+        "ITEM": 522,
+        "LOCAL": "B8- BANHEIRO ",
+        "PERIMETRO": 8.3,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 21.580000000000002
+    },
+    {
+        "ITEM": 523,
+        "LOCAL": "B9- ISOLAMENTO ",
+        "PERIMETRO": 14.21,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 39.788
+    },
+    {
+        "ITEM": 524,
+        "LOCAL": "B9- SANITÁIO ",
+        "PERIMETRO": 8.61,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.386
+    },
+    {
+        "ITEM": 525,
+        "LOCAL": "B9- SANITÁIO ",
+        "PERIMETRO": 8.61,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.386
+    },
+    {
+        "ITEM": 526,
+        "LOCAL": "B9- A.C.",
+        "PERIMETRO": 11.06,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 30.968
+    },
+    {
+        "ITEM": 527,
+        "LOCAL": "B9- SALA COLETIVA DE OBSERVAÇÃO ",
+        "PERIMETRO": 69.28,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 193.98399999999998
+    },
+    {
+        "ITEM": 528,
+        "LOCAL": "B9- CIRCULAÇÃO ",
+        "PERIMETRO": 18.44,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 51.632
+    },
+    {
+        "ITEM": 529,
+        "LOCAL": "B9- SAN./P..E. MASCULINO ",
+        "PERIMETRO": 9.01,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.426000000000002
+    },
+    {
+        "ITEM": 530,
+        "LOCAL": "B9- SAN./P..E. FEMININO",
+        "PERIMETRO": 8.97,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.322000000000003
+    },
+    {
+        "ITEM": 531,
+        "LOCAL": "B9- SAN./P..E. FEMININO",
+        "PERIMETRO": 9.18,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.868
+    },
+    {
+        "ITEM": 532,
+        "LOCAL": "B9- SAN./P..E. MASCULINO ",
+        "PERIMETRO": 9.16,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.816000000000003
+    },
+    {
+        "ITEM": 533,
+        "LOCAL": "B9- DML",
+        "PERIMETRO": 7.79,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 20.254
+    },
+    {
+        "ITEM": 534,
+        "LOCAL": "B9- CONTR. DE EQUIP.",
+        "PERIMETRO": 13.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.135999999999996
+    },
+    {
+        "ITEM": 535,
+        "LOCAL": "B9- SANITÁIO ",
+        "PERIMETRO": 9.13,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.738000000000003
+    },
+    {
+        "ITEM": 536,
+        "LOCAL": "B9- OBSERVAÇÃO PEDIATRA ",
+        "PERIMETRO": 45.65,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 127.82
+    },
+    {
+        "ITEM": 537,
+        "LOCAL": "B9- GUARDA DE EQUIPAMENTO ",
+        "PERIMETRO": 16.08,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 45.023999999999994
+    },
+    {
+        "ITEM": 538,
+        "LOCAL": "B9- ARSENAL ",
+        "PERIMETRO": 15.12,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 42.336
+    },
+    {
+        "ITEM": 539,
+        "LOCAL": "B9- SALA DE APLICAÇÃO DE MEDICAMENTOS ",
+        "PERIMETRO": 15.38,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.064
+    },
+    {
+        "ITEM": 540,
+        "LOCAL": "B9- SALA DE INALAÇÃO ",
+        "PERIMETRO": 15.39,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.092
+    },
+    {
+        "ITEM": 541,
+        "LOCAL": "B9- SALA DE REIDRATAÇÃO ",
+        "PERIMETRO": 24.37,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 68.236
+    },
+    {
+        "ITEM": 542,
+        "LOCAL": "B9- POSTO ENFERMAGEM ",
+        "PERIMETRO": 17.56,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 49.16799999999999
+    },
+    {
+        "ITEM": 543,
+        "LOCAL": "B9- CIRCULAÇÃO ",
+        "PERIMETRO": 44.11,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 123.508
+    },
+    {
+        "ITEM": 544,
+        "LOCAL": "B9- FARMÁCIA SATÉLITE ",
+        "PERIMETRO": 15.7,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.959999999999994
+    },
+    {
+        "ITEM": 545,
+        "LOCAL": "B9- SALA DE UTILIDADES ",
+        "PERIMETRO": 11.65,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 32.62
+    },
+    {
+        "ITEM": 546,
+        "LOCAL": "B9- SERVIÇOS ",
+        "PERIMETRO": 12.33,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 34.524
+    },
+    {
+        "ITEM": 547,
+        "LOCAL": "B9- CIRCULAÇÃO ",
+        "PERIMETRO": 32.1,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 89.88
+    },
+    {
+        "ITEM": 548,
+        "LOCAL": "B9- CIRCULAÇÃO ",
+        "PERIMETRO": 39.51,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 110.62799999999999
+    },
+    {
+        "ITEM": 549,
+        "LOCAL": "B9- SALA DE GESSO E REDUÇÃO DE FRATURAS ",
+        "PERIMETRO": 16.64,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 46.592
+    },
+    {
+        "ITEM": 550,
+        "LOCAL": "B9- SUTURAS / CURATIVOS SALA DE ",
+        "PERIMETRO": 13.7,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.35999999999999
+    },
+    {
+        "ITEM": 551,
+        "LOCAL": "B9- SALA DE ADMINISTRAÇÃO AMBULATORIO ",
+        "PERIMETRO": 17.92,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 50.176
+    },
+    {
+        "ITEM": 552,
+        "LOCAL": "B9- CONSULTÓRIO 06 MÉDICO  06",
+        "PERIMETRO": 15.73,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.044
+    },
+    {
+        "ITEM": 553,
+        "LOCAL": "B9- MÉDICO CONSULTÓRIO 07",
+        "PERIMETRO": 15.76,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.128
+    },
+    {
+        "ITEM": 554,
+        "LOCAL": "B9- SALA DE TRIAGEM ",
+        "PERIMETRO": 15.06,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 42.168
+    },
+    {
+        "ITEM": 555,
+        "LOCAL": "B10- CIRCULAÇÃO ",
+        "PERIMETRO": 62.75,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 175.7
+    },
+    {
+        "ITEM": 556,
+        "LOCAL": "B10-PÁTIO INTERNO ",
+        "PERIMETRO": 67.79,
+        "ALTURA": 5.9,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 399.96100000000007
+    },
+    {
+        "ITEM": 557,
+        "LOCAL": "B10-ESPAÇO ECUMÊNICO ",
+        "PERIMETRO": 33.07,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 92.59599999999999
+    },
+    {
+        "ITEM": 558,
+        "LOCAL": "B10-PÁTIO INTERNO ",
+        "PERIMETRO": 67.79,
+        "ALTURA": 5.9,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 399.96100000000007
+    },
+    {
+        "ITEM": 559,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 7.32,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.032
+    },
+    {
+        "ITEM": 560,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 7.32,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.032
+    },
+    {
+        "ITEM": 561,
+        "LOCAL": "B11- CONSULTÓRIO 04 MÉDICO ",
+        "PERIMETRO": 15.63,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.764
+    },
+    {
+        "ITEM": 562,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 7.13,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.538
+    },
+    {
+        "ITEM": 563,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 7.11,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.486
+    },
+    {
+        "ITEM": 564,
+        "LOCAL": "B11- CONSULTÓRIO 05 MÉDICO ",
+        "PERIMETRO": 15.63,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.764
+    },
+    {
+        "ITEM": 565,
+        "LOCAL": "B11- MÉDICO CONSULTÓRIO 08",
+        "PERIMETRO": 15.82,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.296
+    },
+    {
+        "ITEM": 566,
+        "LOCAL": "B11- CIRCULAÇÃO ",
+        "PERIMETRO": 13.49,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 37.772
+    },
+    {
+        "ITEM": 567,
+        "LOCAL": "B11- ESPERA/ESTAR/",
+        "PERIMETRO": 21.15,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 59.21999999999999
+    },
+    {
+        "ITEM": 568,
+        "LOCAL": "B11- COPA",
+        "PERIMETRO": 12.41,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 34.748
+    },
+    {
+        "ITEM": 569,
+        "LOCAL": "B11- CONSULTÓRIO 09 MÉDICO ",
+        "PERIMETRO": 16.25,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 45.5
+    },
+    {
+        "ITEM": 570,
+        "LOCAL": "B11- CIRCULAÇÃO ",
+        "PERIMETRO": 27.86,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 78.008
+    },
+    {
+        "ITEM": 571,
+        "LOCAL": "B11- SANITÁRIO FUNC. MASC.",
+        "PERIMETRO": 12.45,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 32.37
+    },
+    {
+        "ITEM": 572,
+        "LOCAL": "B11- SANITÁRIO FUNC. FEMININO",
+        "PERIMETRO": 12.45,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 32.37
+    },
+    {
+        "ITEM": 573,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 7.29,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.954
+    },
+    {
+        "ITEM": 574,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 7.29,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.954
+    },
+    {
+        "ITEM": 575,
+        "LOCAL": "B11- CIRCULAÇÃO ",
+        "PERIMETRO": 59.21,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 165.78799999999998
+    },
+    {
+        "ITEM": 576,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 6.81,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 17.706
+    },
+    {
+        "ITEM": 577,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 6.82,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 17.732000000000003
+    },
+    {
+        "ITEM": 578,
+        "LOCAL": "B11- CONSULTÓRIO 03 MÉDICO ",
+        "PERIMETRO": 16.05,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.94
+    },
+    {
+        "ITEM": 579,
+        "LOCAL": "B11- CONSULTÓRIO 10",
+        "PERIMETRO": 15.86,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.407999999999994
+    },
+    {
+        "ITEM": 580,
+        "LOCAL": "B11- SALA DE ATENDIMENTO ENDIVIDUALIZADO AÇÕES BÁSICAS DE SAÚDE ",
+        "PERIMETRO": 17.15,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 48.019999999999996
+    },
+    {
+        "ITEM": 581,
+        "LOCAL": "B11- CIRCULAÇÃO ",
+        "PERIMETRO": 26.18,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 73.30399999999999
+    },
+    {
+        "ITEM": 582,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 7.29,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.954
+    },
+    {
+        "ITEM": 583,
+        "LOCAL": "B11- SANITÁRIO ",
+        "PERIMETRO": 7.29,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 18.954
+    },
+    {
+        "ITEM": 584,
+        "LOCAL": "B11- CONSULTÓRIO 01",
+        "PERIMETRO": 16.05,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.94
+    },
+    {
+        "ITEM": 585,
+        "LOCAL": "B11- SALA DE APLICAÇÃO ",
+        "PERIMETRO": 12.24,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.272
+    },
+    {
+        "ITEM": 586,
+        "LOCAL": "B11- SALA DE IMUNIZAÇÃO ",
+        "PERIMETRO": 10.14,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 28.392
+    },
+    {
+        "ITEM": 587,
+        "LOCAL": "B11- SALA DE TRIAGEM",
+        "PERIMETRO": 15.35,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 42.98
+    },
+    {
+        "ITEM": 588,
+        "LOCAL": "B11- DML",
+        "PERIMETRO": 7.4,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 19.240000000000002
+    },
+    {
+        "ITEM": 589,
+        "LOCAL": "B11- ADMINISTRAÇÃO AMBULATÓRIO ",
+        "PERIMETRO": 16.9,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 47.31999999999999
+    },
+    {
+        "ITEM": 590,
+        "LOCAL": "B11- RECEPÇÃO AMBULATÓRIO ",
+        "PERIMETRO": 34.05,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 95.33999999999999
+    },
+    {
+        "ITEM": 591,
+        "LOCAL": "B11- CIRC.",
+        "PERIMETRO": 16.21,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 45.388
+    },
+    {
+        "ITEM": 592,
+        "LOCAL": "B11- SANITÁRIO FAMILIAR",
+        "PERIMETRO": 16.12,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 41.912000000000006
+    },
+    {
+        "ITEM": 593,
+        "LOCAL": "B11- CIRCULAÇÃO ",
+        "PERIMETRO": 12.3,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.44
+    },
+    {
+        "ITEM": 594,
+        "LOCAL": "B11- ESPERA AMBULATÓRIO ",
+        "PERIMETRO": 43.87,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 122.83599999999998
+    },
+    {
+        "ITEM": 595,
+        "LOCAL": "B11- SAN./P.C.D MASCULINO ",
+        "PERIMETRO": 9.1,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.66
+    },
+    {
+        "ITEM": 596,
+        "LOCAL": "B11- SAN./P.C.E FEMININO",
+        "PERIMETRO": 9.1,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.66
+    },
+    {
+        "ITEM": 597,
+        "LOCAL": "B12- TÉCNICA ELÉTRICA ",
+        "PERIMETRO": 11.38,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 31.864
+    },
+    {
+        "ITEM": 598,
+        "LOCAL": "B12- PARASITOLOGIA/URINÁLISE ",
+        "PERIMETRO": 17.31,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 48.467999999999996
+    },
+    {
+        "ITEM": 599,
+        "LOCAL": "B12- MICROBIOLOGIA",
+        "PERIMETRO": 16.49,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 46.17199999999999
+    },
+    {
+        "ITEM": 600,
+        "LOCAL": "B12- SOROTOCA",
+        "PERIMETRO": 14.38,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 40.264
+    },
+    {
+        "ITEM": 601,
+        "LOCAL": "B12- IMUNOLOGIA/ HEMATOLOGIA",
+        "PERIMETRO": 19.66,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 55.047999999999995
+    },
+    {
+        "ITEM": 602,
+        "LOCAL": "B12-AREA TÉNICA TI",
+        "PERIMETRO": 9.91,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 27.747999999999998
+    },
+    {
+        "ITEM": 603,
+        "LOCAL": "B12- CIRCULAÇÃO ",
+        "PERIMETRO": 26.92,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 75.376
+    },
+    {
+        "ITEM": 604,
+        "LOCAL": "B12- DML",
+        "PERIMETRO": 9.91,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 27.747999999999998
+    },
+    {
+        "ITEM": 605,
+        "LOCAL": "B12- CIRCULAÇÃO LABORATÓRIO ",
+        "PERIMETRO": 29.95,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 83.86
+    },
+    {
+        "ITEM": 606,
+        "LOCAL": "B12- BANHEIRO ",
+        "PERIMETRO": 8.73,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.698
+    },
+    {
+        "ITEM": 607,
+        "LOCAL": "B12- REPOUSO PLANTONISTA ",
+        "PERIMETRO": 13.27,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 37.156
+    },
+    {
+        "ITEM": 608,
+        "LOCAL": "B12- LAVAGEM/EXPURGO",
+        "PERIMETRO": 11.52,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 32.256
+    },
+    {
+        "ITEM": 609,
+        "LOCAL": "B12- ESTERILIZAÇÃO ARMAZENAMENTO ",
+        "PERIMETRO": 11.97,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 33.516
+    },
+    {
+        "ITEM": 610,
+        "LOCAL": "B12- A.C.",
+        "PERIMETRO": 11.82,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 33.096
+    },
+    {
+        "ITEM": 611,
+        "LOCAL": "B12- DIGITAÇÃO LIBERAÇÃO LAUDOS ",
+        "PERIMETRO": 12.52,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.056
+    },
+    {
+        "ITEM": 612,
+        "LOCAL": "B12- COPA ",
+        "PERIMETRO": 11.17,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 31.275999999999996
+    },
+    {
+        "ITEM": 613,
+        "LOCAL": "B12- BIOQUÍMICA ",
+        "PERIMETRO": 21.68,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 60.70399999999999
+    },
+    {
+        "ITEM": 614,
+        "LOCAL": "B12- T.I",
+        "PERIMETRO": 26.1,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 73.08
+    },
+    {
+        "ITEM": 615,
+        "LOCAL": "B12- T.I CPD",
+        "PERIMETRO": 16.91,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 47.348
+    },
+    {
+        "ITEM": 616,
+        "LOCAL": "B12- FARMÁCIA SATÉLITE ",
+        "PERIMETRO": 31.13,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 87.16399999999999
+    },
+    {
+        "ITEM": 617,
+        "LOCAL": "B12- MASCULINO SANITÁRIO ",
+        "PERIMETRO": 17.25,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 44.85
+    },
+    {
+        "ITEM": 618,
+        "LOCAL": "B12- FEMININO SANITÁRIO ",
+        "PERIMETRO": 17.25,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 44.85
+    },
+    {
+        "ITEM": 619,
+        "LOCAL": "B12- CLASSIFICAÇÃO E DISTRIBUIÇÃO ",
+        "PERIMETRO": 14.22,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 39.816
+    },
+    {
+        "ITEM": 620,
+        "LOCAL": "B12- ADMINISTRAÇÃO LABORATÓRIO ",
+        "PERIMETRO": 16.17,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 45.276
+    },
+    {
+        "ITEM": 621,
+        "LOCAL": "B12- SALA DE COLONOSCOPIA ",
+        "PERIMETRO": 17.74,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 49.67199999999999
+    },
+    {
+        "ITEM": 622,
+        "LOCAL": "B12- VESTIÁRIO ",
+        "PERIMETRO": 7.35,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.11
+    },
+    {
+        "ITEM": 623,
+        "LOCAL": "B12- VESTIÁRIO ",
+        "PERIMETRO": 7.35,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.11
+    },
+    {
+        "ITEM": 624,
+        "LOCAL": "B12- LIMPEZA DESINFECÇÃO ",
+        "PERIMETRO": 8.88,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "???",
+        "AREA_CALCULADA": 24.864
+    },
+    {
+        "ITEM": 625,
+        "LOCAL": "B12-LIMPEZA DESINFECÇÃO ",
+        "PERIMETRO": 8.88,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "???",
+        "AREA_CALCULADA": 24.864
+    },
+    {
+        "ITEM": 626,
+        "LOCAL": "B12- SALA DE ENDOSCOPIA ",
+        "PERIMETRO": 17.07,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 47.796
+    },
+    {
+        "ITEM": 627,
+        "LOCAL": "B12- SALA DE LAUDOS ",
+        "PERIMETRO": 17.07,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 47.796
+    },
+    {
+        "ITEM": 628,
+        "LOCAL": "B12- RAIO X",
+        "PERIMETRO": 21.88,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 61.263999999999996
+    },
+    {
+        "ITEM": 629,
+        "LOCAL": "B12- C.R.",
+        "PERIMETRO": 14.59,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 40.852
+    },
+    {
+        "ITEM": 630,
+        "LOCAL": "B12- IDENTIFICAÇÃO ",
+        "PERIMETRO": 28.6,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 80.08
+    },
+    {
+        "ITEM": 631,
+        "LOCAL": "B12- COLETA ",
+        "PERIMETRO": 23.84,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 66.752
+    },
+    {
+        "ITEM": 632,
+        "LOCAL": "B12- COLETA/ARM.",
+        "PERIMETRO": 10.6,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 29.679999999999996
+    },
+    {
+        "ITEM": 633,
+        "LOCAL": "B12- OUVIDORIA",
+        "PERIMETRO": 12.64,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.391999999999996
+    },
+    {
+        "ITEM": 634,
+        "LOCAL": "B12- BOX COLETA INFANTIL/P.N.E.",
+        "PERIMETRO": 11.83,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "3- REBOCO COM BARITA ATÉ h=2,10m E PINTURA ACRÍLICA LÁTEX PVA NA COR BRANCA ",
+        "AREA_CALCULADA": 33.123999999999995
+    },
+    {
+        "ITEM": 635,
+        "LOCAL": "B12- SERVIÇO SOCIAL ",
+        "PERIMETRO": 13.87,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.836
+    },
+    {
+        "ITEM": 636,
+        "LOCAL": "B12- MASCULINO SAN./P.N.E.",
+        "PERIMETRO": 9.18,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.868
+    },
+    {
+        "ITEM": 637,
+        "LOCAL": "B12- FEMININO SAN./P.N.E.",
+        "PERIMETRO": 8.91,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.166
+    },
+    {
+        "ITEM": 638,
+        "LOCAL": "B12- PREPARO E RECUPERAÇÃO ",
+        "PERIMETRO": 28.08,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 78.624
+    },
+    {
+        "ITEM": 639,
+        "LOCAL": "B12- CIRCULAÇÃO ",
+        "PERIMETRO": 59.85,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 167.57999999999998
+    },
+    {
+        "ITEM": 640,
+        "LOCAL": "B12- SALA DE SERVIÇOS ",
+        "PERIMETRO": 9.89,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 27.692
+    },
+    {
+        "ITEM": 641,
+        "LOCAL": "B12- PREPARO DE CONTRASTE ",
+        "PERIMETRO": 11.84,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 33.152
+    },
+    {
+        "ITEM": 642,
+        "LOCAL": "B12- CIRCULAÇÃO ",
+        "PERIMETRO": 16.19,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 45.332
+    },
+    {
+        "ITEM": 643,
+        "LOCAL": "B12- REPOUSO PLANTONISTA ",
+        "PERIMETRO": 11.74,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 32.872
+    },
+    {
+        "ITEM": 644,
+        "LOCAL": "B12- BANHO ",
+        "PERIMETRO": 7.46,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.396
+    },
+    {
+        "ITEM": 645,
+        "LOCAL": "B12- DML",
+        "PERIMETRO": 9.71,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 27.188000000000002
+    },
+    {
+        "ITEM": 646,
+        "LOCAL": "B12- CIRC.",
+        "PERIMETRO": 20.22,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 56.61599999999999
+    },
+    {
+        "ITEM": 647,
+        "LOCAL": "B12- ARQUIVO MÉDICO ",
+        "PERIMETRO": 12.83,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.924
+    },
+    {
+        "ITEM": 648,
+        "LOCAL": "B12- CONSULTÓRIO MÉDICO ",
+        "PERIMETRO": 13.73,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.443999999999996
+    },
+    {
+        "ITEM": 649,
+        "LOCAL": "B12- CIRCULAÇÃO",
+        "PERIMETRO": 31.75,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 88.89999999999999
+    },
+    {
+        "ITEM": 650,
+        "LOCAL": "B12- RECEPÇÃO HOSPITAL ACESSO VISITANTES E PACIENTES ",
+        "PERIMETRO": 49.28,
+        "ALTURA": 4.75,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 234.08
+    },
+    {
+        "ITEM": 651,
+        "LOCAL": "B12- CIRCULAÇÃO ",
+        "PERIMETRO": 22.9,
+        "ALTURA": 4.75,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 108.77499999999999
+    },
+    {
+        "ITEM": 652,
+        "LOCAL": "B12- SANITÁRIO FEMININO ",
+        "PERIMETRO": 11.6,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 30.16
+    },
+    {
+        "ITEM": 653,
+        "LOCAL": "B12- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 11.85,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 30.81
+    },
+    {
+        "ITEM": 654,
+        "LOCAL": "B12- SANITÁRIO FAMILIAR ",
+        "PERIMETRO": 15.57,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 40.482
+    },
+    {
+        "ITEM": 655,
+        "LOCAL": "B12- CENTRO DE IMAGENS RECEPÇÃO/ESPERA 42 PESSOAS",
+        "PERIMETRO": 45.69,
+        "ALTURA": 4.75,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 217.02749999999997
+    },
+    {
+        "ITEM": 656,
+        "LOCAL": "B12- COPA ",
+        "PERIMETRO": 12.11,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 33.907999999999994
+    },
+    {
+        "ITEM": 657,
+        "LOCAL": "B12- CIRCULAÇÃO ",
+        "PERIMETRO": 14.55,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 40.74
+    },
+    {
+        "ITEM": 658,
+        "LOCAL": "B12- RECEPÇÃO UCT",
+        "PERIMETRO": 30.17,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 84.476
+    },
+    {
+        "ITEM": 659,
+        "LOCAL": "B12- ADMINISTRAÇÃO UCT ",
+        "PERIMETRO": 15.0,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 42.0
+    },
+    {
+        "ITEM": 660,
+        "LOCAL": "B13- CIRCULAÇÃO ",
+        "PERIMETRO": 15.5,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.4
+    },
+    {
+        "ITEM": 661,
+        "LOCAL": "B13- SALA DE COMANDO ",
+        "PERIMETRO": 15.91,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.547999999999995
+    },
+    {
+        "ITEM": 662,
+        "LOCAL": "B13- TOMOGRAFIA ",
+        "PERIMETRO": 22.64,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "3- REBOCO COM BARITA ATÉ h=2,10m E PINTURA ACRÍLICA LÁTEX PVA NA COR BRANCA ",
+        "AREA_CALCULADA": 63.391999999999996
+    },
+    {
+        "ITEM": 663,
+        "LOCAL": "B13- CIRCULAÇÃO ",
+        "PERIMETRO": 58.56,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 163.968
+    },
+    {
+        "ITEM": 664,
+        "LOCAL": "B13- ADMINISTRAÇÃO EXAMES ",
+        "PERIMETRO": 16.02,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.855999999999995
+    },
+    {
+        "ITEM": 665,
+        "LOCAL": "B13- COPA ",
+        "PERIMETRO": 11.8,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 33.04
+    },
+    {
+        "ITEM": 666,
+        "LOCAL": "B13- MASCULINO SAN./P.N.E.",
+        "PERIMETRO": 8.78,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.583999999999996
+    },
+    {
+        "ITEM": 667,
+        "LOCAL": "B13- FEMININO SAN./P.N.E.",
+        "PERIMETRO": 8.78,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 22.828
+    },
+    {
+        "ITEM": 668,
+        "LOCAL": "B13- CONSULTÓRIO MÉDICO ",
+        "PERIMETRO": 14.63,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.038000000000004
+    },
+    {
+        "ITEM": 669,
+        "LOCAL": "B13- SALA DE COLETA ",
+        "PERIMETRO": 22.64,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 63.391999999999996
+    },
+    {
+        "ITEM": 670,
+        "LOCAL": "B13- PROCESSAMENTO DE SANGUE ",
+        "PERIMETRO": 22.67,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 63.476
+    },
+    {
+        "ITEM": 671,
+        "LOCAL": "B13- ESTOCAGEM DE HEMOCOPONENTES ",
+        "PERIMETRO": 15.53,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.483999999999995
+    },
+    {
+        "ITEM": 672,
+        "LOCAL": "B13- LIBERAÇÃO E ROTULAGEM ",
+        "PERIMETRO": 15.68,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 43.903999999999996
+    },
+    {
+        "ITEM": 673,
+        "LOCAL": "B13- LAVAGEM E SECAGEM DE VIDRARIAS ",
+        "PERIMETRO": 14.84,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 41.552
+    },
+    {
+        "ITEM": 674,
+        "LOCAL": "B13- CIRC.",
+        "PERIMETRO": 21.33,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 59.72399999999999
+    },
+    {
+        "ITEM": 675,
+        "LOCAL": "B13- DML/DEPÓSITO ",
+        "PERIMETRO": 12.27,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.355999999999995
+    },
+    {
+        "ITEM": 676,
+        "LOCAL": "B13- CIRCULAÇÃO ",
+        "PERIMETRO": 38.76,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 108.52799999999999
+    },
+    {
+        "ITEM": 677,
+        "LOCAL": "B13- CIRCULAÇÃO ",
+        "PERIMETRO": 20.32,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 56.895999999999994
+    },
+    {
+        "ITEM": 678,
+        "LOCAL": "B13- SAN./P.N.E. MASCULINO ",
+        "PERIMETRO": 9.38,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.388
+    },
+    {
+        "ITEM": 679,
+        "LOCAL": "B13- SAN./P.N.E. FEMININO ",
+        "PERIMETRO": 9.38,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 24.388
+    },
+    {
+        "ITEM": 680,
+        "LOCAL": "B13- SANITÁRIO FEMININO",
+        "PERIMETRO": 11.78,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 30.628
+    },
+    {
+        "ITEM": 681,
+        "LOCAL": "B13- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 11.78,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 30.628
+    },
+    {
+        "ITEM": 682,
+        "LOCAL": "B13- CIRCULAÇÃO ",
+        "PERIMETRO": 13.62,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.135999999999996
+    },
+    {
+        "ITEM": 683,
+        "LOCAL": "B13- ESPERA ",
+        "PERIMETRO": 20.41,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 57.147999999999996
+    },
+    {
+        "ITEM": 684,
+        "LOCAL": "B13- CIRCULAÇÃO ",
+        "PERIMETRO": 19.71,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 55.188
+    },
+    {
+        "ITEM": 685,
+        "LOCAL": "B13- UTILIDADES ",
+        "PERIMETRO": 12.35,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 34.58
+    },
+    {
+        "ITEM": 686,
+        "LOCAL": "B13- TRIAGEM SALA DE ENTREVISTA ",
+        "PERIMETRO": 12.8,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 35.839999999999996
+    },
+    {
+        "ITEM": 687,
+        "LOCAL": "B13- DISTRIBUIÇÃO E COMPATIBILIDADE ",
+        "PERIMETRO": 16.57,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 46.396
+    },
+    {
+        "ITEM": 688,
+        "LOCAL": "B13- LABORATÓRIO DE CONTROLE DE QUALIDADE PROD. FINAL ",
+        "PERIMETRO": 21.87,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 61.236
+    },
+    {
+        "ITEM": 689,
+        "LOCAL": "B13- TRIAGEM HEMATOLOGICA ",
+        "PERIMETRO": 13.3,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
+        "AREA_CALCULADA": 37.24
+    },
+    {
+        "ITEM": 690,
+        "LOCAL": "B13- AGÊNCIA TRNSFUSIONAL",
+        "PERIMETRO": 31.35,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 87.78
+    },
+    {
+        "ITEM": 691,
+        "LOCAL": "B14- SANITÁRIO MASCULINO ",
+        "PERIMETRO": 9.8,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 25.480000000000004
+    },
+    {
+        "ITEM": 692,
+        "LOCAL": "B14- SANITÁRIO FEMININO",
+        "PERIMETRO": 9.1,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 23.66
+    },
+    {
+        "ITEM": 693,
+        "LOCAL": "B14- PONTO REGISTRO ",
+        "PERIMETRO": 9.35,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 26.179999999999996
+    },
+    {
+        "ITEM": 694,
+        "LOCAL": "B14- CIRCULAÇÃO ",
+        "PERIMETRO": 35.43,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 99.204
+    },
+    {
+        "ITEM": 695,
+        "LOCAL": "B14- SUPERINTENDÊNCIA ADMINISTRATIVA ",
+        "PERIMETRO": 36.82,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 103.09599999999999
+    },
+    {
+        "ITEM": 696,
+        "LOCAL": "B14- ARQUIVO ",
+        "PERIMETRO": 15.72,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 44.016
+    },
+    {
+        "ITEM": 697,
+        "LOCAL": "B14- COPA ",
+        "PERIMETRO": 14.03,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
+        "AREA_CALCULADA": 39.284
+    },
+    {
+        "ITEM": 698,
+        "LOCAL": "B14- CIRCULAÇÃO ",
+        "PERIMETRO": 49.78,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 139.384
+    },
+    {
+        "ITEM": 699,
+        "LOCAL": "B14- DIREÇÃO FINANCEIRA ",
+        "PERIMETRO": 29.4,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 82.32
+    },
+    {
+        "ITEM": 700,
+        "LOCAL": "B14- DIREÇÃO GERAL DIREÇÃO CLÍNICA ",
+        "PERIMETRO": 29.66,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 83.048
+    },
+    {
+        "ITEM": 701,
+        "LOCAL": "B14- SANITÁRIO ",
+        "PERIMETRO": 7.48,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.448
+    },
+    {
+        "ITEM": 702,
+        "LOCAL": "B14- CIRCULAÇÃO ",
+        "PERIMETRO": 23.35,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 65.38
+    },
+    {
+        "ITEM": 703,
+        "LOCAL": "B14- SANITÁRIO ",
+        "PERIMETRO": 7.5,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.5
+    },
+    {
+        "ITEM": 704,
+        "LOCAL": "B14- NIR",
+        "PERIMETRO": 30.43,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 85.204
+    },
+    {
+        "ITEM": 705,
+        "LOCAL": "B14- SALA DE ENTRETENIMENTO ",
+        "PERIMETRO": 19.74,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 55.27199999999999
+    },
+    {
+        "ITEM": 706,
+        "LOCAL": "B14- REUNIÃO ",
+        "PERIMETRO": 12.46,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 34.888
+    },
+    {
+        "ITEM": 707,
+        "LOCAL": "B14- ADM.",
+        "PERIMETRO": 13.79,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 38.611999999999995
+    },
+    {
+        "ITEM": 708,
+        "LOCAL": "B14- RECEPÇÃO / ESPERA ADMINISTRAÇÃO ",
+        "PERIMETRO": 28.26,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 79.128
+    },
+    {
+        "ITEM": 709,
+        "LOCAL": "B14- REUNIÃO ",
+        "PERIMETRO": 23.36,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 65.408
+    },
+    {
+        "ITEM": 710,
+        "LOCAL": "B14- SANITÁRIO ",
+        "PERIMETRO": 7.5,
+        "ALTURA": 2.6,
+        "ACABAMENTO": "4- PORCELANATO TÉCNOCO RETIFICADO ELIZABETH BIANCO MASTER POLIDO , DIM 84x84",
+        "AREA_CALCULADA": 19.5
+    },
+    {
+        "ITEM": 711,
+        "LOCAL": "B14- RECURSOS HUMANOS ",
+        "PERIMETRO": 39.92,
+        "ALTURA": 2.8,
+        "ACABAMENTO": "1-PINTURA ACRÍLICA LATEX NA COR BRANCA ",
+        "AREA_CALCULADA": 111.776
+    }
+]
