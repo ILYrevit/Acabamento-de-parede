@@ -14,7 +14,8 @@ export const AreaChart = ({ data }: AreaChartProps) => {
     .map(item => ({
       name: item.LOCAL.length > 20 ? item.LOCAL.substring(0, 20) + "..." : item.LOCAL,
       area: Number(item.AREA_CALCULADA.toFixed(2)),
-      perimetro: Number(item.PERIMETRO.toFixed(2))
+      acabamento: item.ACABAMENTO.length > 30 ? item.ACABAMENTO.substring(0, 30) + "..." : item.ACABAMENTO,
+      fullAcabamento: item.ACABAMENTO
     }));
 
   return (
@@ -41,10 +42,21 @@ export const AreaChart = ({ data }: AreaChartProps) => {
                 border: '1px solid hsl(var(--border))',
                 borderRadius: '8px'
               }}
+              content={({ active, payload }) => {
+                if (active && payload && payload.length) {
+                  return (
+                    <div className="bg-card border border-border rounded-lg p-3 shadow-lg">
+                      <p className="font-semibold text-sm mb-1">{payload[0].payload.name}</p>
+                      <p className="text-primary text-sm">Área: {payload[0].value} m²</p>
+                      <p className="text-muted-foreground text-xs mt-1">{payload[0].payload.fullAcabamento}</p>
+                    </div>
+                  );
+                }
+                return null;
+              }}
             />
             <Legend />
             <Bar dataKey="area" fill="hsl(var(--primary))" name="Área (m²)" radius={[8, 8, 0, 0]} />
-            <Bar dataKey="perimetro" fill="hsl(var(--accent))" name="Perímetro (m)" radius={[8, 8, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </CardContent>
