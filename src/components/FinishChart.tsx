@@ -33,6 +33,48 @@ export const FinishChart = ({ data }: FinishChartProps) => {
     }))
     .sort((a, b) => b.value - a.value);
 
+  const renderCustomLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }: any) => {
+    const RADIAN = Math.PI / 180;
+    const radius = outerRadius + 25;
+    const x = cx + radius * Math.cos(-midAngle * RADIAN);
+    const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
+    if (percent < 0.05) return null; // Não mostra label para fatias muito pequenas
+
+    return (
+      <text
+        x={x}
+        y={y}
+        fill="hsl(var(--foreground))"
+        textAnchor={x > cx ? 'start' : 'end'}
+        dominantBaseline="central"
+        fontSize="13px"
+        fontWeight="600"
+      >
+        {`${(percent * 100).toFixed(0)}%`}
+      </text>
+    );
+  };
+
+  const renderCustomLegend = (props: any) => {
+    const { payload } = props;
+    return (
+      <div className="flex flex-wrap gap-2 justify-center mt-4 px-2">
+        {payload.map((entry: any, index: number) => (
+          <div key={`legend-${index}`} className="flex items-center gap-1.5 text-xs">
+            <div
+              className="w-3 h-3 rounded-sm flex-shrink-0"
+              style={{ backgroundColor: entry.color }}
+            />
+            <span className="truncate max-w-[150px] text-muted-foreground">
+              {entry.value}
+            </span>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
   return (
     <Card className="border-border">
       <CardHeader>
@@ -40,15 +82,15 @@ export const FinishChart = ({ data }: FinishChartProps) => {
         <CardDescription>Área total por tipo de acabamento</CardDescription>
       </CardHeader>
       <CardContent>
-        <ResponsiveContainer width="100%" height={350}>
+        <ResponsiveContainer width="100%" height={400}>
           <PieChart>
             <Pie
               data={chartData}
               cx="50%"
-              cy="50%"
+              cy="45%"
               labelLine={false}
-              label={({ name, percent }) => `${(percent * 100).toFixed(0)}%`}
-              outerRadius={100}
+              label={renderCustomLabel}
+              outerRadius={90}
               fill="#8884d8"
               dataKey="value"
             >
@@ -56,21 +98,20 @@ export const FinishChart = ({ data }: FinishChartProps) => {
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               ))}
             </Pie>
-            <Tooltip 
-              contentStyle={{ 
-                backgroundColor: 'hsl(var(--card))', 
+            <Tooltip
+              contentStyle={{
+                backgroundColor: 'hsl(var(--card))',
                 border: '1px solid hsl(var(--border))',
-                borderRadius: '8px'
+                borderRadius: '8px',
+                fontSize: '12px'
               }}
               formatter={(value: number, name: string, props: any) => [
                 `${value.toFixed(2)} m² (${props.payload.count} itens)`,
                 'Área Total'
               ]}
             />
-            <Legend 
-              verticalAlign="bottom" 
-              height={36}
-              wrapperStyle={{ fontSize: '12px' }}
+            <Legend
+              content={renderCustomLegend}
             />
           </PieChart>
         </ResponsiveContainer>
