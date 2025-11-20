@@ -90,6 +90,54 @@ export const groupByBlock = (data: DataItem[]) => {
   });
 };
 
+// Agrupa dados por bloco e acabamento
+export const groupByBlockAndFinish = (data: DataItem[]) => {
+  const blockFinishes = new Map<string, Map<string, {
+    totalArea: number;
+    items: number;
+  }>>();
+
+  data.forEach(item => {
+    const block = extractBlock(item.LOCAL);
+
+    if (!blockFinishes.has(block)) {
+      blockFinishes.set(block, new Map());
+    }
+
+    const finishes = blockFinishes.get(block)!;
+
+    if (!finishes.has(item.ACABAMENTO)) {
+      finishes.set(item.ACABAMENTO, {
+        totalArea: 0,
+        items: 0
+      });
+    }
+
+    const finishData = finishes.get(item.ACABAMENTO)!;
+    finishData.totalArea += item.AREA_CALCULADA;
+    finishData.items += 1;
+  });
+
+  // Converte para array e ordena
+  return Array.from(blockFinishes.entries())
+    .map(([block, finishes]) => ({
+      block,
+      finishes: Array.from(finishes.entries())
+        .map(([finish, data]) => ({
+          finish,
+          totalArea: data.totalArea,
+          items: data.items
+        }))
+        .sort((a, b) => b.totalArea - a.totalArea) // Ordena acabamentos por área (maior primeiro)
+    }))
+    .sort((a, b) => {
+      // Ordena blocos por número
+      const aNum = parseInt(a.block.replace('B', ''));
+      const bNum = parseInt(b.block.replace('B', ''));
+      return aNum - bNum;
+    });
+};
+
 // Exporta dados para CSV
 export const exportToCSV = (data: DataItem[], filename: string = 'dados_acabamentos.csv') => {
   const headers = ['ITEM', 'LOCAL', 'PERÍMETRO', 'ALTURA', 'ACABAMENTO', 'ÁREA CALCULADA'];

@@ -4,6 +4,7 @@ import { FinishChart } from "@/components/FinishChart";
 import { DataTable } from "@/components/DataTable";
 import { BlocksChart } from "@/components/BlocksChart";
 import { ExecutionTracker } from "@/components/ExecutionTracker";
+import { FinishByBlock } from "@/components/FinishByBlock";
 import { DataItem } from "@/types/data";
 import rawData from "@/data/dados_estruturados_1.json";
 import { Building2, Download } from "lucide-react";
@@ -65,6 +66,11 @@ const Index = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
           <BlocksChart data={data} />
           <ExecutionTracker data={data} />
+        </div>
+
+        {/* Finish by Block Analysis */}
+        <div className="mb-8">
+          <FinishByBlock data={data} />
         </div>
 
         {/* Data Table */}
