@@ -12,6 +12,9 @@ const PRICING = {
         { name: "APLICAÇÃO E LIXAMENTO DE MASSA LÁTEX", price: 14.98 },
         { name: "APLICAÇÃO MANUAL DE PINTURA COM TINTA LÁTEX ACRÍLICA", price: 15.07 }
     ],
+    "PINTURA TEXTURA ACRILICA": [
+        { name: "PINTURA TEXTURA ACRÍLICA", price: 13.59 }
+    ],
     "CERÂMICA RETIFICADA BRANCA": [
         { name: "REVESTIMENTO CERÂMICO PARA PISO OU PAREDE, 30 X 90", price: 247.81 }
     ],
@@ -67,13 +70,15 @@ export const RevenueChart = ({ data }: RevenueChartProps) => {
         .sort(([, a], [, b]) => b.totalRevenue - a.totalRevenue);
 
     return (
-        <Card className="border-border shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-            <CardHeader className="bg-gradient-to-r from-primary/10 to-primary/5">
+        <Card className="border border-orange-200/50 dark:border-orange-900/50 shadow-lg hover:shadow-xl transition-all duration-300 bg-white dark:bg-slate-900">
+            <CardHeader>
                 <div className="flex items-center gap-2">
-                    <DollarSign className="h-6 w-6 text-primary" />
-                    <CardTitle>Faturamento por Ambiente</CardTitle>
+                    <div className="p-2 rounded-lg bg-gradient-to-br from-orange-500 to-red-600">
+                        <DollarSign className="h-5 w-5 text-white" />
+                    </div>
+                    <CardTitle className="text-foreground">Faturamento por Acabamento</CardTitle>
                 </div>
-                <CardDescription>Cálculo baseado em m² por tipo de acabamento</CardDescription>
+                <CardDescription className="mt-2">Cálculo baseado em m² por tipo de acabamento</CardDescription>
             </CardHeader>
             <CardContent className="pt-6">
                 <div className="space-y-6">
@@ -94,14 +99,14 @@ export const RevenueChart = ({ data }: RevenueChartProps) => {
                                         {finishType}
                                     </h3>
                                     <p className="text-xs text-muted-foreground">
-                                        Área total: {finishData.totalArea.toFixed(2)} m²
+                                        Área total: {finishData.totalArea.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} m²
                                     </p>
                                 </div>
                                 <div className="text-right">
                                     <div className="flex items-center gap-1 text-primary">
                                         <TrendingUp className="h-4 w-4" />
                                         <span className="text-lg font-bold">
-                                            R$ {finishData.totalRevenue.toFixed(2)}
+                                            {new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(finishData.totalRevenue)}
                                         </span>
                                     </div>
                                     <p className="text-xs text-muted-foreground">Total</p>
@@ -116,10 +121,10 @@ export const RevenueChart = ({ data }: RevenueChartProps) => {
                                     >
                                         <div className="flex-1">
                                             <p className="font-medium text-foreground">{item.name}</p>
-                                            <p className="text-muted-foreground">R$ {item.price.toFixed(2)}/m²</p>
+                                            <p className="text-muted-foreground">{new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(item.price)}/m²</p>
                                         </div>
                                         <div className="text-right font-semibold text-primary">
-                                            R$ {item.revenue.toFixed(2)}
+                                            {new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(item.revenue)}
                                         </div>
                                     </div>
                                 ))}

@@ -201,15 +201,15 @@ export const DataTable = ({ data }: DataTableProps) => {
                           </Badge>
                         </div>
                       </TableCell>
-                      <TableCell className="text-right">{item.PERIMETRO.toFixed(2)}</TableCell>
-                      <TableCell className="text-right">{item.ALTURA.toFixed(2)}</TableCell>
+                      <TableCell className="text-right">{item.PERIMETRO.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</TableCell>
+                      <TableCell className="text-right">{item.ALTURA.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</TableCell>
                       <TableCell className="text-sm">
                         <span className={`px-2 py-1 rounded ${getFinishColor(item.ACABAMENTO)}`}>
                           {item.ACABAMENTO}
                         </span>
                       </TableCell>
                       <TableCell className="text-right font-semibold">
-                        {item.AREA_CALCULADA.toFixed(2)}
+                        {item.AREA_CALCULADA.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                       </TableCell>
                     </TableRow>
                   ))

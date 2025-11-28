@@ -3,50 +3,42 @@ import { RevenueChart } from "@/components/RevenueChart";
 import { BuildingMap } from "@/components/BuildingMap";
 import { DataTable } from "@/components/DataTable";
 import { ExecutionTracker } from "@/components/ExecutionTracker";
+import { DataGrid } from "@/components/DataGrid";
 import { DataItem } from "@/types/data";
 import rawData from "@/data/dados_estruturados_1.json";
-import { Building2, Download } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { normalizeData, exportToCSV } from "@/lib/dataUtils";
-import { useToast } from "@/hooks/use-toast";
+import { Building2 } from "lucide-react";
+import { normalizeData } from "@/lib/dataUtils";
 import { CompletionProvider } from "@/contexts/CompletionContext";
+import { PhotoProvider } from "@/contexts/PhotoContext";
+import { ThemeToggle } from "@/components/ThemeToggle";
+import logo from "@/assets/logo.png";
 
 const Index = () => {
-  const { toast } = useToast();
   const data = normalizeData(rawData as DataItem[]);
-
-  const handleExport = () => {
-    exportToCSV(data);
-    toast({
-      title: "Exportação concluída",
-      description: "Os dados foram exportados com sucesso para CSV.",
-    });
-  };
 
   return (
     <CompletionProvider>
-      <div className="min-h-screen bg-background">
+      <PhotoProvider>
+        <div className="min-h-screen bg-gradient-to-br from-orange-50/30 via-white to-red-50/30 dark:from-slate-950 dark:via-slate-900 dark:to-slate-900">
         {/* Header */}
-        <header className="border-b border-border bg-card">
+        <header className="border-b border-orange-200/50 dark:border-orange-900/50 bg-gradient-to-r from-white via-orange-50/40 to-red-50/40 dark:from-slate-900 dark:via-slate-900 dark:to-slate-900">
           <div className="container mx-auto px-4 py-6">
-            <div className="flex items-center justify-between gap-3">
+            <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="p-2 rounded-lg bg-primary/10">
-                  <Building2 className="h-8 w-8 text-primary" />
+                <img src={logo} alt="Augusto Velloso" className="h-12 w-auto" />
+                <div className="p-3 rounded-lg bg-gradient-to-br from-orange-500 to-red-600">
+                  <Building2 className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-3xl font-bold text-foreground">
-                    Análise de Acabamentos
+                  <h1 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                    Análise de Acabamentos de Parede
                   </h1>
-                  <p className="text-muted-foreground mt-1">
+                  <p className="text-slate-600 dark:text-slate-400 mt-1">
                     Gerenciamento e visualização de dados de construção
                   </p>
                 </div>
               </div>
-              <Button onClick={handleExport} className="gap-2">
-                <Download className="h-4 w-4" />
-                Exportar Dados
-              </Button>
+              <ThemeToggle />
             </div>
           </div>
         </header>
@@ -66,17 +58,23 @@ const Index = () => {
             <RevenueChart data={data} />
             <ExecutionTracker data={data} />
           </div>
+
+          {/* Data Grid - Full Width */}
+          <div className="mb-8">
+            <DataGrid data={data} />
+          </div>
         </main>
 
         {/* Footer */}
-        <footer className="border-t border-border bg-card mt-16">
+        <footer className="border-t border-orange-200/50 dark:border-orange-900/50 bg-gradient-to-r from-white via-orange-50/40 to-red-50/40 dark:from-slate-900 dark:via-slate-900 dark:to-slate-900 mt-16">
           <div className="container mx-auto px-4 py-6">
-            <p className="text-center text-sm text-muted-foreground">
+            <p className="text-center text-sm text-slate-600 dark:text-slate-400">
               Criado por Higor Ramos
             </p>
           </div>
         </footer>
-      </div>
+        </div>
+      </PhotoProvider>
     </CompletionProvider>
   );
 };

@@ -3,6 +3,8 @@ import { Building2, Info } from "lucide-react";
 import { DataItem } from "@/types/data";
 import { useState } from "react";
 import { calculateRevenue } from "@/utils/pricing";
+import { useClickSound } from "@/hooks/useClickSound";
+import { useCompletion } from "@/contexts/CompletionContext";
 
 interface BuildingMapProps {
     data: DataItem[];
@@ -11,24 +13,24 @@ interface BuildingMapProps {
 // Block definitions based on the floor‑plan image
 const BLOCKS = [
     // Top row
-    { id: "14", name: "ADMINISTRATIVO", x: 20, y: 20, width: 130, height: 80 },
-    { id: "13", name: "BANCO DE SANGUE", x: 160, y: 20, width: 110, height: 80 },
-    { id: "12", name: "RECEPÇÃO", x: 280, y: 20, width: 180, height: 90 },
+    { id: "14", name: "ADMINISTRATIVO", x: 0, y: 10, width: 130, height: 80 },
+    { id: "13", name: "BANCO DE SANGUE", x: 140, y: 10, width: 120, height: 80 },
+    { id: "12", name: "RECEPÇÃO", x: 280, y: 10, width: 180, height: 90 },
     { id: "11", name: "AMBULATÓRIO", x: 470, y: 20, width: 90, height: 140 },
     // Second row
-    { id: "08", name: "INTERNAÇÃO", x: 20, y: 130, width: 60, height: 210 },
+    { id: "08", name: "INTERNAÇÃO", x: 10, y: 130, width: 70, height: 210 },
     { id: "07", name: "U.T.I PEDIATRIA E NEONATAL", x: 90, y: 130, width: 170, height: 210 },
-    { id: "10", name: "CAPELA", x: 270, y: 120, width: 190, height: 60 },
+    { id: "10", name: "CAPELA", x: 270, y: 110, width: 190, height: 70 },
     { id: "09", name: "PRONTO ATENDIMENTO", x: 470, y: 170, width: 140, height: 80 },
     // Third row
     { id: "06", name: "U.T.I ADULTO", x: 270, y: 190, width: 190, height: 150 },
     { id: "05", name: "EMERGÊNCIA", x: 470, y: 260, width: 110, height: 70 },
     // Fourth row
-    { id: "03", name: "CENTRO OBSTÉTRICO", x: 120, y: 350, width: 180, height: 120 },
-    { id: "04", name: "CENTRO CIRÚRGICO", x: 310, y: 350, width: 250, height: 120 },
+    { id: "03", name: "CENTRO OBSTÉTRICO", x: 10, y: 350, width: 290, height: 180 },
+    { id: "04", name: "CENTRO CIRÚRGICO", x: 310, y: 350, width: 250, height: 110 },
     // Bottom row
-    { id: "02", name: "VESTIÁRIOS", x: 160, y: 480, width: 150, height: 150 },
-    { id: "01", name: "SERVIÇOS", x: 340, y: 480, width: 250, height: 150 },
+    { id: "02", name: "VESTIÁRIOS", x: 160, y: 540, width: 140, height: 140 },
+    { id: "01", name: "SERVIÇOS", x: 340, y: 470, width: 250, height: 210 },
 ];
 
 // Block item ranges based on user specification
@@ -53,9 +55,17 @@ const BLOCK_RANGES: Record<string, { start: number; end: number }> = {
 
 export const BuildingMap = ({ data }: BuildingMapProps) => {
     const [selectedBlock, setSelectedBlock] = useState<typeof BLOCKS[0] | null>(null);
+    const { playClick } = useClickSound();
+    const { completedItems } = useCompletion();
 
     const getBlockStats = (blockId: string) => {
-        const range = BLOCK_RANGES[blockId];
+        // Handle block 03 which has sub-blocks 03A, 03B, 03C
+        let range = BLOCK_RANGES[blockId];
+        if (!range && blockId === "03") {
+            // Use 03A as the primary range for block 03
+            range = BLOCK_RANGES["03A"];
+        }
+
         if (!range) {
             return { totalArea: 0, totalRevenue: 0, finishBreakdown: [] };
         }
@@ -71,41 +81,49 @@ export const BuildingMap = ({ data }: BuildingMapProps) => {
         const finishMap = blockData.reduce((acc, item) => {
             const finish = item.ACABAMENTO;
             if (!acc[finish]) {
-                acc[finish] = { area: 0, revenue: 0 };
+                acc[finish] = { area: 0, revenue: 0, totalItems: 0, completedItems: 0 };
             }
             acc[finish].area += item.AREA_CALCULADA;
             acc[finish].revenue += calculateRevenue(item);
+            acc[finish].totalItems++;
+            if (completedItems.has(item.ITEM)) {
+                acc[finish].completedItems++;
+            }
             return acc;
-        }, {} as Record<string, { area: number; revenue: number }>);
+        }, {} as Record<string, { area: number; revenue: number; totalItems: number; completedItems: number }>);
 
         const finishBreakdown = Object.entries(finishMap).map(([finish, stats]) => ({
             finish,
             area: stats.area,
             revenue: stats.revenue,
+            completionPercentage: stats.totalItems > 0 ? (stats.completedItems / stats.totalItems) * 100 : 0,
         }));
 
         return { totalArea, totalRevenue, finishBreakdown };
     };
 
     const handleBlockClick = (block: typeof BLOCKS[0]) => {
+        playClick();
         setSelectedBlock(block);
     };
 
     const selectedStats = selectedBlock ? getBlockStats(selectedBlock.id) : null;
 
     return (
-        <Card className="border-border shadow-lg">
+        <Card className="border border-orange-200/50 dark:border-orange-900/50 shadow-lg hover:shadow-xl transition-shadow bg-white dark:bg-slate-900">
             <CardHeader>
                 <div className="flex items-center gap-2">
-                    <Building2 className="h-6 w-6 text-primary" />
-                    <CardTitle>Mapa da Construção</CardTitle>
+                    <div className="p-2 rounded-lg bg-gradient-to-br from-orange-500 to-red-600">
+                        <Building2 className="h-5 w-5 text-white" />
+                    </div>
+                    <CardTitle className="text-foreground">Mapa da Construção</CardTitle>
                 </div>
             </CardHeader>
             <CardContent className="pt-6">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                     {/* Map Section - Takes up 2 columns */}
                     <div className="lg:col-span-2 relative w-full bg-muted/20 rounded-lg p-4">
-                        <svg viewBox="0 0 640 640" className="w-full h-auto" style={{ maxHeight: "600px" }}>
+                        <svg viewBox="0 0 640 690" className="w-full h-auto" style={{ maxHeight: "600px" }}>
                             {/* Background */}
                             <rect width="640" height="640" fill="hsl(var(--background))" />
                             {/* Grid pattern */}
@@ -113,6 +131,38 @@ export const BuildingMap = ({ data }: BuildingMapProps) => {
                                 <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
                                     <path d="M 20 0 L 0 0 0 20" fill="none" stroke="hsl(var(--border))" strokeWidth="0.5" opacity="0.1" />
                                 </pattern>
+                                {/* 3D Shadow filters */}
+                                <filter id="shadow3d" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+                                    <feOffset dx="4" dy="4" result="offsetblur" />
+                                    <feComponentTransfer>
+                                        <feFuncA type="linear" slope="0.3" />
+                                    </feComponentTransfer>
+                                    <feMerge>
+                                        <feMergeNode />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                                <filter id="shadow3dHover" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur in="SourceAlpha" stdDeviation="5" />
+                                    <feOffset dx="2" dy="2" result="offsetblur" />
+                                    <feComponentTransfer>
+                                        <feFuncA type="linear" slope="0.4" />
+                                    </feComponentTransfer>
+                                    <feMerge>
+                                        <feMergeNode />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                                {/* Gradient for 3D effect */}
+                                <linearGradient id="blockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stopColor="white" stopOpacity="1" />
+                                    <stop offset="100%" stopColor="hsl(var(--muted))" stopOpacity="0.3" />
+                                </linearGradient>
+                                <linearGradient id="blockGradientSelected" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.4" />
+                                    <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="0.1" />
+                                </linearGradient>
                             </defs>
                             <rect width="640" height="640" fill="url(#smallGrid)" />
                             {/* Render blocks */}
@@ -120,17 +170,40 @@ export const BuildingMap = ({ data }: BuildingMapProps) => {
                                 const isSelected = selectedBlock?.id === block.id;
                                 return (
                                     <g key={block.id} onClick={() => handleBlockClick(block)} className="cursor-pointer group">
+                                        {/* Bottom shadow layer for 3D depth */}
+                                        <rect
+                                            x={block.x + 3}
+                                            y={block.y + 3}
+                                            width={block.width}
+                                            height={block.height}
+                                            fill="rgba(0,0,0,0.15)"
+                                            rx="4"
+                                            className="transition-all duration-300"
+                                        />
+                                        {/* Main block with gradient */}
                                         <rect
                                             x={block.x}
                                             y={block.y}
                                             width={block.width}
                                             height={block.height}
-                                            fill={isSelected ? "hsl(var(--primary))" : "white"}
-                                            fillOpacity={isSelected ? 0.2 : 1}
+                                            fill={isSelected ? "url(#blockGradientSelected)" : "url(#blockGradient)"}
                                             stroke={isSelected ? "hsl(var(--primary))" : "hsl(var(--border))"}
-                                            strokeWidth={isSelected ? 2 : 1}
+                                            strokeWidth={isSelected ? 3 : 2}
                                             rx="4"
-                                            className="transition-all duration-300 group-hover:fill-primary/10 group-hover:stroke-primary"
+                                            filter="url(#shadow3d)"
+                                            className="transition-all duration-300 group-hover:stroke-primary"
+                                            style={{ filter: 'url(#shadow3d)' }}
+                                        />
+                                        {/* Top highlight for 3D effect */}
+                                        <rect
+                                            x={block.x + 2}
+                                            y={block.y + 2}
+                                            width={block.width - 4}
+                                            height={block.height * 0.3}
+                                            fill="white"
+                                            fillOpacity="0.3"
+                                            rx="2"
+                                            className="pointer-events-none transition-all duration-300 group-hover:fill-primary/20"
                                         />
                                         <text
                                             x={block.x + block.width / 2}
@@ -170,7 +243,7 @@ export const BuildingMap = ({ data }: BuildingMapProps) => {
                                     <div className="space-y-4 w-full">
                                         <div className="p-4 rounded-lg bg-muted/50 border border-border transition-all hover:bg-muted/80">
                                             <p className="text-sm text-muted-foreground mb-1">Área Total de Acabamento</p>
-                                            <p className="text-3xl font-bold text-foreground">{selectedStats.totalArea.toFixed(2)} <span className="text-sm font-normal text-muted-foreground">m²</span></p>
+                                            <p className="text-3xl font-bold text-foreground">{selectedStats.totalArea.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} <span className="text-sm font-normal text-muted-foreground">m²</span></p>
                                         </div>
 
                                         <div className="p-4 rounded-lg bg-primary/5 border border-primary/10 transition-all hover:bg-primary/10">
@@ -190,13 +263,18 @@ export const BuildingMap = ({ data }: BuildingMapProps) => {
                                                             key={index}
                                                             className="p-3 rounded-lg bg-muted/30 border border-border/50 hover:bg-muted/50 transition-all"
                                                         >
-                                                            <p className="text-xs font-medium text-foreground mb-2 text-left">
-                                                                {finish.finish.length > 35 ? finish.finish.substring(0, 35) + "..." : finish.finish}
-                                                            </p>
+                                                            <div className="flex items-center justify-between mb-2">
+                                                                <p className="text-xs font-medium text-foreground text-left flex-1">
+                                                                    {finish.finish.length > 35 ? finish.finish.substring(0, 35) + "..." : finish.finish}
+                                                                </p>
+                                                                <span className="text-xs font-bold text-primary ml-2">
+                                                                    {finish.completionPercentage.toFixed(1)}%
+                                                                </span>
+                                                            </div>
                                                             <div className="grid grid-cols-2 gap-2 text-xs">
                                                                 <div className="text-left">
                                                                     <span className="text-muted-foreground">Área: </span>
-                                                                    <span className="font-semibold">{finish.area.toFixed(2)} m²</span>
+                                                                    <span className="font-semibold">{finish.area.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} m²</span>
                                                                 </div>
                                                                 <div className="text-right">
                                                                     <span className="text-muted-foreground">Valor: </span>

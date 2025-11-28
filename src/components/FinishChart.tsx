@@ -106,7 +106,7 @@ export const FinishChart = ({ data }: FinishChartProps) => {
                 fontSize: '12px'
               }}
               formatter={(value: number, name: string, props: any) => [
-                `${value.toFixed(2)} m² (${props.payload.count} itens)`,
+                `${value.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} m² (${props.payload.count} itens)`,
                 'Área Total'
               ]}
             />
