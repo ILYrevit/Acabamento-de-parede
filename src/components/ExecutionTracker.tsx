@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { DataItem } from "@/types/data";
 import { Progress } from "@/components/ui/progress";
@@ -24,26 +24,20 @@ import {
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { extractBlock } from "@/lib/dataUtils";
+import { useCompletion } from "@/contexts/CompletionContext";
 
 interface ExecutionTrackerProps {
   data: DataItem[];
 }
 
 export const ExecutionTracker = ({ data }: ExecutionTrackerProps) => {
-  const [completed, setCompleted] = useState<Set<number>>(() => {
-    const saved = localStorage.getItem('executionTracker');
-    return saved ? new Set(JSON.parse(saved)) : new Set();
-  });
+  const { completedItems: completed, toggleItem } = useCompletion();
   const [showPasswordDialog, setShowPasswordDialog] = useState(false);
   const [password, setPassword] = useState("");
   const [pendingItemId, setPendingItemId] = useState<number | null>(null);
   const [passwordError, setPasswordError] = useState(false);
   const [selectedBlock, setSelectedBlock] = useState<string>("all");
   const [selectedFinish, setSelectedFinish] = useState<string>("all");
-
-  useEffect(() => {
-    localStorage.setItem('executionTracker', JSON.stringify(Array.from(completed)));
-  }, [completed]);
 
   const handleCheckboxClick = (itemId: number) => {
     setPendingItemId(itemId);
@@ -55,15 +49,7 @@ export const ExecutionTracker = ({ data }: ExecutionTrackerProps) => {
   const handlePasswordSubmit = () => {
     if (password === "32245") {
       if (pendingItemId !== null) {
-        setCompleted(prev => {
-          const newSet = new Set(prev);
-          if (newSet.has(pendingItemId)) {
-            newSet.delete(pendingItemId);
-          } else {
-            newSet.add(pendingItemId);
-          }
-          return newSet;
-        });
+        toggleItem(pendingItemId);
       }
       setShowPasswordDialog(false);
       setPassword("");
@@ -157,7 +143,7 @@ export const ExecutionTracker = ({ data }: ExecutionTrackerProps) => {
           </div>
           <Progress value={percentage} className="h-2" />
         </div>
-        
+
         <div className="space-y-2">
           <div className="flex justify-between text-sm">
             <span className="text-muted-foreground">Progresso por Área</span>
@@ -193,9 +179,8 @@ export const ExecutionTracker = ({ data }: ExecutionTrackerProps) => {
               filteredData.map((item) => (
                 <div
                   key={item.ITEM}
-                  className={`flex items-start gap-3 p-2 rounded hover:bg-muted/50 transition-colors ${
-                    completed.has(item.ITEM) ? 'opacity-60' : ''
-                  }`}
+                  className={`flex items-start gap-3 p-2 rounded hover:bg-muted/50 transition-colors ${completed.has(item.ITEM) ? 'opacity-60' : ''
+                    }`}
                 >
                   <Checkbox
                     id={`item-${item.ITEM}`}
