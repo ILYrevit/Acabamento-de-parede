@@ -1,6 +1,6 @@
 # Dashboard de Análise de Acabamentos
 
-Dashboard profissional para análise e gerenciamento de dados de acabamento de construção.
+Dashboard profissional para análise e gerenciamento de dados de acabamento de construção criado por Higor Ramos.
 
 ## Tecnologias
 
