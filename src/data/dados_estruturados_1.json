@@ -6,7 +6,8 @@
         "ALTURA": 2.8,
         "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",
         "AREA_CALCULADA": 68.48
-    },{
+    },
+    {
         "ITEM": 2,
         "LOCAL": "B1-BANHO ",
         "PERIMETRO": 8.69,
@@ -344,7 +345,7 @@
     },
     {
         "ITEM": 44,
-        "LOCAL": "LAVAGEM UTENSÍLIOS PACIENTES ",
+        "LOCAL": "B1- LAVAGEM UTENSÍLIOS PACIENTES ",
         "PERIMETRO": 21.65,
         "ALTURA": 2.8,
         "ACABAMENTO": "2-CERÂMICA RETIFICADA BRANCA COM REJUNTE EPOXI",
@@ -424,7 +425,7 @@
     },
     {
         "ITEM": 54,
-        "LOCAL": "C.M.E.\"ÁREA LIMPA\"",
+        "LOCAL": "B1- C.M.E.\"ÁREA LIMPA\"",
         "PERIMETRO": 25.3,
         "ALTURA": 2.8,
         "ACABAMENTO": "5-PINTURA EPÓXI NA COR BRANCA NEVE ",

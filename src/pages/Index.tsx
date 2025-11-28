@@ -1,5 +1,5 @@
 import { Dashboard } from "@/components/Dashboard";
-import { AreaChart } from "@/components/AreaChart";
+import { RevenueChart } from "@/components/RevenueChart";
 import { FinishChart } from "@/components/FinishChart";
 import { DataTable } from "@/components/DataTable";
 import { BlocksChart } from "@/components/BlocksChart";
@@ -57,7 +57,7 @@ const Index = () => {
 
         {/* Charts Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-          <AreaChart data={data} />
+          <RevenueChart data={data} />
           <FinishChart data={data} />
         </div>
 
@@ -75,7 +75,7 @@ const Index = () => {
       <footer className="border-t border-border bg-card mt-16">
         <div className="container mx-auto px-4 py-6">
           <p className="text-center text-sm text-muted-foreground">
-            Criado por Higor Ramos 
+            Criado por Higor Ramos
           </p>
         </div>
       </footer>

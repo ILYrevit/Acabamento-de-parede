@@ -39,7 +39,7 @@ export const FinishChart = ({ data }: FinishChartProps) => {
     const x = cx + radius * Math.cos(-midAngle * RADIAN);
     const y = cy + radius * Math.sin(-midAngle * RADIAN);
 
-    if (percent < 0.05) return null; // Não mostra label para fatias muito pequenas
+    if (percent < 0.05) return null;
 
     return (
       <text
@@ -76,7 +76,7 @@ export const FinishChart = ({ data }: FinishChartProps) => {
   };
 
   return (
-    <Card className="border-border">
+    <Card className="border-border shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
       <CardHeader>
         <CardTitle>Distribuição por Acabamento</CardTitle>
         <CardDescription>Área total por tipo de acabamento</CardDescription>
