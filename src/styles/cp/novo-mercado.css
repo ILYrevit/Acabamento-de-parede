@@ -1,0 +1,107 @@
+/* ComparePreço — cadastrar supermercado. Reusa tokens/header de app.css */
+
+.dbody.novo{padding:0;display:flex;flex-direction:column;align-items:center;overflow-y:auto;}
+.dbody.novo::-webkit-scrollbar{width:8px;}
+.dbody.novo::-webkit-scrollbar-thumb{background:#D3D9D7;border-radius:99px;}
+
+.novo-wrap{width:100%;max-width:600px;padding:30px 28px 40px;}
+
+/* voltar */
+.novo-back{display:inline-flex;align-items:center;gap:8px;background:none;border:none;cursor:pointer;
+  font-family:'Poppins',sans-serif;font-weight:600;font-size:13px;color:var(--muted);
+  padding:6px 0;margin-bottom:14px;text-decoration:none;transition:color .15s;}
+.novo-back svg{width:16px;height:16px;}
+.novo-back:hover{color:var(--emerald);}
+
+/* card */
+.novo-card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;
+  box-shadow:0 8px 26px rgba(20,40,38,.07);}
+.novo-card-head{padding:24px 28px 20px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:15px;}
+.novo-card-head .nh-ico{width:50px;height:50px;border-radius:13px;background:var(--mint);color:var(--emerald);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.novo-card-head .nh-ico svg{width:26px;height:26px;}
+.novo-card-head h1{font-family:'Poppins',sans-serif;font-weight:700;font-size:20px;color:var(--ink);margin:0;letter-spacing:-.3px;}
+.novo-card-head p{font-family:'Roboto',sans-serif;font-size:13.5px;color:var(--muted);margin:5px 0 0;}
+
+.novo-body{padding:24px 28px 8px;}
+.req{color:var(--err);font-weight:700;margin-left:2px;}
+
+.nfield{margin-bottom:19px;}
+.nfield > label{display:block;font-family:'Poppins',sans-serif;font-weight:600;font-size:13.5px;color:var(--ink);margin-bottom:8px;}
+.nfield .opt-note{font-family:'Roboto',sans-serif;font-weight:400;font-size:12px;color:#9aa19e;margin-left:6px;}
+.ninput-wrap{display:flex;align-items:center;border:1.5px solid var(--line);border-radius:9px;background:#fff;
+  transition:border-color .15s ease,box-shadow .15s ease;}
+.ninput-wrap:focus-within{border-color:var(--emerald);box-shadow:0 0 0 3px rgba(29,120,116,.13);}
+.ninput-wrap.err{border-color:var(--err);box-shadow:0 0 0 3px rgba(229,72,77,.1);}
+.ninput-wrap .lead{padding-left:13px;color:#9AA09D;display:flex;flex-shrink:0;}
+.ninput-wrap .lead svg{width:18px;height:18px;}
+.ninput-wrap input{flex:1;min-width:0;border:none;outline:none;background:transparent;padding:12px 14px;
+  font-family:'Roboto',sans-serif;font-size:14.5px;color:var(--ink);}
+.ninput-wrap input::placeholder{color:#A8AEAB;}
+
+.nrow{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+
+/* tipo como cards segmentados */
+.type-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+.type-opt{display:flex;flex-direction:column;align-items:flex-start;gap:9px;padding:13px 14px;
+  border:1.5px solid var(--line);border-radius:11px;background:#fff;cursor:pointer;text-align:left;transition:.15s;}
+.type-opt:hover{border-color:var(--mint-line);background:#FAFCFB;}
+.type-opt.sel{border-color:var(--emerald);background:var(--mint);box-shadow:0 0 0 3px rgba(29,120,116,.1);}
+.type-opt .to-ico{width:34px;height:34px;border-radius:9px;background:var(--gray);color:var(--muted);
+  display:flex;align-items:center;justify-content:center;transition:.15s;}
+.type-opt.sel .to-ico{background:var(--emerald);color:#fff;}
+.type-opt .to-ico svg{width:18px;height:18px;}
+.type-opt .to-name{font-family:'Poppins',sans-serif;font-weight:600;font-size:13.5px;color:var(--ink);}
+.type-opt .to-desc{font-family:'Roboto',sans-serif;font-size:11px;color:#9aa19e;line-height:1.3;}
+
+.nerr{display:flex;align-items:center;gap:5px;color:var(--err);font-family:'Roboto',sans-serif;font-size:12px;margin-top:7px;}
+.nerr svg{width:13px;height:13px;}
+
+.nhelp{display:flex;align-items:flex-start;gap:10px;background:var(--mint);border-radius:10px;padding:12px 14px;margin:2px 0 4px;}
+.nhelp .nh-i{color:var(--emerald);flex-shrink:0;margin-top:1px;}
+.nhelp .nh-i svg{width:16px;height:16px;}
+.nhelp p{font-family:'Roboto',sans-serif;font-size:12.5px;color:var(--emerald-d);margin:0;line-height:1.45;}
+
+/* rodapé */
+.novo-foot{display:flex;align-items:center;justify-content:flex-end;gap:12px;
+  padding:18px 28px;border-top:1px solid var(--line);background:#FAFBFB;}
+.nbtn-cancel{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1.5px solid var(--line);
+  color:var(--muted);border-radius:9px;padding:12px 22px;cursor:pointer;text-decoration:none;
+  font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;transition:.15s;}
+.nbtn-cancel:hover{background:var(--gray);color:var(--ink);}
+.nbtn-submit{display:inline-flex;align-items:center;gap:9px;background:var(--emerald);color:#fff;border:none;
+  border-radius:9px;padding:12px 24px;cursor:pointer;text-decoration:none;
+  font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;
+  box-shadow:0 6px 16px rgba(29,120,116,.26);transition:background .18s,transform .12s;}
+.nbtn-submit svg{width:18px;height:18px;}
+.nbtn-submit:hover{background:var(--emerald-d);}
+.nbtn-submit:active{transform:scale(.98);}
+
+/* sucesso */
+.novo-success{padding:46px 28px;text-align:center;display:flex;flex-direction:column;align-items:center;}
+.novo-success .ns-ring{width:74px;height:74px;border-radius:50%;background:var(--mint);color:var(--emerald);
+  display:flex;align-items:center;justify-content:center;margin-bottom:20px;
+  animation:nspop .42s cubic-bezier(.2,1.3,.5,1);}
+@keyframes nspop{from{transform:scale(.5);}to{transform:scale(1);}}
+@media (prefers-reduced-motion:reduce){.novo-success .ns-ring{animation:none;}}
+.novo-success .ns-ring svg{width:36px;height:36px;}
+.novo-success h2{font-family:'Poppins',sans-serif;font-weight:700;font-size:22px;color:var(--ink);margin:0;}
+.novo-success > p{font-family:'Roboto',sans-serif;font-size:14px;color:var(--muted);margin:10px 0 0;line-height:1.5;max-width:380px;}
+.ns-chip{display:inline-flex;align-items:center;gap:10px;margin-top:20px;background:#fff;border:1px solid var(--line);
+  border-radius:12px;padding:12px 16px;}
+.ns-chip .nsc-logo{width:38px;height:38px;border-radius:10px;background:var(--mint);color:var(--emerald);
+  display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;font-weight:700;font-size:13px;}
+.ns-chip .nsc-name{font-family:'Poppins',sans-serif;font-weight:600;font-size:14px;color:var(--ink);text-align:left;}
+.ns-chip .nsc-sub{font-family:'Roboto',sans-serif;font-size:12px;color:#9aa19e;margin-top:1px;text-align:left;}
+.ns-actions{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap;justify-content:center;}
+
+/* ── responsivo ── */
+@media (max-width:600px){
+  .novo-wrap{padding:20px 16px 32px;}
+  .novo-card-head{padding:20px;}
+  .novo-body{padding:20px 20px 4px;}
+  .novo-foot{padding:16px 20px;}
+  .nrow{grid-template-columns:1fr;}
+  .type-grid{grid-template-columns:1fr;}
+  .type-opt{flex-direction:row;align-items:center;}
+}
