@@ -1,0 +1,10 @@
+/* ComparePreço — folhas de estilo */
+@import './base.css';
+@import './landing.css';
+@import './auth.css';
+@import './app.css';
+@import './registrar.css';
+@import './consultar.css';
+@import './historico.css';
+@import './novo-mercado.css';
+@import './conta.css';
