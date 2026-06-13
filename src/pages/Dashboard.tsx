@@ -37,6 +37,13 @@ export default function Dashboard() {
           </div>
         </div>
 
+        {/* estatísticas compactas (mobile) */}
+        <div className="m-stats">
+          <div className="m-stat"><b>47</b><span>preços</span></div>
+          <div className="m-stat"><b>R$ 312</b><span>economia</span></div>
+          <div className="m-stat"><b>8</b><span>meses</span></div>
+        </div>
+
         {/* ações rápidas */}
         <div className="actions">
           {ACTIONS.map((a) => (
@@ -60,7 +67,7 @@ export default function Dashboard() {
               <Link className="see-all" to="/historico">Ver tudo</Link>
             </div>
           </div>
-          <div className="panel-scroll">
+          <div className="panel-scroll cp-desktop">
             <table className="compras">
               <thead>
                 <tr>
@@ -99,6 +106,23 @@ export default function Dashboard() {
                 ))}
               </tbody>
             </table>
+          </div>
+
+          {/* lista compacta (mobile) */}
+          <div className="m-list">
+            {COMPRAS.map((c, i) => (
+              <div className="m-row" key={i}>
+                <span className="m-row-ico"><Icon name="tag" size={19} stroke={1.8} /></span>
+                <div className="m-row-main">
+                  <div className="m-row-name">{c.p} · {c.s}</div>
+                  <div className="m-row-sub">{c.m}</div>
+                </div>
+                <div className="m-row-right">
+                  <div className="m-row-price">{c.price}</div>
+                  {c.low && <span className="pill-low"><Icon name="trendDown" size={10} stroke={2.4} /> menor</span>}
+                </div>
+              </div>
+            ))}
           </div>
         </section>
       </div>
