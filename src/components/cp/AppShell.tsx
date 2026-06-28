@@ -1,9 +1,10 @@
 // Shell das páginas logadas — header desktop + tabbar mobile com FAB central.
 import { ReactNode, useEffect } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { Icon, IconName } from "./Icon";
-
-export const USER = { name: "Marina", full: "Marina Alves", initials: "MA" };
+import { useAuth } from "@/contexts/AuthContext";
+import { initialsOf } from "@/lib/cp";
+import { revokeGoogle } from "@/lib/google";
 
 const NAV: { label: string; icon: IconName; to: string; match: string[] }[] = [
   { label: "Dashboard", icon: "grid", to: "/dashboard", match: ["/dashboard"] },
@@ -29,7 +30,18 @@ const TAB_MATCH: Record<string, string[]> = {
 
 export function AppShell({ children }: { children: ReactNode }) {
   const { pathname } = useLocation();
+  const { user, logout } = useAuth();
+  const navigate = useNavigate();
   const isActive = (paths: string[]) => paths.some((p) => pathname.startsWith(p));
+
+  const fullName = user?.name || "Minha conta";
+  const initials = user?.name ? initialsOf(user.name) : "?";
+
+  const handleLogout = () => {
+    revokeGoogle();
+    logout();
+    navigate("/auth", { replace: true });
+  };
 
   return (
     <div className="dash">
@@ -47,13 +59,15 @@ export function AppShell({ children }: { children: ReactNode }) {
         </nav>
         <div className="dh-right">
           <Link className="dh-user" to="/conta">
-            <div className="dh-avatar">{USER.initials}</div>
-            <span className="dh-name">{USER.full}</span>
+            {user?.picture
+              ? <img className="dh-avatar dh-avatar-img" src={user.picture} alt={fullName} referrerPolicy="no-referrer" />
+              : <div className="dh-avatar">{initials}</div>}
+            <span className="dh-name">{fullName}</span>
             <Icon name="chevronDown" size={15} stroke={2} />
           </Link>
-          <Link className="dh-logout" to="/auth">
+          <button type="button" className="dh-logout" onClick={handleLogout}>
             <Icon name="logout" size={16} stroke={1.9} /> <span className="dh-logout-tx">Sair</span>
-          </Link>
+          </button>
         </div>
       </header>
 

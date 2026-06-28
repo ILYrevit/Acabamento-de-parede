@@ -1,7 +1,8 @@
 // Dashboard — ComparePreço (usuário logado)
 import { Link } from "react-router-dom";
 import { Icon, IconName } from "@/components/cp/Icon";
-import { AppShell, USER, usePageTitle } from "@/components/cp/AppShell";
+import { AppShell, usePageTitle } from "@/components/cp/AppShell";
+import { useAuth } from "@/contexts/AuthContext";
 
 const ACTIONS: { id: string; icon: IconName; tint: string; t: string; d: string; to: string }[] = [
   { id: "registrar", icon: "receipt", tint: "primary", t: "Registrar compra", d: "Adicione os preços da sua última ida ao mercado.", to: "/registrar" },
@@ -21,6 +22,8 @@ const COMPRAS = [
 
 export default function Dashboard() {
   usePageTitle("Dashboard");
+  const { user } = useAuth();
+  const firstName = user?.name?.split(" ")[0] || "por aqui";
   const raw = new Date().toLocaleDateString("pt-BR", { weekday: "long", day: "2-digit", month: "long" });
   const today = raw.charAt(0).toUpperCase() + raw.slice(1);
 
@@ -29,7 +32,7 @@ export default function Dashboard() {
       <div className="dbody">
         <div className="greet">
           <div>
-            <h1>Bem-vindo, {USER.name}!</h1>
+            <h1>Bem-vindo, {firstName}!</h1>
             <p>Você registrou <b>47 preços</b> e ajudou a economizar <b>R$ 312</b> este mês.</p>
           </div>
           <div className="greet-date">

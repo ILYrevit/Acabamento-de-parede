@@ -3,6 +3,7 @@ import { ReactNode, useRef, useState } from "react";
 import { Icon, IconName } from "@/components/cp/Icon";
 import { AppShell, usePageTitle } from "@/components/cp/AppShell";
 import { initialsOf } from "@/lib/cp";
+import { useAuth } from "@/contexts/AuthContext";
 
 function Toggle({ on, onChange }: { on: boolean; onChange: (v: boolean) => void }) {
   return (
@@ -39,9 +40,10 @@ function SectionCard({ icon, warn, title, desc, action, children }: SectionCardP
 
 export default function Conta() {
   usePageTitle("Minha conta");
+  const { user } = useAuth();
   const [editInfo, setEditInfo] = useState(false);
-  const [name, setName] = useState("Marina Alves");
-  const [email, setEmail] = useState("marina.alves@email.com");
+  const [name, setName] = useState(user?.name || "");
+  const [email, setEmail] = useState(user?.email || "");
   const [city, setCity] = useState("São Paulo · Centro");
   const [draft, setDraft] = useState({ name, email, city });
 
@@ -78,7 +80,10 @@ export default function Conta() {
 
           {/* banner de perfil */}
           <div className="profile-banner">
-            <div className="pb-avatar">{initials}
+            <div className="pb-avatar">
+              {user?.picture
+                ? <img className="pb-avatar-img" src={user.picture} alt={name} referrerPolicy="no-referrer" />
+                : initials}
               <span className="pb-cam" title="Trocar foto" onClick={() => ping("Selecione uma nova foto")}><Icon name="camera" size={14} stroke={1.9} /></span>
             </div>
             <div className="pb-info">

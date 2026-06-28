@@ -29,13 +29,33 @@ npm run build
 npm run preview
 ```
 
+## Login com Google
+
+O login com Google funciona 100% no cliente, via **Google Identity Services**
+(sem backend). Para habilitá-lo:
+
+1. Crie um **ID do cliente OAuth 2.0** no
+   [Google Cloud Console](https://console.cloud.google.com/apis/credentials)
+   (tipo "Aplicativo da Web").
+2. Em **Origens JavaScript autorizadas**, inclua as URLs onde o app roda
+   (ex.: `http://localhost:8080` em desenvolvimento e o domínio de produção).
+3. Copie `.env.example` para `.env` e preencha `VITE_GOOGLE_CLIENT_ID` com o
+   Client ID gerado.
+4. Reinicie o `npm run dev`.
+
+A sessão do usuário é mantida no `localStorage` e as rotas internas
+(`/dashboard`, `/conta`, etc.) ficam protegidas — quem não está autenticado
+é redirecionado para `/auth`.
+
 ## Estrutura do Projeto
 
 ```
 src/
-├── components/     # Componentes reutilizáveis
-├── data/          # Dados estruturados
+├── components/     # Componentes reutilizáveis (cp/ = núcleo ComparePreço)
+├── contexts/      # Contextos React (ex.: autenticação)
+├── lib/           # Utilitários e integração com o Google
 ├── pages/         # Páginas da aplicação
+├── styles/        # Estilos (cp/)
 └── main.tsx       # Ponto de entrada
 ```
 

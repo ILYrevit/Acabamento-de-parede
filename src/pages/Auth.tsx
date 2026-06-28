@@ -1,8 +1,10 @@
 // Cadastro / Login — ComparePreço
 import { ReactNode, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Icon, IconName } from "@/components/cp/Icon";
 import { usePageTitle } from "@/components/cp/AppShell";
+import { GoogleButton } from "@/components/cp/GoogleButton";
+import { useAuth } from "@/contexts/AuthContext";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -86,6 +88,8 @@ function Aside() {
 
 export default function Auth() {
   usePageTitle("Entrar ou criar conta");
+  const { login } = useAuth();
+  const navigate = useNavigate();
   const [mode, setMode] = useState<"signup" | "login">("signup");
   const [f, setF] = useState({ name: "", email: "", password: "", confirm: "" });
   const [touched, setTouched] = useState<Record<string, boolean>>({});
@@ -132,7 +136,12 @@ export default function Auth() {
     setAttempted(true);
     if (Object.keys(errors).length > 0) return;
     setLoading(true);
-    setTimeout(() => { setLoading(false); setDone(true); }, 1100);
+    setTimeout(() => {
+      const name = f.name.trim() || f.email.split("@")[0];
+      login({ sub: "local:" + f.email, name, email: f.email, picture: "" });
+      setLoading(false);
+      setDone(true);
+    }, 1100);
   };
 
   if (done) {
@@ -173,6 +182,10 @@ export default function Auth() {
           </p>
 
           <div className="form">
+            <GoogleButton label={isSignup ? "Cadastrar com Google" : "Entrar com Google"} />
+
+            <div className="auth-divider"><span>ou {isSignup ? "com e-mail" : "use seu e-mail"}</span></div>
+
             {isSignup && (
               <Field
                 label="Nome completo" icon="user" placeholder="Como podemos te chamar?"
