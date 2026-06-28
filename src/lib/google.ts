@@ -1,7 +1,11 @@
 // Integração com o Google Identity Services (GIS) — login OAuth 100% no cliente.
 // Usa o fluxo de token (implicit) para obter o perfil do usuário sem backend.
 
-export const GOOGLE_CLIENT_ID = (import.meta.env.VITE_GOOGLE_CLIENT_ID as string | undefined)?.trim() || "";
+// Client ID do OAuth (público — pode ficar no frontend). Pode ser sobrescrito por VITE_GOOGLE_CLIENT_ID.
+const DEFAULT_CLIENT_ID = "554248895663-9aul4r1th1o89f16pg64h3hg071q327g.apps.googleusercontent.com";
+
+export const GOOGLE_CLIENT_ID =
+  (import.meta.env.VITE_GOOGLE_CLIENT_ID as string | undefined)?.trim() || DEFAULT_CLIENT_ID;
 
 export interface GoogleUser {
   sub: string;          // id único da conta Google
