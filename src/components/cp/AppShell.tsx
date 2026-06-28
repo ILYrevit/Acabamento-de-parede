@@ -4,7 +4,6 @@ import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { Icon, IconName } from "./Icon";
 import { useAuth } from "@/contexts/AuthContext";
 import { initialsOf } from "@/lib/cp";
-import { revokeGoogle } from "@/lib/google";
 
 const NAV: { label: string; icon: IconName; to: string; match: string[] }[] = [
   { label: "Dashboard", icon: "grid", to: "/dashboard", match: ["/dashboard"] },
@@ -30,16 +29,15 @@ const TAB_MATCH: Record<string, string[]> = {
 
 export function AppShell({ children }: { children: ReactNode }) {
   const { pathname } = useLocation();
-  const { user, logout } = useAuth();
+  const { user, signOut } = useAuth();
   const navigate = useNavigate();
   const isActive = (paths: string[]) => paths.some((p) => pathname.startsWith(p));
 
   const fullName = user?.name || "Minha conta";
   const initials = user?.name ? initialsOf(user.name) : "?";
 
-  const handleLogout = () => {
-    revokeGoogle();
-    logout();
+  const handleLogout = async () => {
+    await signOut();
     navigate("/auth", { replace: true });
   };
 

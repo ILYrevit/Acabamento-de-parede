@@ -4,6 +4,7 @@ import { Icon, IconName } from "@/components/cp/Icon";
 import { AppShell, usePageTitle } from "@/components/cp/AppShell";
 import { initialsOf } from "@/lib/cp";
 import { useAuth } from "@/contexts/AuthContext";
+import { supabase } from "@/lib/supabase";
 
 function Toggle({ on, onChange }: { on: boolean; onChange: (v: boolean) => void }) {
   return (
@@ -44,7 +45,7 @@ export default function Conta() {
   const [editInfo, setEditInfo] = useState(false);
   const [name, setName] = useState(user?.name || "");
   const [email, setEmail] = useState(user?.email || "");
-  const [city, setCity] = useState("São Paulo · Centro");
+  const [city, setCity] = useState(user?.city || "");
   const [draft, setDraft] = useState({ name, email, city });
 
   const [notifPrice, setNotifPrice] = useState(true);
@@ -67,7 +68,19 @@ export default function Conta() {
   const startEdit = () => { setDraft({ name, email, city }); setEditInfo(true); };
   const saveInfo = () => { setName(draft.name); setEmail(draft.email); setCity(draft.city); setEditInfo(false); touch(); };
 
-  const save = () => { setDirty(false); ping("Alterações salvas com sucesso"); };
+  const save = async () => {
+    if (!user) return;
+    const { error } = await supabase
+      .from("profiles")
+      .update({ name, city })
+      .eq("id", user.id);
+    if (error) {
+      ping("Não foi possível salvar: " + error.message);
+      return;
+    }
+    setDirty(false);
+    ping("Alterações salvas com sucesso");
+  };
 
   const initials = initialsOf(name);
 

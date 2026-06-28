@@ -1,8 +1,6 @@
-// Botão "Continuar com Google" — login real via Google Identity Services.
+// Botão "Continuar com Google" — OAuth gerenciado pelo Supabase.
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
-import { signInWithGoogle } from "@/lib/google";
 import { Icon } from "./Icon";
 
 // Logo oficial "G" do Google (4 cores).
@@ -18,8 +16,7 @@ function GoogleG() {
 }
 
 export function GoogleButton({ label = "Continuar com Google" }: { label?: string }) {
-  const { login } = useAuth();
-  const navigate = useNavigate();
+  const { signInWithGoogle } = useAuth();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -27,14 +24,9 @@ export function GoogleButton({ label = "Continuar com Google" }: { label?: strin
     setError(null);
     setLoading(true);
     try {
-      const user = await signInWithGoogle();
-      login(user);
-      navigate("/dashboard", { replace: true });
+      await signInWithGoogle(); // redireciona para o Google
     } catch (e) {
-      const msg = e instanceof Error ? e.message : "Falha ao entrar com o Google.";
-      // "Login cancelado." não é erro real — não mostra mensagem.
-      if (msg !== "Login cancelado.") setError(msg);
-    } finally {
+      setError(e instanceof Error ? e.message : "Falha ao entrar com o Google.");
       setLoading(false);
     }
   };
@@ -43,7 +35,7 @@ export function GoogleButton({ label = "Continuar com Google" }: { label?: strin
     <>
       <button type="button" className="btn-google" onClick={handle} disabled={loading}>
         {loading ? <span className="spinner dark" /> : <GoogleG />}
-        <span>{loading ? "Conectando…" : label}</span>
+        <span>{loading ? "Redirecionando…" : label}</span>
       </button>
       {error && (
         <div className="google-err">
