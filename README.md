@@ -1,6 +1,6 @@
-# Dashboard de Análise de Acabamentos
+# ComparePreço
 
-Dashboard profissional para análise e gerenciamento de dados de acabamento de construção criado por Higor Ramos.
+Comparador de preços de supermercado — veja os melhores preços da sua cidade em um só lugar, registrados por pessoas reais.
 
 ## Tecnologias
 
@@ -12,8 +12,6 @@ Este projeto foi desenvolvido com:
 - **shadcn/ui** - Componentes UI
 - **Tailwind CSS** - Estilização
 - **React Router** - Roteamento
-- **React Query** - Gerenciamento de estado
-- **Recharts** - Gráficos e visualizações
 
 ## Instalação
 
