@@ -102,7 +102,25 @@
 .btn-auth svg{width:19px;height:19px;}
 .spinner{width:18px;height:18px;border:2.5px solid rgba(255,255,255,.4);border-top-color:#fff;
   border-radius:50%;animation:spin .7s linear infinite;}
+.spinner.dark{border-color:rgba(60,64,67,.25);border-top-color:#3c4043;}
 @keyframes spin{to{transform:rotate(360deg);}}
+
+/* Botão "Continuar com Google" */
+.btn-google{width:100%;background:#fff;color:#3c4043;border:1px solid #dadce0;border-radius:8px;
+  padding:13px;font-family:'Poppins',sans-serif;font-weight:600;font-size:15px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;gap:11px;
+  transition:background .18s ease,border-color .18s ease,transform .12s ease,box-shadow .2s ease;}
+.btn-google:hover{background:#f8f9fa;border-color:#c6c9cd;box-shadow:0 1px 3px rgba(60,64,67,.12);}
+.btn-google:active{transform:scale(.985);}
+.btn-google:disabled{opacity:.6;cursor:not-allowed;}
+.btn-google svg{flex-shrink:0;}
+.google-err{display:flex;align-items:center;gap:6px;color:var(--err);font-size:13px;margin-top:-6px;}
+
+/* Divisor "ou com e-mail" */
+.auth-divider{display:flex;align-items:center;gap:12px;color:var(--muted,#8a8f98);font-size:13px;
+  margin:2px 0;}
+.auth-divider::before,.auth-divider::after{content:"";flex:1;height:1px;background:#e6e8eb;}
+.auth-divider span{white-space:nowrap;}
 
 .forgot{align-self:flex-end;margin-top:-6px;background:none;border:none;cursor:pointer;
   font-family:'Poppins',sans-serif;font-weight:500;font-size:12.5px;color:var(--emerald);}

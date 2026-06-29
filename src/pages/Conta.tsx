@@ -3,6 +3,8 @@ import { ReactNode, useRef, useState } from "react";
 import { Icon, IconName } from "@/components/cp/Icon";
 import { AppShell, usePageTitle } from "@/components/cp/AppShell";
 import { initialsOf } from "@/lib/cp";
+import { useAuth } from "@/contexts/AuthContext";
+import { supabase } from "@/lib/supabase";
 
 function Toggle({ on, onChange }: { on: boolean; onChange: (v: boolean) => void }) {
   return (
@@ -39,10 +41,11 @@ function SectionCard({ icon, warn, title, desc, action, children }: SectionCardP
 
 export default function Conta() {
   usePageTitle("Minha conta");
+  const { user } = useAuth();
   const [editInfo, setEditInfo] = useState(false);
-  const [name, setName] = useState("Marina Alves");
-  const [email, setEmail] = useState("marina.alves@email.com");
-  const [city, setCity] = useState("São Paulo · Centro");
+  const [name, setName] = useState(user?.name || "");
+  const [email, setEmail] = useState(user?.email || "");
+  const [city, setCity] = useState(user?.city || "");
   const [draft, setDraft] = useState({ name, email, city });
 
   const [notifPrice, setNotifPrice] = useState(true);
@@ -65,7 +68,19 @@ export default function Conta() {
   const startEdit = () => { setDraft({ name, email, city }); setEditInfo(true); };
   const saveInfo = () => { setName(draft.name); setEmail(draft.email); setCity(draft.city); setEditInfo(false); touch(); };
 
-  const save = () => { setDirty(false); ping("Alterações salvas com sucesso"); };
+  const save = async () => {
+    if (!user) return;
+    const { error } = await supabase
+      .from("profiles")
+      .update({ name, city })
+      .eq("id", user.id);
+    if (error) {
+      ping("Não foi possível salvar: " + error.message);
+      return;
+    }
+    setDirty(false);
+    ping("Alterações salvas com sucesso");
+  };
 
   const initials = initialsOf(name);
 
@@ -78,7 +93,10 @@ export default function Conta() {
 
           {/* banner de perfil */}
           <div className="profile-banner">
-            <div className="pb-avatar">{initials}
+            <div className="pb-avatar">
+              {user?.picture
+                ? <img className="pb-avatar-img" src={user.picture} alt={name} referrerPolicy="no-referrer" />
+                : initials}
               <span className="pb-cam" title="Trocar foto" onClick={() => ping("Selecione uma nova foto")}><Icon name="camera" size={14} stroke={1.9} /></span>
             </div>
             <div className="pb-info">

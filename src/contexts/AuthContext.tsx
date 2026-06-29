@@ -1,131 +1,139 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { toast } from 'sonner';
+// Autenticação do ComparePreço — sessão gerenciada pelo Supabase (Auth + Postgres).
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
+import type { Session, User } from "@supabase/supabase-js";
+import { supabase, isSupabaseConfigured, type Profile } from "@/lib/supabase";
 
-interface User {
-    email: string;
-    name: string;
-    photoURL?: string;
+export interface AppUser {
+  id: string;
+  name: string;
+  email: string;
+  picture: string;
+  city: string;
 }
 
-interface AuthContextType {
-    user: User | null;
-    isLoading: boolean;
-    login: (email: string) => Promise<void>;
-    logout: () => void;
-    isAdmin: boolean;
-    isAllowed: boolean;
-    allowedUsers: string[];
-    addAllowedUser: (email: string) => void;
-    removeAllowedUser: (email: string) => void;
+interface AuthContextValue {
+  user: AppUser | null;
+  isAuthenticated: boolean;
+  ready: boolean;
+  configured: boolean;
+  signInWithGoogle: () => Promise<void>;
+  signInWithEmail: (email: string, password: string) => Promise<void>;
+  signUpWithEmail: (name: string, email: string, password: string) => Promise<{ needsConfirmation: boolean }>;
+  signOut: () => Promise<void>;
 }
 
-const AuthContext = createContext<AuthContextType | undefined>(undefined);
+const AuthContext = createContext<AuthContextValue | null>(null);
 
-const ADMIN_EMAIL = "higorlemosramos@gmail.com";
-const STORAGE_KEY_ALLOWED = "allowed_users";
-const STORAGE_KEY_USER = "current_user";
+const NOT_CONFIGURED =
+  "Backend não configurado. Defina VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY no .env (veja o README).";
 
-export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-    const [user, setUser] = useState<User | null>(null);
-    const [isLoading, setIsLoading] = useState(true);
-    const [allowedUsers, setAllowedUsers] = useState<string[]>([ADMIN_EMAIL]);
+// Monta o usuário da aplicação a partir da sessão e, opcionalmente, do perfil no banco.
+function buildUser(u: User, profile?: Profile | null): AppUser {
+  const meta = u.user_metadata || {};
+  return {
+    id: u.id,
+    name: profile?.name || meta.full_name || meta.name || (u.email ? u.email.split("@")[0] : "Usuário"),
+    email: profile?.email || u.email || "",
+    picture: profile?.avatar_url || meta.avatar_url || meta.picture || "",
+    city: profile?.city || "",
+  };
+}
 
-    useEffect(() => {
-        // Load allowed users from storage
-        const storedAllowed = localStorage.getItem(STORAGE_KEY_ALLOWED);
-        if (storedAllowed) {
-            setAllowedUsers(JSON.parse(storedAllowed));
-        } else {
-            localStorage.setItem(STORAGE_KEY_ALLOWED, JSON.stringify([ADMIN_EMAIL]));
-        }
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const [user, setUser] = useState<AppUser | null>(null);
+  const [ready, setReady] = useState(false);
 
-        // Check for existing session
-        const storedUser = localStorage.getItem(STORAGE_KEY_USER);
-        if (storedUser) {
-            setUser(JSON.parse(storedUser));
-        }
-        setIsLoading(false);
-    }, []);
-
-    const login = async (email: string) => {
-        setIsLoading(true);
-
-        if (!email) {
-            setIsLoading(false);
-            return;
-        }
-
-        const mockUser: User = {
-            email: email,
-            name: email.split('@')[0],
-            photoURL: `https://ui-avatars.com/api/?name=${email}&background=random`
-        };
-
-        // Check if allowed
-        const isUserAllowed = allowedUsers.includes(email) || email === ADMIN_EMAIL;
-
-        if (!isUserAllowed) {
-            toast.error("Acesso negado. Seu email não está na lista de permitidos.");
-            setIsLoading(false);
-            return;
-        }
-
-        setUser(mockUser);
-        localStorage.setItem(STORAGE_KEY_USER, JSON.stringify(mockUser));
-        toast.success(`Bem-vindo, ${mockUser.name}!`);
-        setIsLoading(false);
-    };
-
-    const logout = () => {
-        setUser(null);
-        localStorage.removeItem(STORAGE_KEY_USER);
-        toast.info("Você saiu da conta.");
-    };
-
-    const addAllowedUser = (email: string) => {
-        if (!allowedUsers.includes(email)) {
-            const newAllowed = [...allowedUsers, email];
-            setAllowedUsers(newAllowed);
-            localStorage.setItem(STORAGE_KEY_ALLOWED, JSON.stringify(newAllowed));
-            toast.success(`${email} adicionado à lista de permissões.`);
-        }
-    };
-
-    const removeAllowedUser = (email: string) => {
-        if (email === ADMIN_EMAIL) {
-            toast.error("Não é possível remover o administrador.");
-            return;
-        }
-        const newAllowed = allowedUsers.filter(e => e !== email);
-        setAllowedUsers(newAllowed);
-        localStorage.setItem(STORAGE_KEY_ALLOWED, JSON.stringify(newAllowed));
-        toast.success(`${email} removido da lista.`);
-    };
-
-    const isAdmin = user?.email === ADMIN_EMAIL;
-    const isAllowed = user ? allowedUsers.includes(user.email) : false;
-
-    return (
-        <AuthContext.Provider value={{
-            user,
-            isLoading,
-            login,
-            logout,
-            isAdmin,
-            isAllowed,
-            allowedUsers,
-            addAllowedUser,
-            removeAllowedUser
-        }}>
-            {children}
-        </AuthContext.Provider>
-    );
-};
-
-export const useAuth = () => {
-    const context = useContext(AuthContext);
-    if (context === undefined) {
-        throw new Error('useAuth must be used within an AuthProvider');
+  // Busca o perfil no banco (tabela profiles) e completa os dados da sessão.
+  const hydrate = useCallback(async (session: Session | null) => {
+    if (!session?.user) {
+      setUser(null);
+      return;
     }
-    return context;
-};
+    let profile: Profile | null = null;
+    try {
+      const { data } = await supabase.from("profiles").select("*").eq("id", session.user.id).maybeSingle();
+      profile = (data as Profile) ?? null;
+    } catch {
+      profile = null;
+    }
+    setUser(buildUser(session.user, profile));
+  }, []);
+
+  useEffect(() => {
+    if (!isSupabaseConfigured) {
+      setReady(true);
+      return;
+    }
+    let active = true;
+
+    supabase.auth.getSession().then(async ({ data }) => {
+      if (!active) return;
+      await hydrate(data.session);
+      setReady(true);
+    });
+
+    const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
+      hydrate(session);
+    });
+
+    return () => {
+      active = false;
+      sub.subscription.unsubscribe();
+    };
+  }, [hydrate]);
+
+  const signInWithGoogle = useCallback(async () => {
+    if (!isSupabaseConfigured) throw new Error(NOT_CONFIGURED);
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: `${window.location.origin}/dashboard` },
+    });
+    if (error) throw error;
+    // Redireciona para o Google; o retorno é tratado por onAuthStateChange.
+  }, []);
+
+  const signInWithEmail = useCallback(async (email: string, password: string) => {
+    if (!isSupabaseConfigured) throw new Error(NOT_CONFIGURED);
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    if (error) throw error;
+  }, []);
+
+  const signUpWithEmail = useCallback(async (name: string, email: string, password: string) => {
+    if (!isSupabaseConfigured) throw new Error(NOT_CONFIGURED);
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: { data: { full_name: name }, emailRedirectTo: `${window.location.origin}/dashboard` },
+    });
+    if (error) throw error;
+    // Sem sessão imediata => confirmação de e-mail está habilitada no projeto.
+    return { needsConfirmation: !data.session };
+  }, []);
+
+  const signOut = useCallback(async () => {
+    if (isSupabaseConfigured) await supabase.auth.signOut();
+    setUser(null);
+  }, []);
+
+  const value = useMemo<AuthContextValue>(
+    () => ({
+      user,
+      isAuthenticated: !!user,
+      ready,
+      configured: isSupabaseConfigured,
+      signInWithGoogle,
+      signInWithEmail,
+      signUpWithEmail,
+      signOut,
+    }),
+    [user, ready, signInWithGoogle, signInWithEmail, signUpWithEmail, signOut]
+  );
+
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+}
+
+export function useAuth() {
+  const ctx = useContext(AuthContext);
+  if (!ctx) throw new Error("useAuth deve ser usado dentro de <AuthProvider>");
+  return ctx;
+}

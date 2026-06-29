@@ -1,8 +1,10 @@
 // Cadastro / Login — ComparePreço
 import { ReactNode, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Icon, IconName } from "@/components/cp/Icon";
 import { usePageTitle } from "@/components/cp/AppShell";
+import { GoogleButton } from "@/components/cp/GoogleButton";
+import { useAuth } from "@/contexts/AuthContext";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -86,7 +88,11 @@ function Aside() {
 
 export default function Auth() {
   usePageTitle("Entrar ou criar conta");
+  const { signInWithEmail, signUpWithEmail } = useAuth();
+  const navigate = useNavigate();
   const [mode, setMode] = useState<"signup" | "login">("signup");
+  const [authError, setAuthError] = useState<string | null>(null);
+  const [confirmSent, setConfirmSent] = useState(false);
   const [f, setF] = useState({ name: "", email: "", password: "", confirm: "" });
   const [touched, setTouched] = useState<Record<string, boolean>>({});
   const [attempted, setAttempted] = useState(false);
@@ -124,15 +130,42 @@ export default function Auth() {
   const strengthLabel = ["", "Senha fraca", "Senha razoável", "Senha forte"][strength];
 
   const switchMode = (m: "signup" | "login") => {
-    setMode(m); setAttempted(false); setTouched({});
+    setMode(m); setAttempted(false); setTouched({}); setAuthError(null);
   };
 
-  const submit = (e: React.FormEvent) => {
+  // Traduz os erros mais comuns do Supabase para pt-BR.
+  const friendly = (msg: string) => {
+    if (/invalid login credentials/i.test(msg)) return "E-mail ou senha incorretos.";
+    if (/already registered|already been registered/i.test(msg)) return "Este e-mail já está cadastrado. Tente entrar.";
+    if (/email not confirmed/i.test(msg)) return "Confirme seu e-mail antes de entrar (verifique sua caixa de entrada).";
+    if (/rate limit|too many/i.test(msg)) return "Muitas tentativas. Aguarde um momento e tente de novo.";
+    return msg;
+  };
+
+  const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     setAttempted(true);
+    setAuthError(null);
     if (Object.keys(errors).length > 0) return;
     setLoading(true);
-    setTimeout(() => { setLoading(false); setDone(true); }, 1100);
+    try {
+      if (isSignup) {
+        const { needsConfirmation } = await signUpWithEmail(f.name.trim(), f.email, f.password);
+        if (needsConfirmation) {
+          setConfirmSent(true);
+          setDone(true);
+          return;
+        }
+        setDone(true);
+      } else {
+        await signInWithEmail(f.email, f.password);
+        navigate("/dashboard", { replace: true });
+      }
+    } catch (err) {
+      setAuthError(friendly(err instanceof Error ? err.message : "Não foi possível concluir. Tente novamente."));
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (done) {
@@ -142,16 +175,34 @@ export default function Auth() {
         <main className="auth-main">
           <div className="auth-card">
             <div className="success">
-              <div className="success-ring"><Icon name="check" size={34} stroke={2.6} /></div>
-              <h1>{isSignup ? "Conta criada!" : "Tudo certo!"}</h1>
-              <p>
-                {isSignup
-                  ? <>Bem-vindo ao ComparePreço{f.name ? ", " + f.name.split(" ")[0] : ""}. Vamos começar a economizar.</>
-                  : "Você entrou na sua conta. Bons preços pela frente!"}
-              </p>
-              <Link className="btn-auth" style={{ marginTop: 24, textDecoration: "none" }} to="/dashboard">
-                Ir para o início <Icon name="arrowRight" size={19} stroke={2.2} />
-              </Link>
+              <div className="success-ring"><Icon name={confirmSent ? "mail" : "check"} size={34} stroke={2.6} /></div>
+              {confirmSent ? (
+                <>
+                  <h1>Confirme seu e-mail</h1>
+                  <p>
+                    Enviamos um link de confirmação para <b>{f.email}</b>. Abra o e-mail e clique no link
+                    para ativar sua conta. Depois é só entrar.
+                  </p>
+                  <button
+                    className="btn-auth" style={{ marginTop: 24 }}
+                    onClick={() => { setDone(false); setConfirmSent(false); switchMode("login"); }}
+                  >
+                    Ir para o login <Icon name="arrowRight" size={19} stroke={2.2} />
+                  </button>
+                </>
+              ) : (
+                <>
+                  <h1>{isSignup ? "Conta criada!" : "Tudo certo!"}</h1>
+                  <p>
+                    {isSignup
+                      ? <>Bem-vindo ao ComparePreço{f.name ? ", " + f.name.split(" ")[0] : ""}. Vamos começar a economizar.</>
+                      : "Você entrou na sua conta. Bons preços pela frente!"}
+                  </p>
+                  <Link className="btn-auth" style={{ marginTop: 24, textDecoration: "none" }} to="/dashboard">
+                    Ir para o início <Icon name="arrowRight" size={19} stroke={2.2} />
+                  </Link>
+                </>
+              )}
             </div>
           </div>
         </main>
@@ -173,6 +224,10 @@ export default function Auth() {
           </p>
 
           <div className="form">
+            <GoogleButton label={isSignup ? "Cadastrar com Google" : "Entrar com Google"} />
+
+            <div className="auth-divider"><span>ou {isSignup ? "com e-mail" : "use seu e-mail"}</span></div>
+
             {isSignup && (
               <Field
                 label="Nome completo" icon="user" placeholder="Como podemos te chamar?"
@@ -226,6 +281,10 @@ export default function Auth() {
                   <a href="#" onClick={(e) => e.preventDefault()}>Política de Privacidade</a>.
                 </span>
               </div>
+            )}
+
+            {authError && (
+              <div className="google-err"><Icon name="ban" size={13} stroke={2} /> {authError}</div>
             )}
 
             <button type="submit" className="btn-auth" disabled={loading}>
