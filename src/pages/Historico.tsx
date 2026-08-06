@@ -91,6 +91,8 @@ export default function Historico() {
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(8);
   const [confirm, setConfirm] = useState<Row | null>(null);
+  const [sheet, setSheet] = useState(false);
+  const [visible, setVisible] = useState(6);
   const [toast, setToast] = useState<string | null>(null);
   const toastTimer = useRef<ReturnType<typeof setTimeout>>();
 
@@ -118,7 +120,10 @@ export default function Historico() {
   const start = (safePage - 1) * pageSize;
   const pageRows = filtered.slice(start, start + pageSize);
 
-  useEffect(() => { setPage(1); }, [fMarket, fPeriod, fCat, pageSize]);
+  useEffect(() => { setPage(1); setVisible(6); }, [fMarket, fPeriod, fCat, pageSize]);
+
+  const activeFilters = Number(fMarket !== "all") + Number(fPeriod !== "all") + Number(fCat !== "all");
+  const shownCards = filtered.slice(0, visible);
 
   const clearFilters = () => { setFMarket("all"); setFPeriod("all"); setFCat("all"); };
 
@@ -146,13 +151,16 @@ export default function Historico() {
             <h1>Meu histórico de compras</h1>
             <p>Todas as compras que você registrou — <b>{rows.length} registros</b> no total.</p>
           </div>
-          <button className="btn-export" onClick={() => ping("Exportando histórico em CSV…")}>
+          <button className="btn-export cp-desktop" onClick={() => ping("Exportando histórico em CSV…")}>
             <Icon name="download" size={16} stroke={1.9} /> Exportar CSV
+          </button>
+          <button className={"btn-filter-m" + (activeFilters ? " on" : "")} onClick={() => setSheet(true)}>
+            <Icon name="sliders2" size={17} stroke={1.9} /> Filtrar{activeFilters ? ` (${activeFilters})` : ""}
           </button>
         </div>
 
-        {/* filtros */}
-        <div className="filters">
+        {/* filtros (desktop) */}
+        <div className="filters cp-desktop">
           <FilterSelect label="Supermercado" value={fMarket} onChange={setFMarket} options={ALL_MARKETS} allLabel="Todos os mercados" />
           <FilterSelect label="Período" value={fPeriod} onChange={setFPeriod} options={PERIODS} allLabel="Todo o período" />
           <FilterSelect label="Categoria" value={fCat} onChange={setFCat} options={ALL_CATS} allLabel="Todas as categorias" />
@@ -165,8 +173,8 @@ export default function Historico() {
           <div className="filter-result"><b>{filtered.length}</b> {filtered.length === 1 ? "resultado" : "resultados"}</div>
         </div>
 
-        {/* tabela */}
-        <div className="hist-card">
+        {/* tabela (desktop) */}
+        <div className="hist-card cp-desktop">
           {pageRows.length > 0 ? (
             <div className="table-scroll">
               <table className="hist">
@@ -245,7 +253,75 @@ export default function Historico() {
             </div>
           </div>
         </div>
+
+        {/* cards (mobile) */}
+        <div className="hist-cards">
+          {shownCards.length === 0 && (
+            <div className="hist-empty">
+              <div className="he-art"><Icon name="filter" size={34} stroke={1.6} /></div>
+              <h3>Nenhuma compra encontrada</h3>
+              <p>Nenhum registro corresponde aos filtros selecionados. Tente ajustar ou limpar os filtros.</p>
+            </div>
+          )}
+          {shownCards.map((r) => (
+            <div className="hcard" key={r.id}>
+              <div className="hcard-top">
+                <span className="hcard-ico"><Icon name="tag" size={19} stroke={1.8} /></span>
+                <div className="hcard-main">
+                  <div className="hcard-name">{r.prod} · {r.size}</div>
+                  <div className="hcard-meta">
+                    <span className="hcard-mkt"><span className="hcard-mlogo">{r.ini}</span>{r.mkt}</span>
+                    <span className={"cat-tag " + (CAT_CLASS[r.cat] || "cat-merc")}>{r.cat}</span>
+                  </div>
+                </div>
+                <div className="hcard-right">
+                  <div className="hcard-price">R$ {fmt(r.total)}</div>
+                  <div className="hcard-date">{r.date}</div>
+                </div>
+              </div>
+              <div className="hcard-foot">
+                <div className="hcard-sub">Qtd <b>{r.qty}</b> · unit. <b className="u">R$ {fmt(r.unit)}</b></div>
+                <div className="hcard-actions">
+                  <button className="act-btn edit" title="Editar" onClick={() => ping(`Editar "${r.prod}"`)}>
+                    <Icon name="edit" size={15} stroke={2} />
+                  </button>
+                  <button className="act-btn del" title="Excluir" onClick={() => setConfirm(r)}>
+                    <Icon name="trash" size={15} stroke={2} />
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+          {visible < filtered.length && (
+            <button className="m-load-more" onClick={() => setVisible((v) => v + 6)}>
+              Carregar mais ({filtered.length - visible} restantes)
+            </button>
+          )}
+        </div>
       </div>
+
+      {/* sheet de filtros (mobile) */}
+      {sheet && (
+        <div className="modal-overlay" onClick={() => setSheet(false)}>
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-head">
+              <h3>Filtrar</h3>
+              <button className="modal-close" onClick={() => setSheet(false)}><Icon name="close" size={18} stroke={2} /></button>
+            </div>
+            <div className="modal-body">
+              <FilterSelect label="Supermercado" value={fMarket} onChange={setFMarket} options={ALL_MARKETS} allLabel="Todos os mercados" />
+              <FilterSelect label="Período" value={fPeriod} onChange={setFPeriod} options={PERIODS} allLabel="Todo o período" />
+              <FilterSelect label="Categoria" value={fCat} onChange={setFCat} options={ALL_CATS} allLabel="Todas as categorias" />
+            </div>
+            <div className="modal-foot">
+              <button className="btn-back" onClick={clearFilters}>Limpar</button>
+              <button className="btn-next" onClick={() => setSheet(false)}>
+                <Icon name="check" size={17} stroke={2.4} /> Aplicar ({filtered.length})
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* confirmação de exclusão */}
       {confirm && (
